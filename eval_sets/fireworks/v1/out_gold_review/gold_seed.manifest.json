@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-07-01T06:43:19.056240+00:00",
+  "records": 67,
+  "role_counts": {
+    "community_member": 5,
+    "competitor_official": 2,
+    "employee": 30,
+    "official_brand": 30
+  },
+  "source": "deterministic provenance only; partial gold fields only"
+}

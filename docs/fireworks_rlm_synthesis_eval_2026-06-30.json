@@ -1,0 +1,2391 @@
+{
+  "summary": {
+    "evaluated_clusters": 12,
+    "strategies": {
+      "baseline": {
+        "evidence_fidelity": 78.3,
+        "category_correctness": 70.4,
+        "specificity": 67.5,
+        "actionability": 43.3,
+        "source_role_awareness": 89.2,
+        "overall": 64.4,
+        "wins": 0
+      },
+      "flat_llm": {
+        "evidence_fidelity": 88.3,
+        "category_correctness": 94.2,
+        "specificity": 83.3,
+        "actionability": 86.2,
+        "source_role_awareness": 95,
+        "overall": 88.8,
+        "wins": 5
+      },
+      "audit_rewrite": {
+        "evidence_fidelity": 94.6,
+        "category_correctness": 95.4,
+        "specificity": 89.2,
+        "actionability": 89.6,
+        "source_role_awareness": 97.9,
+        "overall": 92.5,
+        "wins": 5
+      },
+      "source_aware_recursive": {
+        "evidence_fidelity": 91.7,
+        "category_correctness": 93.3,
+        "specificity": 89.6,
+        "actionability": 86.7,
+        "source_role_awareness": 97.1,
+        "overall": 91,
+        "wins": 6
+      }
+    },
+    "winner_counts": {
+      "source_aware_recursive": 4,
+      "audit_rewrite": 3,
+      "flat_llm": 5
+    }
+  },
+  "results": [
+    {
+      "cluster": {
+        "insight_id": "0384d6c1-dcc8-4673-8f72-aaa92368e929",
+        "baseline": {
+          "title": "Agentic workflow buyers want stable multi-tool orchestration and benchmarking",
+          "category": "opportunity",
+          "description": "The cluster highlights strong interest in reliable multi-agent execution, tool coordination, and agent optimization for production workflows. The roadmap mention of table parsing and cross-company benchmarking suggests a concrete product gap around proving agent performance in real enterprise tasks.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "signal_count": 6,
+        "evidence": [
+          {
+            "id": "e478d3b7-5a9f-496b-a9e1-3159d07af383",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 29583,
+            "url": "https://x.com/FireworksAI_HQ/status/2037671522027045247",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Show us what you can build."
+          },
+          {
+            "id": "b6339432-7e90-4802-9382-25fd354d2bfe",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 4878,
+            "url": "https://x.com/FireworksAI_HQ/status/2056046100210208777",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "a new era of hackathons: 2005→ look what i built with web search 2016 → can you build a rails app in 24 hrs? 2025 → spin up a CX bot with Claude in 5 min 2026 → train your own model over a weekend happy to sponsor @hud_evals and power the builders making 2026 real. June 20–21 in SF. limited space do apply today."
+          },
+          {
+            "id": "ec014d3c-3b28-4849-8166-6d91757109de",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 4849,
+            "url": "https://x.com/FireworksAI_HQ/status/2017001804022894929",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "We're super excited to support all the amazing builders on @opencode! Can't wait to see what you all build. https://t.co/6MOMQe1UNH"
+          },
+          {
+            "id": "98dbd463-3047-41a5-9767-0f2149f64218",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 4644,
+            "url": "https://x.com/FireworksAI_HQ/status/2062653959140233246",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Fireworks was named to @Redpoint's InfraRed 100 which recognizes the companies building the foundation for the next wave of AI. We're just getting started. Come build with us: https://t.co/bUweMxMq9L"
+          },
+          {
+            "id": "547e853d-8a59-4cbc-bd32-546ef358cd23",
+            "platform": "twitter",
+            "sender_type": "employee",
+            "source_group": "creators",
+            "source_class": "unknown",
+            "author": "lqiao",
+            "engagement": 3498,
+            "url": "https://x.com/lqiao/status/1851849285652091165",
+            "title": "Fireworks AI X post by @lqiao",
+            "text": "It's exciting for @FireworksAI_HQ to be recognized as one of the TIME Best Inventions of 2024! https://t.co/BrEcmD42um"
+          },
+          {
+            "id": "92ff4801-b49f-4881-b4fb-e56e6701028d",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 3097,
+            "url": "https://x.com/FireworksAI_HQ/status/2024528437772505599",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Can't wait to see what builders create on top of Fireworks and TinyFish! https://t.co/aF5G5lWo7k https://t.co/Npuqhxrbe2"
+          }
+        ]
+      },
+      "outputs": {
+        "baseline": {
+          "title": "Agentic workflow buyers want stable multi-tool orchestration and benchmarking",
+          "category": "opportunity",
+          "description": "The cluster highlights strong interest in reliable multi-agent execution, tool coordination, and agent optimization for production workflows. The roadmap mention of table parsing and cross-company benchmarking suggests a concrete product gap around proving agent performance in real enterprise tasks.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "flat_llm": {
+          "title": "Interest in multi-agent orchestration and benchmarking for AI workflows",
+          "category": "opportunity",
+          "description": "Official Fireworks AI posts emphasize supporting builders and enabling rapid AI development, indicating an opportunity to enhance multi-agent execution and tool coordination for production workflows. While no direct mention of benchmarking or table parsing is found, the focus on empowering builders suggests demand for stable multi-tool orchestration.",
+          "recommended_action": "Develop and promote features that facilitate reliable multi-agent orchestration and benchmarking to support complex AI workflows, aligning with the community's building enthusiasm.",
+          "split_recommended": false
+        },
+        "audit_rewrite": {
+          "title": "Current evidence highlights Fireworks AI's marketing momentum and community engagement",
+          "category": "marketing_narrative",
+          "description": "All evidence items are official or employee marketing posts celebrating Fireworks AI's recognition, hackathon sponsorships, and builder community support. There is no direct mention or indication of multi-agent orchestration, benchmarking, or stable multi-tool workflows in these posts. The cluster should be split as the existing insight about agentic workflow buyers is unsupported by this evidence.",
+          "recommended_action": "Focus marketing efforts on showcasing Fireworks AI's community building, hackathon sponsorships, and industry recognition to strengthen brand visibility and attract builders.",
+          "split_recommended": true,
+          "split_titles": [
+            "Fireworks AI marketing momentum and community engagement",
+            "Agentic workflow buyers want stable multi-tool orchestration and benchmarking"
+          ]
+        },
+        "source_aware_recursive": {
+          "title": "Fireworks AI gains strong industry recognition and community engagement as a foundational AI innovation platform",
+          "category": "marketing_narrative",
+          "description": "Official marketing posts highlight Fireworks AI's active promotion of builders and developers through events like hackathons and sponsorships, positioning it as a foundational technology for AI innovation. Employee posts reinforce this narrative by noting Fireworks AI's significant recognition, including being named one of TIME's Best Inventions of 2024.",
+          "recommended_action": "Leverage industry accolades and community engagement stories in marketing campaigns to strengthen brand positioning and attract more developers.",
+          "split_recommended": false,
+          "_group_summaries": [
+            {
+              "source_group": "marketing",
+              "sender_type": "official",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI actively promotes and supports builders and developers using their platform",
+                "Fireworks AI is positioning itself as a foundational technology for the next wave of AI innovation",
+                "Fireworks AI engages with the developer community through events such as hackathons and sponsorships",
+                "Fireworks AI encourages creativity and innovation by inviting users to showcase what they build",
+                "Fireworks AI has received industry recognition, e.g., inclusion in Redpoint's InfraRed 100 list"
+              ],
+              "what_not_to_claim": [
+                "Specific technical capabilities or product features beyond general support for builders",
+                "User pain points, feature requests, or negative feedback",
+                "Detailed product launch information or roadmap specifics"
+              ],
+              "best_category_hint": "marketing_narrative"
+            },
+            {
+              "source_group": "creators",
+              "sender_type": "employee",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI has received significant recognition, being named one of TIME's Best Inventions of 2024."
+              ],
+              "what_not_to_claim": [
+                "No direct user feedback, pain points, or feature requests are provided in this evidence."
+              ],
+              "best_category_hint": "marketing_narrative"
+            }
+          ]
+        }
+      },
+      "scores": {
+        "baseline": {
+          "evidence_fidelity": 10,
+          "category_correctness": 50,
+          "specificity": 20,
+          "actionability": 10,
+          "source_role_awareness": 80,
+          "overall": 25,
+          "major_issue": "Insight claims detailed product gaps and user needs not supported by evidence, which only contains generic marketing posts without mention of multi-agent orchestration, benchmarking, or table parsing."
+        },
+        "flat_llm": {
+          "evidence_fidelity": 60,
+          "category_correctness": 80,
+          "specificity": 40,
+          "actionability": 50,
+          "source_role_awareness": 90,
+          "overall": 60,
+          "major_issue": "Insight infers demand for multi-agent orchestration and benchmarking without direct evidence; benchmarking and table parsing are unsupported by the evidence."
+        },
+        "audit_rewrite": {
+          "evidence_fidelity": 100,
+          "category_correctness": 100,
+          "specificity": 90,
+          "actionability": 95,
+          "source_role_awareness": 100,
+          "overall": 95,
+          "major_issue": "none"
+        },
+        "source_aware_recursive": {
+          "evidence_fidelity": 100,
+          "category_correctness": 100,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 96,
+          "major_issue": "none"
+        }
+      },
+      "winner": "source_aware_recursive"
+    },
+    {
+      "cluster": {
+        "insight_id": "28ca2157-0cba-47e9-8f23-117dd2650e33",
+        "baseline": {
+          "title": "FireConnect launch needs a clearer workflow for coding-assistant users",
+          "category": "feature_request",
+          "description": "Signals around FireConnect, Vercel, OpenCode, Claude Code, and Codex show strong ecosystem distribution, but the actionable gap is a concrete workflow for developers using these tools. Fireworks should clarify how users connect models, authenticate, and move from demo to daily use inside their existing coding environment.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "signal_count": 9,
+        "evidence": [
+          {
+            "id": "1cfb0737-b133-4397-864f-b9dfb60fa079",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 414426,
+            "url": "https://x.com/FireworksAI_HQ/status/2052091208969883660",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "We’ve been working closely with the @harvey team on the launch of the Legal Agent Benchmark, a product focused on evaluating how open-weight models perform on long-horizon, real-world legal tasks. Check it out:"
+          },
+          {
+            "id": "c6d51501-205f-4f67-8bb1-bfdf41fb8c5a",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 142395,
+            "url": "https://x.com/FireworksAI_HQ/status/2069556087033119189",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Bring open models to where you're already working. FireConnect brings Fireworks' top models directly into Claude Code, Pi, OpenCode, and Codex. Watch our Head of AI Education @Prof_oz show you how:"
+          },
+          {
+            "id": "f598301b-bd1f-42ce-889e-5be9bc90f235",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 85176,
+            "url": "https://x.com/FireworksAI_HQ/status/1920642800892457412",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Fireworks AI Developer Day is coming to SF on May 28, and you won’t want to miss this! Join us to hear from the executives of companies leading in GenAI products on how they’ve built cutting-edge agents using open models with their data flywheel. → Sarah Sachs (@NotionHQ ) - Scaling Notion AI with small, fast models → Adarsh Hiremath (@mercor_ai ) - Training recruiting agents that outperform closed models → Tony Wu (@perplexity_ai ) - Building deep research agents with open models → Malte Ubl (@vercel ) - Making Vibe Coding in v0 even better with custom models → Lin Qiao (@FireworksAI_HQ) – Delivering better quality, faster speed and higher user concurrency with open models. We’ll also be un"
+          },
+          {
+            "id": "0f8de1ad-3a3d-46da-91c0-b43c0f92d5a6",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 51937,
+            "url": "https://x.com/FireworksAI_HQ/status/2031784829881307437",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Fireworks AI is now available first-party in Microsoft Foundry, as part of a multi-year partnership, starting today in private preview. Enterprise AI has a speed problem. Most infrastructure can't keep up with how fast open models are moving. New architectures, fine-tuned weights, models that aren't on anyone's approved list yet. The usual answer was \"manage your own serving infrastructure.\" That's a real cost. Fireworks runs the inference. Azure owns the governance. Your weights stay yours. Beyond custom weights, teams can also access the latest open models on day zero. No waiting for the marketplace to catch up. Serverless inference for prototyping, and a path to production that doesn't re"
+          },
+          {
+            "id": "0b88389d-f23d-49f6-b16c-d0fb4fbcdf43",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 18395,
+            "url": "https://x.com/FireworksAI_HQ/status/1932828338730754296",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "🔥 Launching the Fireworks AI Experimentation Platform (GA) and Build SDK (Beta)🔥 Top AI teams don't win by chance - they win by running 10X more experiments than competitors. Launching early, collecting feedback, tuning and selecting models, running offline evals, and validating impact with product metrics in a fast, continuous cycle is critical to build successful AI products. But, the need to manage complex infrastructure, wait for GPUs, reconcile differences between training and serving, and maintain reliability, slow AI teams down. Now, with the Firework’s experimentation platform, experimenting with open models just got a whole lot easier. With the help of our brand-new Python SDK (in b"
+          },
+          {
+            "id": "295c2150-99c1-482c-ae03-849a01cbf464",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 7521,
+            "url": "https://x.com/FireworksAI_HQ/status/1985432086522839218",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Fireworks teamed up with @Vercel to set a new standard for developer AI. Lightning-fast and super-accurate AI code generation with Vercel's v0 tool achieved an incredible 93% error-free rate and 40x faster speeds! Dive into the full story and see how they did it: https://t.co/oOjtwda9Hb #AI #CodeGeneration #Vercel #FireworksAI #DevTools #MachineLearning"
+          },
+          {
+            "id": "ec014d3c-3b28-4849-8166-6d91757109de",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 4849,
+            "url": "https://x.com/FireworksAI_HQ/status/2017001804022894929",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "We're super excited to support all the amazing builders on @opencode! Can't wait to see what you all build. https://t.co/6MOMQe1UNH"
+          },
+          {
+            "id": "92ff4801-b49f-4881-b4fb-e56e6701028d",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 3097,
+            "url": "https://x.com/FireworksAI_HQ/status/2024528437772505599",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Can't wait to see what builders create on top of Fireworks and TinyFish! https://t.co/aF5G5lWo7k https://t.co/Npuqhxrbe2"
+          },
+          {
+            "id": "361d709a-a8a1-49cb-ab27-142a63fb6440",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 1029,
+            "url": "https://x.com/FireworksAI_HQ/status/1931849511586218438",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "7 Days. 7 Launches. At our first ever Fireworks AI Dev Day, we unveiled a wave of product innovation, and now we’re rolling it out. Starting Monday, we’ll be announcing one major launch each day for the next 7 days. Follow along to see what’s new! https://t.co/V3TEBD9Xup"
+          }
+        ]
+      },
+      "outputs": {
+        "baseline": {
+          "title": "FireConnect launch needs a clearer workflow for coding-assistant users",
+          "category": "feature_request",
+          "description": "Signals around FireConnect, Vercel, OpenCode, Claude Code, and Codex show strong ecosystem distribution, but the actionable gap is a concrete workflow for developers using these tools. Fireworks should clarify how users connect models, authenticate, and move from demo to daily use inside their existing coding environment.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "flat_llm": {
+          "title": "Clarify FireConnect workflow for developer integration with coding-assistant tools",
+          "category": "feature_request",
+          "description": "Fireworks AI's FireConnect integrates top models into coding environments like Claude Code, Pi, OpenCode, and Codex, as highlighted in official posts. However, there is an opportunity to provide clearer guidance on connecting models, authentication, and transitioning from demos to daily use within these developer workflows.",
+          "recommended_action": "Develop and publish detailed workflow documentation and tutorials demonstrating how developers can connect FireConnect models, authenticate, and integrate seamlessly into their existing coding environments.",
+          "split_recommended": false
+        },
+        "audit_rewrite": {
+          "title": "FireConnect launch well-promoted but lacks clear developer workflow guidance",
+          "category": "feature_request",
+          "description": "Official marketing posts highlight FireConnect's integration with popular coding tools like Claude Code, Pi, OpenCode, and Codex, and strong ecosystem partnerships with Vercel and others. However, no evidence shows clear, actionable guidance or workflows for developers on connecting models, authenticating, and transitioning from demos to daily use within their coding environments.",
+          "recommended_action": "Develop and publish detailed developer workflows and setup guides for FireConnect users to improve onboarding and daily usage clarity.",
+          "split_recommended": false
+        },
+        "source_aware_recursive": {
+          "title": "FireConnect integration is well marketed but lacks user workflow clarity for coding-assistant adoption",
+          "category": "feature_request",
+          "description": "Official marketing posts highlight Fireworks AI's strong ecosystem partnerships and integrations via FireConnect with platforms like Claude Code, Pi, OpenCode, and Codex, emphasizing performance and accessibility. However, no official communications address developer workflow specifics such as model connection, authentication, or transitioning from demos to daily use, indicating a gap in user guidance for coding-assistant users.",
+          "recommended_action": "Develop and promote clear, detailed workflows and documentation for developers on how to connect models, authenticate, and integrate FireConnect into their coding environments to enhance adoption and usability.",
+          "split_recommended": false,
+          "_group_summaries": [
+            {
+              "source_group": "marketing",
+              "sender_type": "official",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI collaborates with partners like Harvey to launch specialized benchmarks such as the Legal Agent Benchmark for evaluating open-weight models on complex legal tasks.",
+                "Fireworks AI integrates its top models into popular developer tools and platforms like Claude Code, Pi, OpenCode, and Codex via FireConnect, enhancing accessibility.",
+                "Fireworks AI hosts events like Developer Day to showcase innovations and share insights from industry leaders on building advanced AI agents using open models.",
+                "Fireworks AI is available through Microsoft Foundry in private preview, offering serverless inference, governance by Azure, and support for custom and latest open models to address enterprise AI speed and infrastructure challenges.",
+                "Fireworks AI launched an Experimentation Platform (GA) and Build SDK (Beta) to accelerate AI development by simplifying experimentation with open models and reducing infrastructure complexity.",
+                "Fireworks AI partnered with Vercel to deliver lightning-fast, highly accurate AI code generation, achieving a 93% error-free rate and 40x faster speeds.",
+                "Fireworks AI actively supports developer communities on platforms like OpenCode and encourages building on Fireworks and TinyFish.",
+                "Fireworks AI runs multi-day launch campaigns to introduce waves of product innovations, demonstrating a strong marketing narrative and continuous product development."
+              ],
+              "what_not_to_claim": [
+                "No direct user pain points or feature requests are mentioned in these marketing posts.",
+                "No explicit competitive weaknesses or negative feedback are provided.",
+                "No detailed technical performance metrics beyond marketing claims are included.",
+                "No user testimonials or organic user feedback are present."
+              ],
+              "best_category_hint": "marketing_narrative"
+            }
+          ]
+        }
+      },
+      "scores": {
+        "baseline": {
+          "evidence_fidelity": 60,
+          "category_correctness": 90,
+          "specificity": 70,
+          "actionability": 50,
+          "source_role_awareness": 90,
+          "overall": 65,
+          "major_issue": "Insight infers a need for clearer workflow and user guidance that is not explicitly supported by the evidence; evidence shows ecosystem integration and partnerships but no direct user pain or workflow gaps."
+        },
+        "flat_llm": {
+          "evidence_fidelity": 70,
+          "category_correctness": 90,
+          "specificity": 80,
+          "actionability": 85,
+          "source_role_awareness": 90,
+          "overall": 83,
+          "major_issue": "Insight infers a need for clearer guidance and documentation on FireConnect integration, but no direct user feedback or explicit feature request is present in the evidence; the evidence only highlights the existence and promotion of FireConnect integration."
+        },
+        "audit_rewrite": {
+          "evidence_fidelity": 90,
+          "category_correctness": 90,
+          "specificity": 85,
+          "actionability": 90,
+          "source_role_awareness": 95,
+          "overall": 90,
+          "major_issue": "No direct evidence explicitly states lack of developer workflow guidance; the insight infers this from absence of such details in marketing posts."
+        },
+        "source_aware_recursive": {
+          "evidence_fidelity": 40,
+          "category_correctness": 60,
+          "specificity": 70,
+          "actionability": 70,
+          "source_role_awareness": 90,
+          "overall": 62,
+          "major_issue": "Insight infers a user pain point (lack of workflow clarity) not supported by the official marketing evidence, which only highlights integrations and partnerships without user feedback or workflow details."
+        }
+      },
+      "winner": "audit_rewrite"
+    },
+    {
+      "cluster": {
+        "insight_id": "fe1913a3-e0df-49dc-af7f-7b3f7a00dbb9",
+        "baseline": {
+          "title": "Beta Python SDK and early preview need clearer launch communication",
+          "category": "feature_request",
+          "description": "The new Python SDK is still in beta, with free preview access and ongoing endpoint optimization. This is a concrete product maturity signal that should be paired with clearer expectations and launch messaging for early adopters.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "signal_count": 6,
+        "evidence": [
+          {
+            "id": "f02608d5-df92-491b-87e1-5088f7641a0d",
+            "platform": "twitter",
+            "sender_type": "employee",
+            "source_group": "creators",
+            "source_class": "unknown",
+            "author": "lqiao",
+            "engagement": 324314,
+            "url": "https://x.com/lqiao/status/1989003285882368428",
+            "title": "Fireworks AI X post by @lqiao",
+            "text": "🚀 Fireworks Reinforcement Fine-Tuning (RFT) launched! After many months of iteration with real world use cases, we are excited to launch Fireworks RFT public preview. It’s a managed RL service that turns open frontier models (e.g. DeepSeek V3, Kimi K2) into custom agents for tools, code & reasoning. Our design principle is to bring RL to integrate directly with your agents in production, instead of you simulating or redesigning your agents to do RL. Fireworks RFT trains on full agent trajectories (multi-step, tools, retries), so the model learns your workflow in production. Here are real-world results: 👉 Genspark Deep research agent → +10% quality vs SOTA closed model, +33% tool calls, ~50% "
+          },
+          {
+            "id": "dc3bb610-2a8b-49ae-bd6b-24383bd84d06",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 73631,
+            "url": "https://x.com/FireworksAI_HQ/status/1866218532738109891",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "We made Whisper 20x faster than OpenAI*! Today, we’re beta launching the fastest and most feature-complete audio APIs - transcribe ONE HOUR of audio in as little as 4 seconds. (900:1 transcription speed!) We’re offering it FREE for 2 weeks to celebrate launch - try it immediately in our UI playground! https://t.co/OTiL52JL3m *(whisper-large, no quantization!)"
+          },
+          {
+            "id": "d77099b6-5bea-434a-ac09-00062bf683fe",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 37294,
+            "url": "https://x.com/FireworksAI_HQ/status/1874231432203337849",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "DeepSeek V3, a state-of-the-art open model, is now available on Fireworks Serverless and Enterprise! 🥇 SOTA open model for coding and reasoning 🥇 Best performing open model on Chatbot Arena and WebDev Arena 🧠 671B MoE parameters, 37B activated parameters Congrats to the @deepseek_ai team for this release! DeepSeek V3 is great to use on Fireworks: 📜 Long context enabled - 131K context size ⚡ Up to 30 tok/s speeds and we’ll be making it faster! 💰 Priced at $0.9/M tokens This is an early release, we are continuing to optimize the model! We expect high demand at launch and we will be working to make the API endpoint faster. We have run some evals to ensure good model quality after quantization, "
+          },
+          {
+            "id": "03576143-dd94-4c05-9b9b-fc7a1dd8af89",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 20162,
+            "url": "https://x.com/FireworksAI_HQ/status/1881523617915457922",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "🚀 𝗗𝗲𝗲𝗽𝗦𝗲𝗲𝗸 𝗥𝟭 𝗡𝗼𝘄 𝗟𝗶𝘃𝗲 𝗼𝗻 𝗙𝗶𝗿𝗲𝘄𝗼𝗿𝗸𝘀❗ DeepSeek R1, a new best in class reasoning model, is now available on Fireworks Serverless, On-Demand and Enterprise, with reasoning quality comparable to OpenAI's o1 model. This is an early release - we expect improvements in performance and speed soon! DeepSeek R1 is a new best in class for reasoning models, comparable to o1 🥇SOTA open model: Comparable to OpenAI-o1 across math, code, and reasoning tasks 🧠671B MoE parameters with 37B activated parameters, trained with Reinforcement Learning 🔑Distillation with R1: DeepSeek R1 has transparent thinking tokens, and is released under the MIT License, allowing training and tuning of models through distillatio"
+          },
+          {
+            "id": "0b88389d-f23d-49f6-b16c-d0fb4fbcdf43",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 18395,
+            "url": "https://x.com/FireworksAI_HQ/status/1932828338730754296",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "🔥 Launching the Fireworks AI Experimentation Platform (GA) and Build SDK (Beta)🔥 Top AI teams don't win by chance - they win by running 10X more experiments than competitors. Launching early, collecting feedback, tuning and selecting models, running offline evals, and validating impact with product metrics in a fast, continuous cycle is critical to build successful AI products. But, the need to manage complex infrastructure, wait for GPUs, reconcile differences between training and serving, and maintain reliability, slow AI teams down. Now, with the Firework’s experimentation platform, experimenting with open models just got a whole lot easier. With the help of our brand-new Python SDK (in b"
+          },
+          {
+            "id": "6c40a7e1-598c-4f18-bc66-f165f7f83c0c",
+            "platform": "twitter",
+            "sender_type": "employee",
+            "source_group": "creators",
+            "source_class": "unknown",
+            "author": "lqiao",
+            "engagement": 12085,
+            "url": "https://x.com/lqiao/status/1908612763959910586",
+            "title": "Fireworks AI X post by @lqiao",
+            "text": "🔥🦙 llama-4 launch on @FireworksAI_HQ ! 🦙🔥 Llama-4 has just set a new record—not only among open models but across all models. We’re thrilled to be a launch partner with @Meta to provide easy API access to a herd of next-level intelligence! The herd of models launched are in a class of their own, offering a unique combination of multi-modality and long-context capabilities (up to 10 million tokens!). We expect a lot of active agent development to experiment and go to production with this new set of models. Our initial rollout includes both Scout and Maverick models, with further optimizations and enhanced developer toolchains launching soon. You can access the model APIs below, and we can't w"
+          }
+        ]
+      },
+      "outputs": {
+        "baseline": {
+          "title": "Beta Python SDK and early preview need clearer launch communication",
+          "category": "feature_request",
+          "description": "The new Python SDK is still in beta, with free preview access and ongoing endpoint optimization. This is a concrete product maturity signal that should be paired with clearer expectations and launch messaging for early adopters.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "flat_llm": {
+          "title": "Beta Python SDK launch communication could be clearer to set expectations",
+          "category": "feature_request",
+          "description": "The Fireworks AI Python SDK is currently in beta with ongoing optimizations and early access availability, as noted in the official launch announcement. Clearer communication around its beta status and expected improvements would help early adopters understand the product maturity and roadmap.",
+          "recommended_action": "Enhance launch messaging to explicitly highlight the beta status, ongoing endpoint optimizations, and expected timeline for full release to manage early adopter expectations.",
+          "split_recommended": false
+        },
+        "audit_rewrite": {
+          "title": "Clearer Launch Communication Needed for Beta and Early Preview Features",
+          "category": "feature_request",
+          "description": "Multiple official posts announce beta launches and early previews of Fireworks AI products such as the Python SDK, DeepSeek models, and Whisper audio APIs, highlighting ongoing optimizations and free trial periods. These signals of product maturity and early access would benefit from clearer communication to set user expectations and improve adoption.",
+          "recommended_action": "Fireworks marketing should enhance launch messaging around beta and early preview features, explicitly communicating their status, limitations, and roadmap to better manage early adopter expectations.",
+          "split_recommended": true,
+          "split_titles": [
+            "Beta Python SDK and Experimentation Platform Need Clearer Launch Messaging",
+            "Early Preview and Optimization Status of DeepSeek and Whisper Models Require Transparent Communication"
+          ]
+        },
+        "source_aware_recursive": {
+          "title": "Fireworks AI showcases advanced model capabilities and infrastructure innovations with opportunity to clarify beta SDK launch",
+          "category": "product_launch",
+          "description": "Official marketing posts highlight Fireworks AI's cutting-edge transcription speed, state-of-the-art open models with very long context windows, and new experimentation and build SDK platforms, while employee posts demonstrate technical proof of Reinforcement Fine-Tuning and Llama-4 integration delivering measurable improvements. However, the existing beta Python SDK and early preview access require clearer launch communication to set proper expectations for early adopters.",
+          "recommended_action": "Enhance launch messaging around the beta Python SDK and early preview to clearly communicate product maturity and roadmap, complementing the strong technical and product launch narratives already promoted.",
+          "split_recommended": false,
+          "_group_summaries": [
+            {
+              "source_group": "marketing",
+              "sender_type": "official",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI offers significantly faster audio transcription APIs, achieving up to 900:1 transcription speed, transcribing one hour of audio in as little as 4 seconds, outperforming OpenAI's Whisper by 20x.",
+                "Fireworks AI provides access to state-of-the-art open models such as DeepSeek V3 and DeepSeek R1, which deliver best-in-class coding, reasoning, and math capabilities comparable to OpenAI's models.",
+                "DeepSeek models on Fireworks support very long context windows (up to 131K tokens) and offer competitive speeds and pricing.",
+                "Fireworks AI has launched an Experimentation Platform and Build SDK to accelerate AI model experimentation, tuning, evaluation, and deployment, addressing common infrastructure and reliability challenges faced by AI teams."
+              ],
+              "what_not_to_claim": [
+                "No direct user pain points or feature requests are mentioned.",
+                "No customer success stories or competitive disadvantages are provided.",
+                "No explicit claims about model accuracy beyond comparisons to OpenAI models.",
+                "No information on user feedback or churn."
+              ],
+              "best_category_hint": "product_launch and technical_proof"
+            },
+            {
+              "source_group": "creators",
+              "sender_type": "employee",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI launched Reinforcement Fine-Tuning (RFT) as a managed RL service that customizes open frontier models into production-ready agents.",
+                "Fireworks RFT trains on full agent trajectories including multi-step actions, tools, and retries, enabling models to learn real production workflows.",
+                "Real-world results show Fireworks RFT improving agent quality by +10% over state-of-the-art closed models and increasing tool usage by +33%.",
+                "Fireworks AI is a launch partner for Meta's Llama-4, providing easy API access to advanced models with multi-modality and extremely long context windows (up to 10 million tokens).",
+                "The Llama-4 rollout on Fireworks includes Scout and Maverick models with plans for further optimizations and enhanced developer toolchains."
+              ],
+              "what_not_to_claim": [
+                "No direct user pain points or feature requests are mentioned in these posts.",
+                "No explicit customer feedback or churn signals are provided.",
+                "No competitive comparisons beyond stating improvements over closed models without naming competitors."
+              ],
+              "best_category_hint": "technical_proof"
+            }
+          ]
+        }
+      },
+      "scores": {
+        "baseline": {
+          "evidence_fidelity": 60,
+          "category_correctness": 80,
+          "specificity": 70,
+          "actionability": 40,
+          "source_role_awareness": 90,
+          "overall": 65,
+          "major_issue": "Insight infers need for clearer launch communication and expectations for the beta Python SDK, but evidence only shows a beta launch announcement without explicit user feedback or pain points about communication clarity."
+        },
+        "flat_llm": {
+          "evidence_fidelity": 80,
+          "category_correctness": 90,
+          "specificity": 85,
+          "actionability": 90,
+          "source_role_awareness": 90,
+          "overall": 87,
+          "major_issue": "The evidence supports that the Python SDK is in beta and that there are ongoing optimizations and early access, but there is no explicit mention of user confusion or a direct request for clearer communication. The insight infers a need for clearer communication which is reasonable but not directly evidenced."
+        },
+        "audit_rewrite": {
+          "evidence_fidelity": 90,
+          "category_correctness": 100,
+          "specificity": 85,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 91,
+          "major_issue": "Minor overgeneralization in 'multiple official posts' but overall well supported"
+        },
+        "source_aware_recursive": {
+          "evidence_fidelity": 95,
+          "category_correctness": 90,
+          "specificity": 90,
+          "actionability": 85,
+          "source_role_awareness": 95,
+          "overall": 91,
+          "major_issue": "Minor unsupported inference about need for clearer launch communication; no direct user feedback or pain points cited."
+        }
+      },
+      "winner": "audit_rewrite"
+    },
+    {
+      "cluster": {
+        "insight_id": "8a438db3-9782-48a4-bb97-320f25dc01a9",
+        "baseline": {
+          "title": "Latency stayed stable even as tasks extended across multiple steps.",
+          "category": "pain_point",
+          "description": "Clustering 8 related signals — naming in progress...",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "signal_count": 8,
+        "evidence": [
+          {
+            "id": "ab4c5e54-15cf-4538-8bc5-4310e121de11",
+            "platform": "twitter",
+            "sender_type": "employee",
+            "source_group": "creators",
+            "source_class": "unknown",
+            "author": "lqiao",
+            "engagement": 26388,
+            "url": "https://x.com/lqiao/status/1806353722056053035",
+            "title": "Fireworks AI X post by @lqiao",
+            "text": "🔥 FireAttention v2: speed and long context, pick two! 🔥 At @FireworksAI_HQ , we challenge ourselves constantly -- can we develop a dramatically more efficient serving for LLMs with RAG in a long context window with negligible quality tradeoff? We built our next generation runtime, FireAttention v2. When compared with vLLM, the Fireworks stack now serves Qwen2 and Mixtral (32k context window) up to ~12x faster and ~8x higher throughput. For technical details, check our blogpost: https://t.co/sXlg75ac24"
+          },
+          {
+            "id": "0bd76629-0e39-4e14-89cd-6987ca061020",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 4010,
+            "url": "https://x.com/FireworksAI_HQ/status/2057165186776399967",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "We ran 720 browser agent tasks with @nottecore across frontier models. One baseline model produced malformed outputs in ~1 out of every 5 calls, leading to retries inside multi-step workflows. Across Kimi K2.5, GLM-5, and MiniMax M2.5 served on Fireworks, retry rates were near zero and latency stayed stable even as tasks extended across multiple steps. Same workload. Same agent loop. Different execution behavior. That gap is what shows up as cost, latency, and reliability divergence in production agent systems. Read the report: https://t.co/6thZVvLomR"
+          },
+          {
+            "id": "4e3b2fd4-41b6-46a9-ae70-e8d42f25e25d",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 3842,
+            "url": "https://x.com/FireworksAI_HQ/status/1938002488801824787",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "MiniMax-M1-80k is now available on Fireworks! Why it matters: ➡️ Extreme long-context reasoning – Natively supports 1 million tokens (8× more than DeepSeek R1). Ideal for use cases like multi-file code refactoring, legal document analysis, and multi-turn agent workflows. ➡️ Efficient compute – Its hybrid MoE + lightning attention architecture uses up to 75% fewer FLOPs for long generations compared to peers, making it both fast and cost-effective. ➡️ Elite benchmark performance – MiniMax-M1-80k outperforms other leading open models on tough tasks: - Software engineering (SWE-bench) - Tool use (TAU-bench) - Long-context understanding (MRCR, LongBench) - Agentic reasoning Built with large-scal"
+          },
+          {
+            "id": "2156e051-53e8-4a30-818f-11e40d65442e",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 2528,
+            "url": "https://x.com/FireworksAI_HQ/status/2067007202934821132",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "You may have seen other platforms announce day-zero support within minutes of weights dropping, but there is a key difference between inference providers and routers. Routers forward your GLM 5.2 calls to someone else’s endpoint (typically the model lab’s own API). Fireworks runs the weights directly: end‑to‑end serving path, zero data retention, production‑grade latency. For long‑horizon coding agents, a clean 1M window + stable infra beats leaderboard screenshots."
+          },
+          {
+            "id": "bcb0ec31-257f-45d9-bd5a-4ac15c1dca88",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 1573,
+            "url": "https://x.com/FireworksAI_HQ/status/2006930964224815155",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Everyone is talking about @deepseek_ai's mHC (Manifold-Constrained Hyper-Connections) paper; let’s break it down in simple language. What they’re trying to do: A model has one “main highway,” the residual stream, which carries information through all layers. DeepSeek splits that highway into a few parallel lanes so different lanes can carry different kinds of information, and the model can merge that traffic as it goes. The problem: If every layer is allowed to freely “turn the knobs” on how much each lane is amplified, those knobs can compound over multiple layers. The result: Some lanes get too much traffic, others remain empty, and training becomes unstable. DeepSeek added a simple rule: "
+          },
+          {
+            "id": "c0c3b739-3278-4f74-82e3-2e55433b5bce",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 1129,
+            "url": "https://x.com/FireworksAI_HQ/status/1910031141031264325",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "We just published a new blog and open-source demo on Building Enterprise-Scale RAG Systems with Fireworks AI + MongoDB Atlas Many companies today are overwhelmed by unstructured data - from earnings calls and financial reports to legal documents and internal PDFs. Making sense of it all is a growing challenge. How do you actually extract insights at speed and scale? That’s where Retrieval-Augmented Generation (RAG) steps in, and we’ve built an enterprise-ready system from scratch to show you how. What’s inside: 🔍 Real-time semantic search across PDFs, DOCX, audio & more 🧠 Whisper V3 Turbo for 20x faster audio transcription ⚡ Fireworks AI+ MongoDB Atlas powering low-latency, high-throughput, "
+          }
+        ]
+      },
+      "outputs": {
+        "baseline": {
+          "title": "Latency stayed stable even as tasks extended across multiple steps.",
+          "category": "pain_point",
+          "description": "Clustering 8 related signals — naming in progress...",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "flat_llm": {
+          "title": "Latency remained stable with near-zero retries in multi-step workflows",
+          "category": "customer_success",
+          "description": "In a test running 720 browser agent tasks across frontier models, Fireworks AI demonstrated near-zero retry rates and stable latency even as tasks extended across multiple steps, contrasting with a baseline model that produced malformed outputs in 20% of calls causing retries. This highlights Fireworks' reliability and consistent performance in multi-step agent workflows.",
+          "recommended_action": "Highlight this reliability and stable latency in multi-step workflows in marketing materials and case studies to demonstrate Fireworks AI's production-grade performance advantages.",
+          "split_recommended": false
+        },
+        "audit_rewrite": {
+          "title": "Latency and reliability remain stable across multi-step tasks with Fireworks AI",
+          "category": "technical_proof",
+          "description": "Official Fireworks AI marketing posts demonstrate that Fireworks AI maintains stable latency and near-zero retry rates even as tasks extend across multiple steps, outperforming baseline models in production agent workflows. Employee posts highlight FireAttention v2's significant speed and throughput improvements for long context windows, supporting Fireworks' technical efficiency claims.",
+          "recommended_action": "Leverage these technical proof points in marketing materials to emphasize Fireworks AI's superior performance and reliability in multi-step, long-context workflows compared to competitors.",
+          "split_recommended": false
+        },
+        "source_aware_recursive": {
+          "title": "Fireworks AI delivers stable low-latency multi-step workflow execution with advanced large-context support and efficient compute",
+          "category": "technical_proof",
+          "description": "Official marketing and employee posts confirm that Fireworks AI maintains stable, low-latency execution across complex multi-step workflows, supporting large-context models up to 1 million tokens with near-zero retry rates. The platform's efficient compute architectures reduce FLOPs by up to 75%, enabling cost-effective, production-grade performance with zero data retention.",
+          "recommended_action": "Leverage these technical proofs in marketing to highlight Fireworks AI's unique capabilities in handling complex, large-context workflows with superior latency and efficiency.",
+          "split_recommended": false,
+          "_group_summaries": [
+            {
+              "source_group": "marketing",
+              "sender_type": "official",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI provides highly reliable and low-latency execution of multi-step workflows with near-zero retry rates compared to baseline models.",
+                "Fireworks AI supports advanced large-context models like MiniMax-M1-80k with native support for up to 1 million tokens, enabling complex use cases such as multi-file code refactoring, legal document analysis, and multi-turn agent workflows.",
+                "Fireworks AI offers efficient compute architectures (e.g., hybrid MoE + lightning attention) that reduce FLOPs by up to 75% for long generations, improving speed and cost-effectiveness.",
+                "Fireworks AI runs model weights directly on its platform, providing end-to-end serving with zero data retention and production-grade latency, unlike inference providers that forward calls to external endpoints.",
+                "Fireworks AI collaborates with technologies like MongoDB Atlas and Whisper V3 Turbo to build enterprise-scale Retrieval-Augmented Generation (RAG) systems that handle unstructured data with real-time semantic search and fast audio transcription."
+              ],
+              "what_not_to_claim": [
+                "Any user pain points or feature requests, as the evidence is from official marketing posts only.",
+                "Comparisons that are not explicitly supported by the provided data, such as direct claims of superiority over all competitors beyond the stated benchmarks.",
+                "Any negative feedback or churn indications, as none are present in the marketing evidence."
+              ],
+              "best_category_hint": "technical_proof and product_launch"
+            },
+            {
+              "source_group": "creators",
+              "sender_type": "employee",
+              "platform": "twitter",
+              "supported_claims": [
+                "technical_proof",
+                "product_launch",
+                "performance_improvement"
+              ],
+              "what_not_to_claim": [
+                "user_pain",
+                "feature_request",
+                "churn"
+              ],
+              "best_category_hint": "technical_proof"
+            }
+          ]
+        }
+      },
+      "scores": {
+        "baseline": {
+          "evidence_fidelity": 90,
+          "category_correctness": 20,
+          "specificity": 40,
+          "actionability": 10,
+          "source_role_awareness": 80,
+          "overall": 40,
+          "major_issue": "Insight is categorized as a pain point but describes a positive performance attribute; lacks actionable recommendation and has vague description."
+        },
+        "flat_llm": {
+          "evidence_fidelity": 95,
+          "category_correctness": 90,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 85,
+          "overall": 90,
+          "major_issue": "Minor overinterpretation in emphasizing 'production-grade' but overall well supported by evidence"
+        },
+        "audit_rewrite": {
+          "evidence_fidelity": 95,
+          "category_correctness": 90,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 90,
+          "overall": 91,
+          "major_issue": "none"
+        },
+        "source_aware_recursive": {
+          "evidence_fidelity": 95,
+          "category_correctness": 100,
+          "specificity": 95,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 96,
+          "major_issue": "none"
+        }
+      },
+      "winner": "source_aware_recursive"
+    },
+    {
+      "cluster": {
+        "insight_id": "3f6a4e70-d1a1-4c6e-938e-e3fa03572133",
+        "baseline": {
+          "title": "It creates a safer way to iterate on prompts, models, and features without regressions.",
+          "category": "pain_point",
+          "description": "Clustering 8 related signals — naming in progress...",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "signal_count": 8,
+        "evidence": [
+          {
+            "id": "58c8b2e1-7afe-495c-9db1-cc9189cd77ba",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 786957,
+            "url": "https://x.com/FireworksAI_HQ/status/1960840358985916931",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "How do you go from a blank project to your first fully tested AI agent? In our latest blog, we share how we adapted Test-Driven Development (TDD) into the LLM era, using evals to define desired behaviors before writing code. By supercharging Claude Code with Model Context Protocol (MCP) servers, we grounded the agent in the right context (docs, repos, wikis). ✔️ Faster setup of evals with Eval Protocol ✔️ Richer, more reliable test suites generated automatically ✔️ A safer workflow for iterating on prompts, models, and features without regressions This shift turns AI into a true development partner- expanding tests, validating behaviors, and helping engineers scale agent capabilities with co"
+          },
+          {
+            "id": "641f1f5a-b815-400c-a83a-0d4f1386fcf5",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 19837,
+            "url": "https://x.com/FireworksAI_HQ/status/2040316161129361505",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Training trillion-parameter MoEs is an infra problem disguised as a modeling problem. So we built the infra solution. Cursor used it to train Composer 2. Now it's available for Kimi K2.5, Qwen3.5 397B, MiniMax M2.5, and more: →Fused RL loss (~2x faster PPO) →MXFP8 expert kernels on Blackwell →Composable 4D parallelism →1M+ token context training validated Here's how it all works ↓ https://t.co/PA20I8EFaD"
+          },
+          {
+            "id": "c0c3b739-3278-4f74-82e3-2e55433b5bce",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 1129,
+            "url": "https://x.com/FireworksAI_HQ/status/1910031141031264325",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "We just published a new blog and open-source demo on Building Enterprise-Scale RAG Systems with Fireworks AI + MongoDB Atlas Many companies today are overwhelmed by unstructured data - from earnings calls and financial reports to legal documents and internal PDFs. Making sense of it all is a growing challenge. How do you actually extract insights at speed and scale? That’s where Retrieval-Augmented Generation (RAG) steps in, and we’ve built an enterprise-ready system from scratch to show you how. What’s inside: 🔍 Real-time semantic search across PDFs, DOCX, audio & more 🧠 Whisper V3 Turbo for 20x faster audio transcription ⚡ Fireworks AI+ MongoDB Atlas powering low-latency, high-throughput, "
+          },
+          {
+            "id": "02099ef7-b74f-4c14-8a43-b4d38fa50e27",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 1022,
+            "url": "https://x.com/FireworksAI_HQ/status/1958197672533278808",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "What if you could explore your AI eval results like an Excel pivot table, without writing a single line of code? Meet Pivot View in Eval Protocol. A visual, interactive way to slice and dice your evals across models, prompts, runs, scores, parameters, and more. → Want to know which model performed best? → Which prompt worked consistently across test cases? → Whether increasing temperature helped or hurt? → If your fine-tuning actually improved results? → Where your model fails most often? You can answer all of these in seconds. No scripts. No dashboards. Just clarity. It’s designed for fast iteration and flexible analysis- perfect for AI engineers and product teams shipping models in the rea"
+          }
+        ]
+      },
+      "outputs": {
+        "baseline": {
+          "title": "It creates a safer way to iterate on prompts, models, and features without regressions.",
+          "category": "pain_point",
+          "description": "Clustering 8 related signals — naming in progress...",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "flat_llm": {
+          "title": "It supports a safer workflow for iterating on prompts, models, and features with reduced risk of regressions",
+          "category": "marketing_narrative",
+          "description": "Fireworks AI adapted Test-Driven Development (TDD) for large language models, using evals to define desired behaviors before coding, enabling faster setup of evals and richer, more reliable test suites that help engineers scale agent capabilities safely without regressions.",
+          "recommended_action": "Highlight this safer iteration workflow prominently in marketing materials to attract AI developers seeking robust testing and development processes.",
+          "split_recommended": false
+        },
+        "audit_rewrite": {
+          "title": "It creates a safer way to iterate on prompts, models, and features without regressions",
+          "category": "marketing_narrative",
+          "description": "Official marketing posts from FireworksAI_HQ highlight a safer workflow for iterating on prompts, models, and features without regressions by adapting Test-Driven Development (TDD) into the LLM era using evals and Eval Protocol's Pivot View for interactive analysis. These posts emphasize improved testing, validation, and iteration capabilities as a key product strength.",
+          "recommended_action": "Leverage this narrative in marketing materials to emphasize Fireworks AI's unique approach to safe and efficient AI development workflows, highlighting the integration of evals and interactive analysis tools.",
+          "split_recommended": true,
+          "split_titles": [
+            "Safe Iteration on Prompts, Models, and Features Without Regressions",
+            "Advanced Infrastructure for Training Large Models",
+            "Enterprise-Scale Retrieval-Augmented Generation (RAG) Systems",
+            "Interactive Eval Analysis with Pivot View"
+          ]
+        },
+        "source_aware_recursive": {
+          "title": "Fireworks AI enables safer and faster AI development through advanced TDD principles and infrastructure",
+          "category": "technical_proof",
+          "description": "Official marketing evidence shows that Fireworks AI integrates Test-Driven Development (TDD) adapted for large language models to enable faster, safer, and more reliable AI agent development with automated evaluations and context grounding. Additionally, it provides enterprise-scale infrastructure for training trillion-parameter MoE models, supports large context windows, and offers user-friendly tools like Pivot View for interactive, code-free AI evaluation analysis.",
+          "recommended_action": "Leverage these technical strengths in marketing to highlight Fireworks AI's unique capabilities in accelerating safe AI iteration and robust model evaluation.",
+          "split_recommended": false,
+          "_group_summaries": [
+            {
+              "source_group": "marketing",
+              "sender_type": "official",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI integrates Test-Driven Development (TDD) principles adapted for large language models (LLMs) to enable faster, safer, and more reliable AI agent development with automated evals and context grounding.",
+                "Fireworks AI provides advanced infrastructure solutions for training trillion-parameter mixture-of-experts (MoE) models, delivering significant performance improvements such as faster PPO training and large context window support.",
+                "Fireworks AI offers enterprise-scale Retrieval-Augmented Generation (RAG) systems that handle unstructured data at scale with real-time semantic search and fast audio transcription, powered by integrations like MongoDB Atlas.",
+                "Fireworks AI includes user-friendly tools like Pivot View in Eval Protocol, enabling interactive, code-free analysis of AI evaluation results to accelerate iteration and improve model performance insights."
+              ],
+              "what_not_to_claim": [
+                "No direct user pain points or feature requests are indicated in this marketing evidence.",
+                "No competitive comparisons or customer success stories are explicitly provided.",
+                "No employee or affiliate perspectives or user feedback are included."
+              ],
+              "best_category_hint": "technical_proof"
+            }
+          ]
+        }
+      },
+      "scores": {
+        "baseline": {
+          "evidence_fidelity": 100,
+          "category_correctness": 90,
+          "specificity": 70,
+          "actionability": 40,
+          "source_role_awareness": 100,
+          "overall": 75,
+          "major_issue": "Description is vague and incomplete; recommended_action is null, limiting usefulness."
+        },
+        "flat_llm": {
+          "evidence_fidelity": 100,
+          "category_correctness": 100,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 96,
+          "major_issue": "none"
+        },
+        "audit_rewrite": {
+          "evidence_fidelity": 95,
+          "category_correctness": 90,
+          "specificity": 90,
+          "actionability": 85,
+          "source_role_awareness": 100,
+          "overall": 90,
+          "major_issue": "Minor overreach in combining multiple themes in split titles; otherwise well supported and accurate."
+        },
+        "source_aware_recursive": {
+          "evidence_fidelity": 100,
+          "category_correctness": 100,
+          "specificity": 95,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 95,
+          "major_issue": "none"
+        }
+      },
+      "winner": "flat_llm"
+    },
+    {
+      "cluster": {
+        "insight_id": "84d8e6e6-431b-44e7-803c-f27ffb989a5f",
+        "baseline": {
+          "title": "The author says Fireworks beats Groq, citing benchmark credits from Artificial Analysis.",
+          "category": "pain_point",
+          "description": "Clustering 5 related signals — naming in progress...",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "signal_count": 5,
+        "evidence": [
+          {
+            "id": "bd5e1c37-5917-48da-a481-7c857f7186d6",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 63788,
+            "url": "https://x.com/FireworksAI_HQ/status/2068016858327138722",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "\"...at least as good as Opus 4.8 and GPT 5.5.\" https://t.co/WgjYpbOwM3"
+          },
+          {
+            "id": "f6b8bb72-0382-41ba-bf12-1755c283c56b",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 63788,
+            "url": "https://x.com/FireworksAI_HQ/status/2068016858327138722",
+            "title": "\"...at least as good as Opus 4.8 and GPT 5.5.\"",
+            "text": "Post Fireworks AI @FireworksAI_HQ \"...at least as good as Opus 4.8 and GPT 5.5.\" 00:12 5:03 PM · Jun 19, 2026 62.4K Views Read 17 replies New to X? Sign up now to get your own personalized timeline! Sign up with Google Sign up with Google Sign up with Apple Create account By signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use. Relevant people Fireworks AI @FireworksAI_HQ Follow Terms · Privacy · Cookies · Accessibility · US TIDA · Ads Info · More © 2026 X Corp. Don't miss what's happening People on X are the first to know. Log in Sign up Fireworks AI on X: \"\"...at least as good as Opus 4.8 and GPT 5.5.\" https://t.co/WgjYpbOwM3\" / X"
+          },
+          {
+            "id": "86867716-9e03-4a54-b6f4-fefcb1f5c96f",
+            "platform": "twitter",
+            "sender_type": "employee",
+            "source_group": "creators",
+            "source_class": "unknown",
+            "author": "lqiao",
+            "engagement": 47297,
+            "url": "https://x.com/lqiao/status/1767406833692737971",
+            "title": "Fireworks AI X post by @lqiao",
+            "text": "🔥Fireworks beats Groq! 🔥 Benchmark credits from @ArtificialAnlys https://t.co/xrFWfqRLSY"
+          },
+          {
+            "id": "915e1e5b-aa93-427c-98ea-54e42f063a06",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 34718,
+            "url": "https://x.com/FireworksAI_HQ/status/2034774646340690120",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Cursor's Composer 2 beats Opus on TerminalBench at a fraction of the cost. Big results like this don’t happen by accident. Fireworks is proud to have powered the inference and RL scaling behind Composer 2."
+          }
+        ]
+      },
+      "outputs": {
+        "baseline": {
+          "title": "The author says Fireworks beats Groq, citing benchmark credits from Artificial Analysis.",
+          "category": "pain_point",
+          "description": "Clustering 5 related signals — naming in progress...",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "flat_llm": {
+          "title": "Fireworks AI reportedly outperforms Groq according to benchmark credits from Artificial Analysis",
+          "category": "competitive",
+          "description": "An employee post claims that Fireworks AI beats Groq based on benchmark credits from Artificial Analysis. Official Fireworks AI marketing posts also highlight performance comparable to Opus 4.8 and GPT 5.5, supporting competitive positioning.",
+          "recommended_action": "Leverage benchmark comparisons in marketing to highlight Fireworks AI's competitive advantages while ensuring claims are clearly attributed to credible sources.",
+          "split_recommended": false
+        },
+        "audit_rewrite": {
+          "title": "Fireworks AI claims competitive superiority over Groq and Opus based on benchmark results",
+          "category": "competitive",
+          "description": "Official FireworksAI_HQ posts highlight performance claims that Fireworks AI matches or exceeds Opus 4.8 and GPT 5.5, while employee lqiao cites benchmark credits from Artificial Analysis showing Fireworks beats Groq. Additionally, Fireworks powered Composer 2 which outperforms Opus on TerminalBench at lower cost, reinforcing competitive positioning.",
+          "recommended_action": "Leverage these benchmark claims in marketing campaigns to strengthen Fireworks AI's competitive narrative and increase visibility against Groq and Opus.",
+          "split_recommended": false
+        },
+        "source_aware_recursive": {
+          "title": "Fireworks AI demonstrates competitive performance validated by credible benchmarks",
+          "category": "competitive",
+          "description": "Official marketing posts highlight that Fireworks AI matches or exceeds the performance of Opus 4.8 and GPT 5.5, powering Cursor's Composer 2 with superior TerminalBench results at lower cost. Employee sources confirm Fireworks AI outperforms competitor Groq, supported by credible benchmark validation from Artificial Analysis.",
+          "recommended_action": "Leverage these benchmark results in marketing narratives to strengthen competitive positioning and technical credibility.",
+          "split_recommended": false,
+          "_group_summaries": [
+            {
+              "source_group": "marketing",
+              "sender_type": "official",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI performance is at least as good as Opus 4.8 and GPT 5.5",
+                "Fireworks AI technology powered Cursor's Composer 2, which outperforms Opus on TerminalBench at a lower cost",
+                "Fireworks AI contributes to significant inference and reinforcement learning scaling improvements"
+              ],
+              "what_not_to_claim": [
+                "User pain points or feature requests",
+                "Any negative feedback or churn indications",
+                "Unsubstantiated claims about product limitations or failures"
+              ],
+              "best_category_hint": "competitive_performance_and_technical_proof"
+            },
+            {
+              "source_group": "creators",
+              "sender_type": "employee",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI outperforms competitor Groq in benchmark tests",
+                "Fireworks AI has credible benchmark validation from ArtificialAnlys"
+              ],
+              "what_not_to_claim": [
+                "No detailed technical specifications or feature comparisons provided",
+                "No user experience or pain points mentioned",
+                "No direct marketing narrative or customer success stories included"
+              ],
+              "best_category_hint": "competitive"
+            }
+          ]
+        }
+      },
+      "scores": {
+        "baseline": {
+          "evidence_fidelity": 80,
+          "category_correctness": 20,
+          "specificity": 60,
+          "actionability": 20,
+          "source_role_awareness": 80,
+          "overall": 40,
+          "major_issue": "Insight is miscategorized as a pain_point when it is a competitive advantage or feature claim; description is vague and no recommended action is provided."
+        },
+        "flat_llm": {
+          "evidence_fidelity": 90,
+          "category_correctness": 100,
+          "specificity": 85,
+          "actionability": 90,
+          "source_role_awareness": 95,
+          "overall": 90,
+          "major_issue": "Minor overstatement in description by implying official marketing posts support the claim about Groq, while they only mention Opus and GPT models."
+        },
+        "audit_rewrite": {
+          "evidence_fidelity": 95,
+          "category_correctness": 100,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 95,
+          "major_issue": "none"
+        },
+        "source_aware_recursive": {
+          "evidence_fidelity": 95,
+          "category_correctness": 100,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 95,
+          "overall": 94,
+          "major_issue": "None"
+        }
+      },
+      "winner": "audit_rewrite"
+    },
+    {
+      "cluster": {
+        "insight_id": "75620c8c-555c-4dc0-939f-91b89cc93cfd",
+        "baseline": {
+          "title": "Benchmark and trust messaging lacks a single clear open-model recommendation",
+          "category": "marketing_narrative",
+          "description": "The cluster mixes benchmark wins, compliance claims, RL and eval narratives, and a note that there is no single right open LLM for the next project. The actionable gap is a clearer decision framework that helps buyers choose the right open model and understand when Fireworks is the best fit.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "signal_count": 27,
+        "evidence": [
+          {
+            "id": "739ddb01-6d2f-428c-84a9-2dbf04255930",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 256305,
+            "url": "https://x.com/FireworksAI_HQ/status/1970276773071036762",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Stop guessing which LLM is best for your use case! Public benchmarks don't reflect the real-world trade-offs between cost, speed, and quality on your data. The real answer is already in your production logs. Our new blog post, \"Traces Are All You Need\" shows you how to turn your existing observability data into a powerful, data-driven model leaderboard in minutes. We demonstrate a fast, label-free method using an LLM judge and our open-source toolkit, Eval Protocol. The best part? We validated it against the official Tau Bench Airline benchmark and found a strong correlation. This means you can: ✅ Rapidly iterate and test new models. ✅ Get a trustworthy signal for model quality on your speci"
+          },
+          {
+            "id": "0f8de1ad-3a3d-46da-91c0-b43c0f92d5a6",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 51937,
+            "url": "https://x.com/FireworksAI_HQ/status/2031784829881307437",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Fireworks AI is now available first-party in Microsoft Foundry, as part of a multi-year partnership, starting today in private preview. Enterprise AI has a speed problem. Most infrastructure can't keep up with how fast open models are moving. New architectures, fine-tuned weights, models that aren't on anyone's approved list yet. The usual answer was \"manage your own serving infrastructure.\" That's a real cost. Fireworks runs the inference. Azure owns the governance. Your weights stay yours. Beyond custom weights, teams can also access the latest open models on day zero. No waiting for the marketplace to catch up. Serverless inference for prototyping, and a path to production that doesn't re"
+          },
+          {
+            "id": "ee8b86c6-1af2-4ee1-b095-27b462ef6c2c",
+            "platform": "twitter",
+            "sender_type": "employee",
+            "source_group": "creators",
+            "source_class": "unknown",
+            "author": "lqiao",
+            "engagement": 10972,
+            "url": "https://x.com/lqiao/status/1844404541690871909",
+            "title": "Fireworks AI X post by @lqiao",
+            "text": "\"Code editing should be fun!\" \"Fast iteration is fun!\" @lexfridman's interview with @cursor_ai team is one of his best. They dive into how Cursor team builds a viral generative-AI-native coding copilot and completely redefines the UX. Check it out here: https://t.co/Uwe7doDqzT Fun is viral, creating amazing magnet of adoption. More interestingly, fast speed is \"the\" product feature that fosters deep engagement. I have seen some product designs even go further to tradeoff perfect response with fast interaction. This is the common pattern we observed across many creative generative-AI-native products we worked with. It reminds me of massive product overhauls during the mobile-first era. I'm so"
+          },
+          {
+            "id": "18b1f8ca-f3a6-43bf-a8fe-44e49caaeec9",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 4714,
+            "url": "https://x.com/FireworksAI_HQ/status/1928554651269607675",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "AI agents have a scaling problem. (And we're finally fixing it) Over the last few years, we saw a pattern: → Developers can prototype AI workflows quickly. → But moving from prototype to production? Painful. Most frameworks demand deep AI expertise, heavy Python use, and tangled abstractions. So we built something different. 💜 Introducing AIML(AI Markup Language)- a prompt-based language and runtime that lets any developer ship enterprise-grade AI agents. No AI PhD required. No massive SDK. No complex setup. Just structured prompts that run like reliable programs. ⚙️ AIML works by: → Building on Markdown + XML syntax devs already use → Running agents in doc-order for predictability → Support"
+          },
+          {
+            "id": "98dbd463-3047-41a5-9767-0f2149f64218",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 4644,
+            "url": "https://x.com/FireworksAI_HQ/status/2062653959140233246",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Fireworks was named to @Redpoint's InfraRed 100 which recognizes the companies building the foundation for the next wave of AI. We're just getting started. Come build with us: https://t.co/bUweMxMq9L"
+          },
+          {
+            "id": "6d9dcc88-88ae-432c-95f0-ee8c5a0674fd",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 4499,
+            "url": "https://x.com/FireworksAI_HQ/status/1905701004768838098",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Thank you Wing Venture Capital and Newcomer for recognizing us on Enterprise Tech 30 list! Congratulations to all our customers and partners who were also included! Building scalable GenAI applications? Let's chat and see how we can take your production workloads to the next level!"
+          },
+          {
+            "id": "87a8ee87-0468-476e-a246-ee2a3b09258a",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 4419,
+            "url": "https://x.com/FireworksAI_HQ/status/2003295511433085332",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "🎅 came early this year! We're excited to announce an amazing holiday 🎁: Day-0 support on Fireworks for the brand new GLM 4.7 model from @zai_org You loved GLM 4.6 for code generation, but 4.7 takes it to a whole new level. This next-gen model is optimized for coding, reasoning, and agentic workflows, delivering significant gains in GPQA and AIME benchmarks, outperforming Sonnet 4.5! It also introduces advanced 'thinking controls' (interleaved, preserved, and turn-level thinking) to keep things super stable on long, multi-turn tasks. Time to put it to work! https://t.co/BRJpHG1Lwx"
+          },
+          {
+            "id": "c976a3f1-7576-4efa-8ec9-970559cfa67a",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 2741,
+            "url": "https://x.com/FireworksAI_HQ/status/1963270982661280188",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Honored to share that Fireworks AI made the 2025 Forbes Cloud 100! ☁️ Among 20 AI native companies on the list, 80% are Fireworks AI's customers or partners, including @cursor_ai, @NotionHQ, @vercel, @perplexity_ai, @mercor_ai, @clay_gtm, @huggingface and many others. Congratulations to everyone! 👉 https://t.co/zw9cLdDKm5 @Forbes #Cloud100"
+          },
+          {
+            "id": "1922c150-1e74-4417-b625-b253e3439d48",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 2717,
+            "url": "https://x.com/FireworksAI_HQ/status/2059438067682074781",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "10/ The bigger point: your product is the best RL environment you'll ever have. Frontier labs ship models that are good at everything. The opportunity is a model that's great at your thing. Product, users, harness. That's the moat. Check out the ep: https://t.co/j085PLDElj"
+          },
+          {
+            "id": "ca98effc-c831-495b-b6f0-3469259bb82b",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 1609,
+            "url": "https://x.com/FireworksAI_HQ/status/1909770617400029621",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "🎉 Congratulations to the @DeepCogito team on an incredible launch! Today, they introduced Deep Cogito, a new company on a bold mission to build general superintelligence. They have also released a suite of state-of-the-art open LLMs ranging from 3B to 70B. We’re thrilled to share that all of these models are now available to run via API on Fireworks AI. 🚀 These LLMs outperform leading open models at every size, including LLaMA, DeepSeek, and Qwen- across both reasoning and non-reasoning benchmarks. Their 70B model even surpasses LLaMA 4's 109B MoE. But what truly sets these models apart is how they’re trained. Using Iterated Distillation and Amplification (IDA), Deep Cogito models aren’t jus"
+          },
+          {
+            "id": "09605121-bc4e-4b9d-9b6c-73e480b331ba",
+            "platform": "twitter",
+            "sender_type": "employee",
+            "source_group": "creators",
+            "source_class": "unknown",
+            "author": "lqiao",
+            "engagement": 1549,
+            "url": "https://x.com/lqiao/status/1932489529581289661",
+            "title": "Fireworks AI X post by @lqiao",
+            "text": "🔥 Day 2/7 -- launching Fireworks Voice Agent Platform 🔥 Today, we’re launching Voice Agent Platform (Beta) on @FireworksAI_HQ — a developer-first stack to build interactive, production-grade voice agents. 🧠 What makes it different? Sub-500ms latency: Our proprietary ASR, TTS, and LLMs are co-located and optimized for parallel, real-time performance. Full-stack customization: Swap in any LLM (fine-tuned or base), customize pronunciation via IPA, and customize every component to your use case. One provider, zero complexity: Replace 3+ vendors with a single platform that handles ASR, LLM, TTS, and infra, end to end. We’ve built everything from scratch: streaming transcription that beats DeepGra"
+          },
+          {
+            "id": "bc2a5cd4-d512-454e-ab15-4de941b8401d",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 1405,
+            "url": "https://x.com/FireworksAI_HQ/status/2039126227634786566",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "The destination isn’t a fine-tuned model sitting on a shelf. It’s a domain-specific agent that keeps getting better as the loop gets tighter. Read more here: https://t.co/c6RYJQhRY9 https://t.co/6dfq7lnbNB"
+          }
+        ]
+      },
+      "outputs": {
+        "baseline": {
+          "title": "Benchmark and trust messaging lacks a single clear open-model recommendation",
+          "category": "marketing_narrative",
+          "description": "The cluster mixes benchmark wins, compliance claims, RL and eval narratives, and a note that there is no single right open LLM for the next project. The actionable gap is a clearer decision framework that helps buyers choose the right open model and understand when Fireworks is the best fit.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "flat_llm": {
+          "title": "Benchmarking and Model Selection Messaging Could Benefit from Clearer Guidance on Choosing Open LLMs",
+          "category": "marketing_narrative",
+          "description": "Fireworks AI highlights that public benchmarks often fail to capture real-world trade-offs like cost, speed, and quality, advocating for data-driven model evaluation using production logs (FireworksAI_HQ). While Fireworks offers day-zero access to new open models and emphasizes rapid iteration and trustworthiness, there remains an implicit acknowledgment that no single open LLM fits all projects, suggesting a need for clearer decision frameworks to help buyers identify when Fireworks is the best fit.",
+          "recommended_action": "Develop and communicate a clearer decision framework or guidance tool that helps buyers evaluate and select the right open LLM for their specific use case, emphasizing Fireworks' unique value in enabling rapid, trustworthy model evaluation and deployment.",
+          "split_recommended": false
+        },
+        "audit_rewrite": {
+          "title": "Need for Clear Open-Model Selection Framework Amid Diverse Benchmark and Product Narratives",
+          "category": "marketing_narrative",
+          "description": "The evidence cluster contains official marketing posts highlighting Fireworks AI's unique capabilities such as real-world model benchmarking using production logs, day-zero support for new open models, partnerships enabling fast inference, and innovative AI agent frameworks. It also includes employee insights on product speed and engagement. Together, these show a broad narrative around Fireworks AI's strengths but lack a unified, clear messaging framework guiding buyers on choosing the right open LLM for their specific needs.",
+          "recommended_action": "Develop and communicate a clear decision framework that helps customers understand when Fireworks AI is the best fit among open LLM options, integrating benchmark wins, compliance, RL narratives, and product capabilities into a cohesive buyer guidance.",
+          "split_recommended": false
+        },
+        "source_aware_recursive": {
+          "title": "Fireworks AI showcases strong technical capabilities and enterprise integration but lacks a unified open-model recommendation framework",
+          "category": "marketing_narrative",
+          "description": "Official marketing posts highlight Fireworks AI's advanced benchmarking methods, first-party integration with Microsoft Foundry, support for cutting-edge open models, and innovative AIML runtime for enterprise AI agents. Employee insights emphasize fast iteration, low-latency voice agent platform, and full-stack customization, demonstrating technical proof of Fireworks' product strengths. However, no clear guidance or decision framework is provided to help buyers choose the best open LLM or understand when Fireworks is the optimal solution.",
+          "recommended_action": "Develop and communicate a clearer decision framework or benchmark summary that guides enterprise buyers on selecting the right open LLM and clarifies Fireworks AI's unique value proposition in this landscape.",
+          "split_recommended": false,
+          "_group_summaries": [
+            {
+              "source_group": "marketing",
+              "sender_type": "official",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI provides a data-driven, label-free method to benchmark LLMs using production logs and observability data, validated against official benchmarks.",
+                "Fireworks AI is integrated first-party in Microsoft Foundry, enabling serverless inference with governance by Azure and access to the latest open models from day zero.",
+                "Fireworks AI introduces AIML, a prompt-based language and runtime that simplifies building and shipping enterprise-grade AI agents without requiring deep AI expertise.",
+                "Fireworks AI has been recognized by industry leaders and lists such as Redpoint's InfraRed 100 and Forbes Cloud 100, highlighting its foundational role in AI infrastructure.",
+                "Fireworks AI supports day-0 access to cutting-edge models like GLM 4.7 and Deep Cogito’s state-of-the-art open LLMs, which outperform leading open models in reasoning and coding benchmarks.",
+                "Fireworks AI emphasizes continuous improvement of domain-specific AI agents through tight feedback loops rather than static fine-tuned models.",
+                "Fireworks AI targets the enterprise AI speed problem by providing infrastructure that keeps pace with rapidly evolving open models and custom weights."
+              ],
+              "what_not_to_claim": [
+                "No direct user pain points or negative feedback are provided in this marketing evidence.",
+                "No detailed technical limitations or challenges of Fireworks AI are mentioned.",
+                "No explicit competitive disadvantages or customer churn reasons are indicated."
+              ],
+              "best_category_hint": "marketing_narrative"
+            },
+            {
+              "source_group": "creators",
+              "sender_type": "employee",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fast iteration and speed are key product features that drive deep user engagement in generative AI products.",
+                "Fun and fast interaction are important for viral adoption and user retention in AI-native creative tools.",
+                "Fireworks AI launched a Voice Agent Platform (Beta) that offers sub-500ms latency with proprietary ASR, TTS, and LLMs optimized for real-time performance.",
+                "The Voice Agent Platform supports full-stack customization allowing developers to swap LLMs and customize pronunciation and components for specific use cases.",
+                "Fireworks AI provides an integrated, end-to-end platform replacing multiple vendors for ASR, LLM, TTS, and infrastructure, simplifying complexity for developers."
+              ],
+              "what_not_to_claim": [
+                "Specific user pain points or feature requests from end users.",
+                "Direct customer feedback or complaints.",
+                "Competitive comparisons beyond the stated product capabilities.",
+                "Marketing claims not supported by technical details."
+              ],
+              "best_category_hint": "technical_proof"
+            }
+          ]
+        }
+      },
+      "scores": {
+        "baseline": {
+          "evidence_fidelity": 90,
+          "category_correctness": 90,
+          "specificity": 80,
+          "actionability": 70,
+          "source_role_awareness": 90,
+          "overall": 85,
+          "major_issue": "The insight is generally well supported by the evidence, which discusses benchmarks, model evaluation, and the complexity of choosing the right open LLM. However, the evidence does not explicitly mention a 'single clear open-model recommendation' gap, so this is somewhat inferred rather than directly stated."
+        },
+        "flat_llm": {
+          "evidence_fidelity": 95,
+          "category_correctness": 90,
+          "specificity": 85,
+          "actionability": 90,
+          "source_role_awareness": 90,
+          "overall": 90,
+          "major_issue": "none"
+        },
+        "audit_rewrite": {
+          "evidence_fidelity": 95,
+          "category_correctness": 90,
+          "specificity": 85,
+          "actionability": 90,
+          "source_role_awareness": 95,
+          "overall": 91,
+          "major_issue": "none"
+        },
+        "source_aware_recursive": {
+          "evidence_fidelity": 95,
+          "category_correctness": 100,
+          "specificity": 90,
+          "actionability": 85,
+          "source_role_awareness": 100,
+          "overall": 94,
+          "major_issue": "Minor unsupported claim about lack of a unified open-model recommendation framework; no explicit evidence states this is missing, only implied by absence."
+        }
+      },
+      "winner": "source_aware_recursive"
+    },
+    {
+      "cluster": {
+        "insight_id": "7488007a-590d-4788-9252-b10ecd955d55",
+        "baseline": {
+          "title": "Kimi K2 Thinking messaging lacks concrete limits for long-horizon agent reliability",
+          "category": "marketing_narrative",
+          "description": "Posts describe Kimi K2 Thinking as strong for coding, tool use, and long agent loops, but they do not specify where it fails, what context lengths are safe, or which workflows need guardrails. That leaves a gap for teams deciding whether it is dependable enough for autonomous production agents.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "signal_count": 16,
+        "evidence": [
+          {
+            "id": "900ba6c0-8438-4fc1-b535-67eefd241d71",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 10332,
+            "url": "https://x.com/FireworksAI_HQ/status/1986904156444237892",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "We're thrilled to announce day-0 support for the groundbreaking Kimi K2 Thinking Model! Here’s what makes it stand out: ---Open-Source Thinking Agent: It is designed to reason step-by-step and dynamically invoke tool calls ---Superior Multi-Step Reasoning: It excels in multi-step reasoning and tool-use, outperforming or on-par performance with Sonnet 4.5 and GPT-5 on 𝜏²-Bench and GPQA Diamond. ---Efficiency and Scale: It leverages native INT4 quantization and a colossal 256k context window. Deploy with Fireworks and transform your production workloads with unmatched efficiency. #ai #kimik2 #opensource https://t.co/KGgoZQ3WYD"
+          },
+          {
+            "id": "b9f7aff9-430e-4fac-8097-6bdc5f03eedc",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 9912,
+            "url": "https://x.com/FireworksAI_HQ/status/1917085426151788656",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Qwen 3 is now live on Fireworks AI! Qwen 3 is a SOTA open-weights model for building AI agents: ➡️ SOTA agentic tool use: Highest ranked open model on BFCL (tool-calling) benchmark, below gpt4-2024-11-20 and above gpt4.5. Tuned to support Model Context Protocol (MCP) tools with the Qwen-Agent framework for multi-step tool usage (function calling), browser actions, and code execution. Fireworks support function calling for Qwen 3 models. ➡️ Top-tier coding and reasoning capabilities: Outperforms many open and closed models on LiveCodeBench, and only three thousands coders on CodeForces are better at competitive coding than Qwen3. ➡️ Hybrid reasoning with enable_thinking: Qwen 3 introduces a d"
+          },
+          {
+            "id": "b7e83178-eefb-4ea4-8d2f-a5d9f7b5df29",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 5081,
+            "url": "https://x.com/FireworksAI_HQ/status/1995744881554456852",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "The Deepseek V3.2 model, a reasoning-first model built for agents, is now available on Fireworks! Another Day-0 model launch! The latest Deepseek V3.2 model provides: ✓ World Class Reasoning: Delivers GPT-5 level performance with a balanced approach to inference and context length. ✓Optimized for Agents: Ideal for complex, agentic tasks, trained on over 1,800 environments and 85,000 complex instructions. ✓ Direct Tool Integration: Designed for combining thinking directly into tool use Get Started on Fireworks Today with one click today: https://t.co/NLHFb9U9XG Stay tuned as our engineering team continues to roll out additional optimizations!"
+          },
+          {
+            "id": "0b6bd3a5-8af3-42cd-b769-c24e890cf9f8",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 4262,
+            "url": "https://x.com/FireworksAI_HQ/status/1983007668873855447",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Fireworks is first to deliver Day-0 support for Minimax M2, an efficient MoE with 230B total parameters and 10B active parameters for optimal intelligence, speed, and cost. Key advantages for your stack: ---Coding Excellence: Achieve top-tier coding capabilities at 8% the cost of Claude Sonnet, with 2x the speed. ---Powerful Agentic Performance: Excels at stable execution and multi-tool coordination for complex Agentic workflows. ---Scalable Efficiency: Optimal balance of performance and cost for large-scale deployments. Start Developing on Serverless or On-Demand with the Minimax M2 preview on Fireworks and elevate your agentic applications today! https://t.co/VV5wt27WcI #MinimaxM2 #Agentic"
+          },
+          {
+            "id": "93b7806e-e6ac-4d36-a8c2-003999f95b34",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 1992,
+            "url": "https://x.com/FireworksAI_HQ/status/2065649344259424542",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Built for long-horizon agent loops. Observe → reason → code → act (GUI/CLI) → verify, repeat. Qwen’s own demo ran 11 hours with 10k+ lines of code and 1k+ calls. On Fireworks you get: → reasoning_history=\"preserved\" to persist reasoning context across turns → Per-request thinking / non-thinking mode → Native image + text input → 262k context + prompt caching on by default ($0.10/1M cached input)"
+          },
+          {
+            "id": "9f67b241-6ab1-4e8d-837f-24c6087766a4",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 1642,
+            "url": "https://x.com/FireworksAI_HQ/status/2002455210858561982",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Kimi K2 0905 is a beast for coding and agents. Kimi uses a smart Mixture of Experts design to switch between 384 specialized experts on the fly.That makes it perfect for autonomous tool use, complex reasoning, and long summaries. It even outperforms GPT-4.1 on coding benchmarks. Try it on Fireworks where we optimized it for speed: https://t.co/6eO9rbEQ8v"
+          },
+          {
+            "id": "02099ef7-b74f-4c14-8a43-b4d38fa50e27",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 1022,
+            "url": "https://x.com/FireworksAI_HQ/status/1958197672533278808",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "What if you could explore your AI eval results like an Excel pivot table, without writing a single line of code? Meet Pivot View in Eval Protocol. A visual, interactive way to slice and dice your evals across models, prompts, runs, scores, parameters, and more. → Want to know which model performed best? → Which prompt worked consistently across test cases? → Whether increasing temperature helped or hurt? → If your fine-tuning actually improved results? → Where your model fails most often? You can answer all of these in seconds. No scripts. No dashboards. Just clarity. It’s designed for fast iteration and flexible analysis- perfect for AI engineers and product teams shipping models in the rea"
+          },
+          {
+            "id": "04113c6b-2a18-4632-a085-8c32c6510302",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 998,
+            "url": "https://x.com/FireworksAI_HQ/status/1962991830230057134",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "🔥 In this fireside chat, @the_bunny_chen (Co-founder, @FireworksAI_HQ) sits with @Aishwarya_Sri0 (Head of AI Developer Relations) to unpack DeepSeek V3.1 - one of the most powerful open-weight LLMs available today. They dive into how DeepSeek V3.1 pushes the boundaries of adjustable reasoning, context length, and reliability by reducing hallucinations for GenAI applications. 📹 Watch the full episode on our YouTube channel: https://t.co/VuruDyNGa3 What else would you like us to give into? Let us know in the comments 👇"
+          },
+          {
+            "id": "881a4f95-672b-4b66-b91e-3fa96b02a498",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 687,
+            "url": "https://x.com/FireworksAI_HQ/status/2003542123665326273",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "We are spotlighting Kimi K2 Thinking for Day 10. It is the ideal engine for complex agents that need to juggle multiple tools. You can see the Chain of Thought reasoning in real time which makes debugging effortless. Combine that reasoning power with Fireworks speed and fine tuning to outperform the closed source giants. We are the fastest provider for Kimi K2 Thinking. Get started now: https://t.co/zkegxCgpUe"
+          },
+          {
+            "id": "c0d82396-7b1d-4f25-800e-c451a30f839c",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 675,
+            "url": "https://x.com/FireworksAI_HQ/status/1968772568908972254",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "🔥 In the latest fireside chat episode, @the_bunny_chen (Co-founder, Fireworks AI) sits with Aishwarya Srinivasan (Head of AI Developer Relations) to unpack Kimi K2 0905 - the latest update delivering superior agentic coding capabilities. They dive into how the doubled context window transforms memory management for coding agents, why open-source models are consistently surprising developers, and how our new Eval Protocol SDK helps teams move beyond \"vibe testing\" to data-driven model selection. 📹 Watch the full episode on our YouTube channel: https://t.co/Gej9LtHNvm What else would you like us to dive into? Let us know in the comments 👇"
+          },
+          {
+            "id": "1e633604-c874-4aa6-9984-3ac2ea72a3a3",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 652,
+            "url": "https://x.com/FireworksAI_HQ/status/2000621354362753342",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "We're thrilled to launch Day-0 support for @NVIDIA Nemotron 3 Nano on Fireworks! This small yet powerful hybrid Mixture-of-Experts (MoE) model is built for developers who need maximum compute efficiency and cutting-edge accuracy. → 30B parameters with an incredibly efficient 3B active parameters for inference → A large 1M context window, for large memory to deliver expert reasoning → Optimal for coding, agentic tasks, reasoning, and building specialized AI agents. Ready to start building? Deploy Nemotron 3 Nano today on Fireworks On-Demand! Dive into our blog to learn more, and our hands-on cookbook for real-world code summarization: https://t.co/AoZiZZCPkG"
+          },
+          {
+            "id": "33052231-d0e1-4907-bc75-87449419bb02",
+            "platform": "web",
+            "sender_type": "organic",
+            "source_group": "users",
+            "source_class": "unknown",
+            "author": "unknown",
+            "engagement": 0,
+            "url": "https://fireworks.ai/models/fireworks/kimi-k2p6",
+            "title": "Kimi K2.6 API & Playground | Fireworks AI",
+            "text": "Kimi K2.6 API & Playground | Fireworks AI GLM 5.2 is live! Opus-level intelligence at open-source rates. Pay per token on serverless. Try it today. Model Library/Moonshot AI/Kimi K2.6 # Kimi K2.6 Ready Try in Playground Deploy on Demand Fine-tune model path:accounts/fireworks/models/kimi-k2p6 Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration. ## Kimi K2.6 API Features ### Fine-tuning Docs Kimi K2.6 can be customized with your data to improve responses. Fireworks uses LoRA to efficiently train and deploy your personalized model ### Se"
+          }
+        ]
+      },
+      "outputs": {
+        "baseline": {
+          "title": "Kimi K2 Thinking messaging lacks concrete limits for long-horizon agent reliability",
+          "category": "marketing_narrative",
+          "description": "Posts describe Kimi K2 Thinking as strong for coding, tool use, and long agent loops, but they do not specify where it fails, what context lengths are safe, or which workflows need guardrails. That leaves a gap for teams deciding whether it is dependable enough for autonomous production agents.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "flat_llm": {
+          "title": "Kimi K2 Thinking marketing highlights strengths but lacks detailed guidance on reliability limits for long-horizon agents",
+          "category": "marketing_narrative",
+          "description": "Official posts emphasize Kimi K2 Thinking's strong coding, multi-step reasoning, and tool-use capabilities, including a large 256k context window and real-time Chain of Thought reasoning, positioning it as ideal for complex autonomous agents. However, these communications do not specify safe context lengths, failure modes, or necessary guardrails for long agent loops, leaving potential users without clear boundaries for dependable autonomous production use.",
+          "recommended_action": "Provide clearer documentation or marketing content that outlines Kimi K2 Thinking's operational limits, recommended context lengths, and scenarios requiring guardrails to aid teams in assessing reliability for long-horizon autonomous agents.",
+          "split_recommended": false
+        },
+        "audit_rewrite": {
+          "title": "Kimi K2 Thinking messaging highlights strengths but lacks clarity on failure modes and safe context limits for long-horizon reliability",
+          "category": "marketing_narrative",
+          "description": "Official FireworksAI_HQ posts emphasize Kimi K2 Thinking's superior multi-step reasoning, tool use, large context window (up to 256k tokens), and coding performance surpassing GPT-4.1, positioning it as ideal for complex autonomous agents. However, none specify concrete failure points, safe context length boundaries, or necessary guardrails for dependable long-horizon agent deployment, leaving a gap for teams evaluating production reliability.",
+          "recommended_action": "Fireworks marketing should supplement current messaging with clear documentation or communications detailing Kimi K2 Thinking's limitations, safe operational parameters, and recommended guardrails to aid customer decision-making for autonomous production use cases.",
+          "split_recommended": false
+        },
+        "source_aware_recursive": {
+          "title": "Kimi K2 Thinking messaging highlights advanced capabilities but lacks explicit reliability boundaries for long-horizon autonomous agents",
+          "category": "marketing_narrative",
+          "description": "Official marketing posts emphasize Kimi K2 Thinking's strengths in coding, multi-step reasoning, agentic tool use, and long context windows up to 1 million tokens, positioning it as a cutting-edge, efficient, and scalable model with superior performance. User posts highlight Kimi K2.6's advanced multimodal and autonomous execution features and open-source availability with fine-tuning support. However, neither source specifies concrete limits or failure modes for long-horizon agent reliability, leaving a gap for teams assessing dependable autonomous production use.",
+          "recommended_action": "Fireworks marketing should clarify and communicate explicit context length limits, failure scenarios, and recommended guardrails for Kimi K2 Thinking in long-horizon autonomous workflows to aid customer decision-making and trust.",
+          "split_recommended": false,
+          "_group_summaries": [
+            {
+              "source_group": "marketing",
+              "sender_type": "official",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI provides day-0 support for cutting-edge open-source AI models including Kimi K2 Thinking Model, Qwen 3, Deepseek V3.2, Minimax M2, and NVIDIA Nemotron 3 Nano.",
+                "Fireworks AI supports advanced agentic tool use, multi-step reasoning, and function calling capabilities, enabling complex autonomous workflows.",
+                "Fireworks AI offers models with superior coding and reasoning performance, often outperforming or matching closed-source giants like GPT-4.1 and GPT-5 on benchmarks.",
+                "Fireworks AI emphasizes efficiency and scalability, leveraging techniques like INT4 quantization, large context windows (up to 1 million tokens), and mixture-of-experts architectures to optimize speed, cost, and performance.",
+                "Fireworks AI provides features for long-horizon agent loops with preserved reasoning history, multi-modal input support, and prompt caching to enhance developer experience and reduce costs.",
+                "Fireworks AI offers tools like Eval Protocol’s Pivot View for interactive, code-free evaluation analysis to accelerate model iteration and data-driven decision making.",
+                "Fireworks AI actively promotes transparency and developer engagement through fireside chats and detailed technical content explaining model capabilities and innovations."
+              ],
+              "what_not_to_claim": [
+                "No direct user pain points or feature requests are evidenced in this marketing content.",
+                "No explicit claims about customer success stories or competitive disadvantages are present.",
+                "No evidence of negative feedback, churn, or unmet user needs."
+              ],
+              "best_category_hint": "product_launch and technical_proof"
+            },
+            {
+              "source_group": "users",
+              "sender_type": "organic",
+              "platform": "web",
+              "supported_claims": [
+                "Fireworks offers the Kimi K2.6 model with advanced multimodal and agentic capabilities including long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.",
+                "Kimi K2.6 is open-source and available via API and playground with pay-per-token pricing on a serverless infrastructure.",
+                "The model supports fine-tuning with user data using LoRA for efficient customization and deployment."
+              ],
+              "what_not_to_claim": [
+                "No direct user feedback on model performance or pain points is provided.",
+                "No explicit user requests or complaints are mentioned."
+              ],
+              "best_category_hint": "feature_highlight"
+            }
+          ]
+        }
+      },
+      "scores": {
+        "baseline": {
+          "evidence_fidelity": 80,
+          "category_correctness": 90,
+          "specificity": 70,
+          "actionability": 50,
+          "source_role_awareness": 90,
+          "overall": 75,
+          "major_issue": "Insight infers a gap about lack of concrete limits and failure modes for Kimi K2 Thinking that is not explicitly stated in the evidence; marketing posts emphasize strengths but do not mention missing info or risks, so the pain point is somewhat speculative."
+        },
+        "flat_llm": {
+          "evidence_fidelity": 90,
+          "category_correctness": 100,
+          "specificity": 85,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 91,
+          "major_issue": "No explicit mention of reliability limits or guardrails in the evidence, so the insight's note about lack of detailed guidance is inferred but not directly supported."
+        },
+        "audit_rewrite": {
+          "evidence_fidelity": 90,
+          "category_correctness": 95,
+          "specificity": 90,
+          "actionability": 85,
+          "source_role_awareness": 100,
+          "overall": 90,
+          "major_issue": "none"
+        },
+        "source_aware_recursive": {
+          "evidence_fidelity": 90,
+          "category_correctness": 90,
+          "specificity": 85,
+          "actionability": 85,
+          "source_role_awareness": 95,
+          "overall": 89,
+          "major_issue": "The insight infers a lack of explicit reliability boundaries for long-horizon autonomous agents, which is not directly stated in the evidence but is a reasonable gap identification. No direct user pain points or feature requests are evidenced, so the insight correctly avoids unsupported claims."
+        }
+      },
+      "winner": "flat_llm"
+    },
+    {
+      "cluster": {
+        "insight_id": "576f4a72-a4e1-4ffb-88dd-52e0dfdd9cfe",
+        "baseline": {
+          "title": "Day-0 MiniMax support and fastest performance claims strengthen launch-partner positioning",
+          "category": "competitive",
+          "description": "The cluster repeatedly frames Fireworks as the first or day-0 host for MiniMax models, alongside claims of industry-leading performance. This is a strong competitive and partnership signal that can be turned into a repeatable launch-partner story.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "signal_count": 8,
+        "evidence": [
+          {
+            "id": "be4cce83-9f3d-4d92-9aec-b8895afbae62",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 25196,
+            "url": "https://x.com/FireworksAI_HQ/status/2043348772277936439",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "We’re thrilled to announce @MiniMax_AI M2.7 is now available Day-0 on Fireworks for commercial use. This self-evolving agentic model delivers frontier-level performance across: → Software engineering & code security → Complex autonomous agents → End-to-end project delivery → Log analysis & office automation 200K+ context. Strong reasoning. Native multi-agent support. Production-ready from day one. Another Day-0 launch, so you get their fastest innovations the moment they ship. Try it now: https://t.co/0JreZ8f8fA"
+          },
+          {
+            "id": "ed598675-6beb-4705-85d3-51846e2b4db9",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 12046,
+            "url": "https://x.com/FireworksAI_HQ/status/2004607914498314654",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Surprise! We're dropping another amazing holiday 🎁 on you: Day-0 support for the brand new @minimax_ai M2.1 Model is LIVE on Fireworks! The MiniMax M2.1 is packed with game-changing upgrades: ✅ Optimized for multiple tasks: Coding, Agent Workflows, and E-Commerce. ✅ Blazing fast performance: It beat closed source giants like Gemini 3.0 and GPT 5.2 on GPQA Benchmarks. ✅ Smarter Results: Crushes complex instruction following, reranking, and classification tasks. Our Take? It's a powerhouse. We're impressed by these results and excited to deepen our partnership with the MiniMax team, keeping the latest innovations flowing on the Fireworks platform. Ready to explore this holiday season? Get star"
+          },
+          {
+            "id": "7636193a-b4c4-45c7-884d-8547c2725287",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 11649,
+            "url": "https://x.com/FireworksAI_HQ/status/2022350767961899162",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "MiniMax M2.5 just dropped. It's already on Fireworks. Excited to announce Fireworks AI as the day-0 launch partner for the brand new @MiniMax M2.5! M2.5 is built for production agents at frontier performance at one-tenth the cost: 🟣Production-ready coding across the full dev lifecycle, not just bug fixes 🟣Autonomous agentic workflows with advanced search & tool use 🟣Deliverable office work - formatted docs, presentations, financial models 🟣Blazing speed: 100 TPS, matching Claude Opus 4.6 on complex tasks 🟣Run agents 24/7 without cost anxiety. $1/hour continuous operation. We’re thrilled with MiniMax's velocity and excited to deepen our partnership, keeping the latest innovations flowing on F"
+          },
+          {
+            "id": "0b6bd3a5-8af3-42cd-b769-c24e890cf9f8",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 4262,
+            "url": "https://x.com/FireworksAI_HQ/status/1983007668873855447",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Fireworks is first to deliver Day-0 support for Minimax M2, an efficient MoE with 230B total parameters and 10B active parameters for optimal intelligence, speed, and cost. Key advantages for your stack: ---Coding Excellence: Achieve top-tier coding capabilities at 8% the cost of Claude Sonnet, with 2x the speed. ---Powerful Agentic Performance: Excels at stable execution and multi-tool coordination for complex Agentic workflows. ---Scalable Efficiency: Optimal balance of performance and cost for large-scale deployments. Start Developing on Serverless or On-Demand with the Minimax M2 preview on Fireworks and elevate your agentic applications today! https://t.co/VV5wt27WcI #MinimaxM2 #Agentic"
+          },
+          {
+            "id": "a49ccb2f-7f47-44ff-8929-7b11312310cb",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 1109,
+            "url": "https://x.com/FireworksAI_HQ/status/2010823696781586808",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Our team is continuously breaking speed records for the @Minimax_AI M2.1 model: First to Launch: We were the first inference provider with Day-0 support for Minimax M2.1, delivering essential access over the holidays. Unmatched Speed: Our latest engineering efforts boosted performance by 30%. That’s 2.7X faster than the next closest provider! Minimax 2.1 is optimal for coding, agent workflows, and e-commerce. Experience the industry’s fastest performance for Minimax M2.1 on Fireworks today! https://t.co/JMijTalV9v"
+          }
+        ]
+      },
+      "outputs": {
+        "baseline": {
+          "title": "Day-0 MiniMax support and fastest performance claims strengthen launch-partner positioning",
+          "category": "competitive",
+          "description": "The cluster repeatedly frames Fireworks as the first or day-0 host for MiniMax models, alongside claims of industry-leading performance. This is a strong competitive and partnership signal that can be turned into a repeatable launch-partner story.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "flat_llm": {
+          "title": "Fireworks AI consistently delivers Day-0 MiniMax model support with competitive performance",
+          "category": "competitive",
+          "description": "Fireworks AI has repeatedly announced Day-0 availability for MiniMax models M2, M2.1, M2.5, and M2.7, emphasizing early access to the latest MiniMax innovations. The platform highlights strong performance metrics such as blazing speed, cost efficiency, and frontier-level capabilities across coding, agent workflows, and office automation, positioning Fireworks as a leading launch partner for MiniMax.",
+          "recommended_action": "Leverage the Day-0 MiniMax launch partner status and performance claims in marketing narratives to reinforce Fireworks' competitive positioning and attract new users seeking early access to cutting-edge models.",
+          "split_recommended": false
+        },
+        "audit_rewrite": {
+          "title": "Day-0 MiniMax support and fastest performance claims strengthen launch-partner positioning",
+          "category": "competitive",
+          "description": "Official marketing posts consistently highlight Fireworks as the first platform to offer Day-0 support for multiple MiniMax model versions, emphasizing frontier-level performance, blazing speed, and cost efficiency. These claims position Fireworks strongly as a launch partner and industry leader in MiniMax model deployment.",
+          "recommended_action": "Leverage these Day-0 launch and performance claims in marketing narratives and partnership outreach to reinforce Fireworks' competitive advantage and attract more launch partners.",
+          "split_recommended": false
+        },
+        "source_aware_recursive": {
+          "title": "Day-0 MiniMax support and fastest performance claims strengthen launch-partner positioning",
+          "category": "product_launch",
+          "description": "Official marketing posts consistently highlight Fireworks AI as the first platform to provide Day-0 launch support for MiniMax AI models, emphasizing immediate access to cutting-edge innovations. They also claim industry-leading performance, including faster speeds and lower costs compared to competitors, reinforcing Fireworks' competitive edge and partnership strength with MiniMax AI.",
+          "recommended_action": "Leverage these claims in marketing narratives and partnership communications to solidify Fireworks AI's position as the premier launch partner for MiniMax models and emphasize technical superiority.",
+          "split_recommended": false,
+          "_group_summaries": [
+            {
+              "source_group": "marketing",
+              "sender_type": "official",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI provides Day-0 launch support for MiniMax AI models, ensuring immediate access to the latest innovations upon release.",
+                "Fireworks AI offers frontier-level performance in software engineering, code security, autonomous agents, project delivery, log analysis, and office automation with MiniMax M2.7.",
+                "MiniMax models on Fireworks demonstrate blazing fast performance, outperforming competitors like Gemini 3.0 and GPT 5.2 on benchmarks.",
+                "Fireworks AI supports production-ready coding across the full development lifecycle and autonomous agentic workflows with advanced search and tool use.",
+                "Fireworks AI delivers cost-efficient solutions, e.g., MiniMax M2 operates at 8% the cost of Claude Sonnet with double the speed.",
+                "Fireworks AI achieves unmatched speed improvements, including a 30% boost making MiniMax M2.1 2.7X faster than the next closest provider.",
+                "Fireworks AI enables scalable, continuous operation of agents at low cost (e.g., $1/hour) with high throughput (100 TPS).",
+                "Fireworks AI deepens partnerships with MiniMax AI to keep the latest model innovations flowing on its platform."
+              ],
+              "what_not_to_claim": [
+                "No user pain points or feature requests are indicated in this marketing evidence.",
+                "No negative feedback or churn signals are present.",
+                "No direct customer success stories or testimonials are provided.",
+                "No technical limitations or challenges are mentioned."
+              ],
+              "best_category_hint": "product_launch and technical_proof"
+            }
+          ]
+        }
+      },
+      "scores": {
+        "baseline": {
+          "evidence_fidelity": 100,
+          "category_correctness": 100,
+          "specificity": 90,
+          "actionability": 70,
+          "source_role_awareness": 100,
+          "overall": 90,
+          "major_issue": "none"
+        },
+        "flat_llm": {
+          "evidence_fidelity": 95,
+          "category_correctness": 90,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 93,
+          "major_issue": "none"
+        },
+        "audit_rewrite": {
+          "evidence_fidelity": 100,
+          "category_correctness": 100,
+          "specificity": 95,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 95,
+          "major_issue": "none"
+        },
+        "source_aware_recursive": {
+          "evidence_fidelity": 100,
+          "category_correctness": 100,
+          "specificity": 95,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 97,
+          "major_issue": "none"
+        }
+      },
+      "winner": "source_aware_recursive"
+    },
+    {
+      "cluster": {
+        "insight_id": "af0e6bd0-5cb0-463c-8ddf-191b9911aef9",
+        "baseline": {
+          "title": "The platform supports SFT, DPO, and RL with smart defaults or a custom loss function, plus a 256K context window.",
+          "category": "pain_point",
+          "description": "Clustering 5 related signals — naming in progress...",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "signal_count": 5,
+        "evidence": [
+          {
+            "id": "f8732dca-1025-44dd-ae8e-bd4cc211b6ec",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 34540,
+            "url": "https://x.com/FireworksAI_HQ/status/2041309990586311123",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Fireworks Training is now in preview. You can now full-parameter fine-tune Kimi K2.5 (1T params, 256k context) with custom loss functions (GRPO, DRO, DAPO, or bring your own) on managed infra. @genspark_ai built their proprietary model stack in four weeks. @vercel hit 93% error-free generation with RFT. @cursor_ai runs their RL rollout fleet on Fireworks. Full-parameter from 8B to 1T. Multi-LoRA serving. Managed or bring your own training loop. Your model is your product. Your data is your moat. https://t.co/kyz7HzihC1"
+          },
+          {
+            "id": "641f1f5a-b815-400c-a83a-0d4f1386fcf5",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 19837,
+            "url": "https://x.com/FireworksAI_HQ/status/2040316161129361505",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Training trillion-parameter MoEs is an infra problem disguised as a modeling problem. So we built the infra solution. Cursor used it to train Composer 2. Now it's available for Kimi K2.5, Qwen3.5 397B, MiniMax M2.5, and more: →Fused RL loss (~2x faster PPO) →MXFP8 expert kernels on Blackwell →Composable 4D parallelism →1M+ token context training validated Here's how it all works ↓ https://t.co/PA20I8EFaD"
+          },
+          {
+            "id": "914cc0b6-37db-4e98-b21e-835f07e33461",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 3629,
+            "url": "https://x.com/FireworksAI_HQ/status/2049557242924646572",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Qwen 3.5 from @Alibaba_Qwen is now available on @FireworksAI_HQ Training Platform across the Managed and Training API workflows. Try SFT, DPO, RL with smart defaults or your own custom loss function with a 256K context window. We support Lora as well as full param fine tuning for your most advanced tasks! What would you like to see next? https://t.co/rqSamw3I3e"
+          },
+          {
+            "id": "64c755b2-007f-4d50-812b-4e02ac3dfc86",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 3609,
+            "url": "https://x.com/FireworksAI_HQ/status/2048873978962559353",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Gemma 4 (26B + 31B) from @GoogleDeepMind is now available on the Fireworks Training Platform across the Managed and Training API workflows. Try SFT and DPO with smart defaults or your own custom loss function with a 256K context window. RL support landing soon! What would you like to see next? https://t.co/rqSamw3I3e"
+          }
+        ]
+      },
+      "outputs": {
+        "baseline": {
+          "title": "The platform supports SFT, DPO, and RL with smart defaults or a custom loss function, plus a 256K context window.",
+          "category": "pain_point",
+          "description": "Clustering 5 related signals — naming in progress...",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "flat_llm": {
+          "title": "Fireworks Training Platform supports SFT, DPO, RL, and custom loss functions with up to 256K context window",
+          "category": "technical_proof",
+          "description": "Fireworks AI's training platform enables full-parameter fine-tuning of large models (up to 1T parameters) including SFT, DPO, and RL with smart defaults or user-defined custom loss functions, supporting a 256K token context window. RL support is currently landing for some models, and multi-LoRA serving and managed or custom training loops are available.",
+          "recommended_action": "Highlight the platform's flexibility in loss functions and large context window in marketing materials to attract advanced users and enterprises.",
+          "split_recommended": false
+        },
+        "audit_rewrite": {
+          "title": "Fireworks AI Training Platform supports SFT, DPO, RL with custom loss functions and large context windows",
+          "category": "marketing_narrative",
+          "description": "Official marketing posts highlight Fireworks AI's Training Platform capabilities including full-parameter fine-tuning from 8B to 1T parameters, support for SFT, DPO, and RL training with smart defaults or custom loss functions, and a 256K token context window. The platform also supports multi-LoRA serving and managed or bring-your-own training loops, demonstrating advanced infrastructure and training flexibility.",
+          "recommended_action": "Continue emphasizing the platform's unique training capabilities and large context window in marketing to attract advanced users and enterprises.",
+          "split_recommended": false
+        },
+        "source_aware_recursive": {
+          "title": "Fireworks AI platform enables advanced training of large models with flexible methods and massive context windows",
+          "category": "technical_proof",
+          "description": "Fireworks AI offers a comprehensive training platform supporting full-parameter fine-tuning of models up to 1 trillion parameters, including supervised fine-tuning (SFT), direct preference optimization (DPO), reinforcement learning (RL), and custom loss functions. The platform features managed infrastructure, bring-your-own training loops, multi-LoRA serving, fused RL loss for faster PPO, MXFP8 expert kernels, composable 4D parallelism, and supports very large context windows up to 256K tokens with validated training beyond 1 million tokens.",
+          "recommended_action": "Highlight these advanced technical capabilities in marketing materials to emphasize Fireworks AI's leadership in scalable, flexible model training and large context support.",
+          "split_recommended": false,
+          "_group_summaries": [
+            {
+              "source_group": "marketing",
+              "sender_type": "official",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI offers a training platform supporting full-parameter fine-tuning of large models up to 1 trillion parameters with custom loss functions.",
+                "The platform supports managed infrastructure and bring-your-own training loops, enabling flexible training workflows.",
+                "Fireworks AI provides advanced features such as multi-LoRA serving, fused RL loss for faster PPO, MXFP8 expert kernels, and composable 4D parallelism.",
+                "The platform supports very large context windows (up to 256K tokens and validated 1M+ token context training).",
+                "Fireworks AI supports training of state-of-the-art models including Kimi K2.5, Qwen 3.5, Gemma 4, and others from leading organizations.",
+                "The platform supports various training methods including supervised fine-tuning (SFT), direct preference optimization (DPO), reinforcement learning (RL), and custom loss functions.",
+                "Fireworks AI emphasizes that the model and data are key competitive advantages for customers."
+              ],
+              "what_not_to_claim": [
+                "No direct user pain points or feature requests are mentioned.",
+                "No explicit customer success metrics beyond engagement numbers are provided.",
+                "No competitive comparisons or pricing details are included."
+              ],
+              "best_category_hint": "product_launch and technical_proof"
+            }
+          ]
+        }
+      },
+      "scores": {
+        "baseline": {
+          "evidence_fidelity": 90,
+          "category_correctness": 20,
+          "specificity": 70,
+          "actionability": 10,
+          "source_role_awareness": 90,
+          "overall": 40,
+          "major_issue": "Incorrect category: insight is a feature description, not a pain point"
+        },
+        "flat_llm": {
+          "evidence_fidelity": 95,
+          "category_correctness": 100,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 95,
+          "major_issue": "none"
+        },
+        "audit_rewrite": {
+          "evidence_fidelity": 95,
+          "category_correctness": 90,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 95,
+          "overall": 92,
+          "major_issue": "Minor overstatement on context window size (evidence mentions 256K and 1M+ tokens, insight only 256K)"
+        },
+        "source_aware_recursive": {
+          "evidence_fidelity": 100,
+          "category_correctness": 100,
+          "specificity": 95,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 95,
+          "major_issue": "none"
+        }
+      },
+      "winner": "flat_llm"
+    },
+    {
+      "cluster": {
+        "insight_id": "df56d258-9e9f-4f2a-886b-8e078a322dcd",
+        "baseline": {
+          "title": "Reasoning-model claims need a workload-specific comparison against Sonnet 4.5 and GPT-5",
+          "category": "competitive",
+          "description": "The cluster is packed with benchmark comparisons, token efficiency claims, and coding/reasoning positioning. Fireworks should convert that into a focused competitive response that tells buyers which workloads the model wins, where it trails, and how to choose it over top closed models.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "signal_count": 8,
+        "evidence": [
+          {
+            "id": "af09b0c9-0d77-455a-a3b7-b0bb9d68c024",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 164957,
+            "url": "https://x.com/FireworksAI_HQ/status/2065655065860550723",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Moonshot released K2.7 Code, the latest in their K2 line of coding models, and it's live on Fireworks Day 0, on serverless and the API. It produces roughly 30% fewer reasoning tokens than K2.6 while scoring higher on Moonshot’s coding benchmarks. For agentic coding work, that difference adds up fast. Here’s how ↓"
+          },
+          {
+            "id": "03576143-dd94-4c05-9b9b-fc7a1dd8af89",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 20162,
+            "url": "https://x.com/FireworksAI_HQ/status/1881523617915457922",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "🚀 𝗗𝗲𝗲𝗽𝗦𝗲𝗲𝗸 𝗥𝟭 𝗡𝗼𝘄 𝗟𝗶𝘃𝗲 𝗼𝗻 𝗙𝗶𝗿𝗲𝘄𝗼𝗿𝗸𝘀❗ DeepSeek R1, a new best in class reasoning model, is now available on Fireworks Serverless, On-Demand and Enterprise, with reasoning quality comparable to OpenAI's o1 model. This is an early release - we expect improvements in performance and speed soon! DeepSeek R1 is a new best in class for reasoning models, comparable to o1 🥇SOTA open model: Comparable to OpenAI-o1 across math, code, and reasoning tasks 🧠671B MoE parameters with 37B activated parameters, trained with Reinforcement Learning 🔑Distillation with R1: DeepSeek R1 has transparent thinking tokens, and is released under the MIT License, allowing training and tuning of models through distillatio"
+          },
+          {
+            "id": "ba482cee-244f-437b-9df8-c2e062aae430",
+            "platform": "twitter",
+            "sender_type": "employee",
+            "source_group": "creators",
+            "source_class": "unknown",
+            "author": "lqiao",
+            "engagement": 19856,
+            "url": "https://x.com/lqiao/status/1958560748508213424",
+            "title": "Fireworks AI X post by @lqiao",
+            "text": "🚀 Deepseek V3.1 a big step in coding and agentic progress This release focused significantly on multi-step tool usage and agent use cases. It is catching up to Sonnet 4 in coding agent tasks, and beats Sonnet 4 in reasoning and math tasks. The pricing is 6-9x lower than Sonnet 4! Below is a quick comparison between DeepSeek V3.1 and Sonnet 4. @FireworksAI_HQ @deepseek_ai @AnthropicAI"
+          },
+          {
+            "id": "900ba6c0-8438-4fc1-b535-67eefd241d71",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 10332,
+            "url": "https://x.com/FireworksAI_HQ/status/1986904156444237892",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "We're thrilled to announce day-0 support for the groundbreaking Kimi K2 Thinking Model! Here’s what makes it stand out: ---Open-Source Thinking Agent: It is designed to reason step-by-step and dynamically invoke tool calls ---Superior Multi-Step Reasoning: It excels in multi-step reasoning and tool-use, outperforming or on-par performance with Sonnet 4.5 and GPT-5 on 𝜏²-Bench and GPQA Diamond. ---Efficiency and Scale: It leverages native INT4 quantization and a colossal 256k context window. Deploy with Fireworks and transform your production workloads with unmatched efficiency. #ai #kimik2 #opensource https://t.co/KGgoZQ3WYD"
+          },
+          {
+            "id": "b9f7aff9-430e-4fac-8097-6bdc5f03eedc",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 9912,
+            "url": "https://x.com/FireworksAI_HQ/status/1917085426151788656",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Qwen 3 is now live on Fireworks AI! Qwen 3 is a SOTA open-weights model for building AI agents: ➡️ SOTA agentic tool use: Highest ranked open model on BFCL (tool-calling) benchmark, below gpt4-2024-11-20 and above gpt4.5. Tuned to support Model Context Protocol (MCP) tools with the Qwen-Agent framework for multi-step tool usage (function calling), browser actions, and code execution. Fireworks support function calling for Qwen 3 models. ➡️ Top-tier coding and reasoning capabilities: Outperforms many open and closed models on LiveCodeBench, and only three thousands coders on CodeForces are better at competitive coding than Qwen3. ➡️ Hybrid reasoning with enable_thinking: Qwen 3 introduces a d"
+          }
+        ]
+      },
+      "outputs": {
+        "baseline": {
+          "title": "Reasoning-model claims need a workload-specific comparison against Sonnet 4.5 and GPT-5",
+          "category": "competitive",
+          "description": "The cluster is packed with benchmark comparisons, token efficiency claims, and coding/reasoning positioning. Fireworks should convert that into a focused competitive response that tells buyers which workloads the model wins, where it trails, and how to choose it over top closed models.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "flat_llm": {
+          "title": "Competitive positioning of reasoning models versus Sonnet 4.5 and GPT-5 requires workload-specific clarity",
+          "category": "competitive",
+          "description": "Fireworks AI marketing highlights that models like Kimi K2 and DeepSeek V3.1 demonstrate competitive or superior multi-step reasoning and coding performance compared to Sonnet 4.5 and GPT-5 on benchmarks such as 𝜏²-Bench and GPQA Diamond, with notable efficiency gains. However, explicit workload-specific comparisons detailing where each model excels or lags remain necessary to guide buyer decisions effectively.",
+          "recommended_action": "Develop focused competitive messaging that clearly delineates which workloads Fireworks models outperform Sonnet 4.5 and GPT-5, where they trail, and the efficiency or cost advantages to aid buyer selection.",
+          "split_recommended": false
+        },
+        "audit_rewrite": {
+          "title": "Workload-Specific Competitive Positioning Needed Against Sonnet 4.5 and GPT-5",
+          "category": "competitive",
+          "description": "Multiple official and employee posts highlight Fireworks AI models (DeepSeek, Kimi K2, Qwen 3) outperforming or matching Sonnet 4.5 and GPT-5 on coding, reasoning, and multi-step tool use benchmarks, often with better efficiency and lower pricing. These comparisons emphasize the need for a clear, workload-specific competitive narrative to guide buyers on where Fireworks models excel or lag relative to top closed models.",
+          "recommended_action": "Develop focused competitive messaging that clearly delineates Fireworks AI model strengths and weaknesses across coding, reasoning, and agentic workloads versus Sonnet 4.5 and GPT-5, including efficiency and cost advantages.",
+          "split_recommended": false
+        },
+        "source_aware_recursive": {
+          "title": "Fireworks AI models demonstrate competitive multi-step reasoning and coding capabilities with cost advantages versus Sonnet 4",
+          "category": "competitive",
+          "description": "Official marketing highlights Fireworks AI's advanced reasoning, coding, and agentic tool-use features across models like DeepSeek R1 and Moonshot K2.7, emphasizing open-source transparency and deployment flexibility. Employee insights confirm Deepseek V3.1's strong performance in reasoning and math tasks, competitiveness with Sonnet 4 in coding agents, and significantly lower pricing, supporting a focused competitive narrative that clarifies workload-specific strengths and cost benefits.",
+          "recommended_action": "Develop targeted competitive messaging that clearly delineates which workloads Fireworks AI models excel at compared to Sonnet 4.5 and GPT-5, emphasizing Deepseek V3.1's reasoning and coding advantages alongside pricing benefits to guide buyer decisions.",
+          "split_recommended": false,
+          "_group_summaries": [
+            {
+              "source_group": "marketing",
+              "sender_type": "official",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI offers cutting-edge AI models with state-of-the-art reasoning, coding, and agentic tool-use capabilities.",
+                "Fireworks AI supports deployment of advanced models such as Moonshot K2.7 Code, DeepSeek R1, Kimi K2 Thinking Model, and Qwen 3.",
+                "The models provide superior multi-step reasoning, efficient token usage, and large context windows, enabling high performance on benchmarks and real-world coding tasks.",
+                "Fireworks AI supports open-source and transparent models with MIT licensing, allowing training, tuning, and distillation.",
+                "Fireworks AI integrates function calling, tool invocation, and hybrid reasoning features to enhance AI agent capabilities.",
+                "Fireworks AI provides day-0 support for new models and offers serverless, on-demand, and API access for production workloads."
+              ],
+              "what_not_to_claim": [
+                "No direct comparison claims that Fireworks AI models outperform all closed-source models universally.",
+                "No explicit user pain points or feature requests are mentioned.",
+                "No claims about pricing, customer support, or user experience details are provided."
+              ],
+              "best_category_hint": "product_launch and technical_proof"
+            },
+            {
+              "source_group": "creators",
+              "sender_type": "employee",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI's Deepseek V3.1 shows significant progress in multi-step tool usage and agentic capabilities",
+                "Deepseek V3.1 is competitive with Sonnet 4 in coding agent tasks",
+                "Deepseek V3.1 outperforms Sonnet 4 in reasoning and math tasks",
+                "Deepseek V3.1 offers pricing 6-9 times lower than Sonnet 4"
+              ],
+              "what_not_to_claim": [
+                "User pain points or feature requests",
+                "Customer feedback or churn insights",
+                "Any claims about Fireworks AI beyond Deepseek V3.1's technical and pricing comparison"
+              ],
+              "best_category_hint": "technical_proof"
+            }
+          ]
+        }
+      },
+      "scores": {
+        "baseline": {
+          "evidence_fidelity": 90,
+          "category_correctness": 95,
+          "specificity": 85,
+          "actionability": 80,
+          "source_role_awareness": 90,
+          "overall": 88,
+          "major_issue": "The insight is well supported by evidence referencing multiple benchmark comparisons and competitive positioning against Sonnet 4.5 and GPT-5, but it could be more explicit about specific workloads and clearer on recommended actions."
+        },
+        "flat_llm": {
+          "evidence_fidelity": 95,
+          "category_correctness": 100,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 95,
+          "major_issue": "none"
+        },
+        "audit_rewrite": {
+          "evidence_fidelity": 95,
+          "category_correctness": 100,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 95,
+          "major_issue": "none"
+        },
+        "source_aware_recursive": {
+          "evidence_fidelity": 95,
+          "category_correctness": 90,
+          "specificity": 90,
+          "actionability": 85,
+          "source_role_awareness": 95,
+          "overall": 91,
+          "major_issue": "Minor overreach on pricing claims in official marketing; pricing claims come only from employee source."
+        }
+      },
+      "winner": "flat_llm"
+    },
+    {
+      "cluster": {
+        "insight_id": "1e0373ff-3ed4-4b6d-ad5d-815851313e41",
+        "baseline": {
+          "title": "DeepSeek R1 value proposition needs sharper cost-performance comparison against proprietary models",
+          "category": "competitive",
+          "description": "Signals repeatedly describe DeepSeek R1 as cheaper, faster, scalable, and suitable for real-time applications, with full 160K context. This is a strong acquisition opportunity for Fireworks if it can turn those claims into a clear comparison against expensive proprietary alternatives.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "signal_count": 7,
+        "evidence": [
+          {
+            "id": "03576143-dd94-4c05-9b9b-fc7a1dd8af89",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 20162,
+            "url": "https://x.com/FireworksAI_HQ/status/1881523617915457922",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "🚀 𝗗𝗲𝗲𝗽𝗦𝗲𝗲𝗸 𝗥𝟭 𝗡𝗼𝘄 𝗟𝗶𝘃𝗲 𝗼𝗻 𝗙𝗶𝗿𝗲𝘄𝗼𝗿𝗸𝘀❗ DeepSeek R1, a new best in class reasoning model, is now available on Fireworks Serverless, On-Demand and Enterprise, with reasoning quality comparable to OpenAI's o1 model. This is an early release - we expect improvements in performance and speed soon! DeepSeek R1 is a new best in class for reasoning models, comparable to o1 🥇SOTA open model: Comparable to OpenAI-o1 across math, code, and reasoning tasks 🧠671B MoE parameters with 37B activated parameters, trained with Reinforcement Learning 🔑Distillation with R1: DeepSeek R1 has transparent thinking tokens, and is released under the MIT License, allowing training and tuning of models through distillatio"
+          },
+          {
+            "id": "2168631a-80c7-4993-bc61-d77b9a998236",
+            "platform": "twitter",
+            "sender_type": "employee",
+            "source_group": "creators",
+            "source_class": "unknown",
+            "author": "lqiao",
+            "engagement": 19260,
+            "url": "https://x.com/lqiao/status/1902857514825158698",
+            "title": "Fireworks AI X post by @lqiao",
+            "text": "🔥 @FireworksAI_HQ matches @deepseek_ai API pricing 🔥 After significant performance optimization in the past 2 months, we are excited to pass our efficiency improvement back to our users. We launched two additional Deepseek R1 tiers to enhance current tier: 1. base: providing the matching price with the original Deepseek API on self-serve platform. 2. ultra fast: optimized through FireOptimizer for specific workload towards max speed. Enterprise only. Given R1 is an important logical reasoning model, we have been continuously adding features to make development easy on Fireworks AI developer cloud: https://t.co/UzqJpRnn8F Tell us what other features are on your mind. We will build what you ne"
+          },
+          {
+            "id": "6ef9f998-6bc8-451e-acd0-8cfa21f8f3e7",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 11174,
+            "url": "https://x.com/FireworksAI_HQ/status/1882946690593988851",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "🐳 Everyone's buzzing about DeepSeek R1, and Fireworks AI is proud to be hosting DeepSeek R1 and V3 models! Here’s why this is exciting: 👉 It’s open-source under the MIT license, so no closed doors or hidden APIs. 👉 It’s a pro at reasoning, coding, and even solving complex math. 👉 It’s cheaper, faster, and totally scalable—perfect for startups or anyone tired of breaking the bank on proprietary models. 👉 Operational expenses are estimated at only around 15%-50% based on the input/output token size on Fireworks AI Checkout the detailed blog about DeepSeek AI R1 model: https://t.co/wvd1GCqTsA ------------- Want to run your open-source models on the fastest and most efficient inference engine? T"
+          },
+          {
+            "id": "7fec75e5-132f-4a6a-9a74-5c46572337e0",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 8459,
+            "url": "https://x.com/FireworksAI_HQ/status/1887674357184667673",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "🚀 DeepSeek R1 leads in performance—now even more accessible DeepSeek R1 continues to lead for developers, outperforming competitors in key areas: 1️⃣ #1 Open Source Model for Web Arena – Ahead of O3-mini-high in web-based tasks (https://t.co/DuZZzKmpTr) 2️⃣ Top Choice for Coding – Leading O3-mini with enhanced style control 3️⃣ Fireworks Deployment Optimized for Performance – Now even faster with latency and throughput improvements. Dedicated deployments achieving 95 t/s on Fireworks. Reach out if you are interested in learning more. (https://t.co/EUlmnRFnZG) Plus, DeepSeek R1 is now even more accessible, with V3 soon to follow: ✅ New pricing for R1: Now $3/$8 (was $8/$8) – effective today ✅"
+          },
+          {
+            "id": "92b7c579-61f0-4075-a351-40fdcca9ff33",
+            "platform": "twitter",
+            "sender_type": "official",
+            "source_group": "marketing",
+            "source_class": "unknown",
+            "author": "FireworksAI_HQ",
+            "engagement": 3926,
+            "url": "https://x.com/FireworksAI_HQ/status/1902823918429405509",
+            "title": "Fireworks AI X post by @FireworksAI_HQ",
+            "text": "Fireworks AI matches DeepSeek pricing for R1, with secure deployments in EU and US Excited to share the latest enhancements to our DeepSeek R1 offerings: 💡 Base DeepSeek R1: Cost-effective and high-quality throughput for real-time applications (Endpoint: deepseek-r1-basic) 🚀 Ultra-Fast DeepSeek R1: Up to 130 tokens/sec for lightning-fast interactions on Fireworks Enterprise. ⚡ Fast DeepSeek R1: Balanced performance at 90 tokens/sec, optimized for interactive applications on Fireworks Serverless. (Endpoint: deepseek-r1) With specialized versions of FireAttention and tailored distributed inference, we're pushing the envelope for speed, efficiency, and cost-effectiveness in agentic products. Mo"
+          }
+        ]
+      },
+      "outputs": {
+        "baseline": {
+          "title": "DeepSeek R1 value proposition needs sharper cost-performance comparison against proprietary models",
+          "category": "competitive",
+          "description": "Signals repeatedly describe DeepSeek R1 as cheaper, faster, scalable, and suitable for real-time applications, with full 160K context. This is a strong acquisition opportunity for Fireworks if it can turn those claims into a clear comparison against expensive proprietary alternatives.",
+          "recommended_action": null,
+          "split_recommended": false
+        },
+        "flat_llm": {
+          "title": "DeepSeek R1 positioned as cost-effective, high-performance alternative to proprietary models with matched pricing and scalable deployment",
+          "category": "competitive",
+          "description": "Fireworks AI highlights DeepSeek R1 as an open-source reasoning model with performance comparable to OpenAI's o1, offering cheaper, faster, and scalable options suitable for real-time applications. Pricing is matched to DeepSeek's original API, with multiple tiers optimized for speed and throughput, supported by efficient Fireworks deployments and transparent licensing.",
+          "recommended_action": "Develop clear comparative marketing materials that emphasize DeepSeek R1's cost-performance benefits versus proprietary models to strengthen acquisition messaging.",
+          "split_recommended": false
+        },
+        "audit_rewrite": {
+          "title": "DeepSeek R1 positioned as cost-effective, high-performance open-source alternative to proprietary models",
+          "category": "competitive",
+          "description": "Multiple official Fireworks AI marketing posts highlight DeepSeek R1 as a best-in-class reasoning model with performance comparable to OpenAI's o1, emphasizing its open-source MIT license, scalability, and significantly lower operational costs (15%-50% of proprietary alternatives). An employee post confirms pricing parity with DeepSeek API and introduces optimized tiers for speed and cost, reinforcing Fireworks' competitive positioning.",
+          "recommended_action": "Develop clear, data-driven cost-performance comparison materials contrasting DeepSeek R1 with proprietary models to strengthen acquisition messaging and developer adoption.",
+          "split_recommended": false
+        },
+        "source_aware_recursive": {
+          "title": "DeepSeek R1 launch and pricing strategy reinforce competitive cost-performance positioning",
+          "category": "competitive",
+          "description": "Official marketing posts highlight DeepSeek R1 as a best-in-class, open-source reasoning model with performance comparable to OpenAI's o1, offering cheaper, faster, and scalable deployments with multiple optimized tiers and secure regional hosting. Employee signals confirm matched pricing to Deepseek AI API and ongoing performance optimizations, supporting Fireworks AI's narrative of a cost-effective, high-performance alternative to proprietary models.",
+          "recommended_action": "Fireworks marketing should develop clear, side-by-side cost-performance comparisons against proprietary models to sharpen DeepSeek R1's acquisition appeal and emphasize new tier options and deployment flexibility in messaging.",
+          "split_recommended": false,
+          "_group_summaries": [
+            {
+              "source_group": "marketing",
+              "sender_type": "official",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI has launched DeepSeek R1, a new best-in-class reasoning model comparable to OpenAI's o1 model in math, coding, and reasoning tasks.",
+                "DeepSeek R1 is open-source under the MIT license, enabling transparent model training and tuning through distillation.",
+                "Fireworks AI hosts DeepSeek R1 and V3 models, offering a cheaper, faster, and scalable alternative to proprietary models with operational expenses estimated at 15%-50% based on token size.",
+                "DeepSeek R1 leads in performance for web-based tasks and coding, outperforming competitors like O3-mini-high, with optimized Fireworks deployments achieving high throughput and low latency.",
+                "Fireworks AI has introduced new pricing for DeepSeek R1, making it more accessible, and offers multiple deployment options (Base, Fast, Ultra-Fast) with specialized optimizations for speed, efficiency, and cost-effectiveness.",
+                "Fireworks AI provides secure deployments of DeepSeek R1 in EU and US regions."
+              ],
+              "what_not_to_claim": [
+                "Any user pain points, feature requests, or negative feedback about DeepSeek R1 or Fireworks AI.",
+                "Claims about customer churn or dissatisfaction.",
+                "Unverified technical limitations or performance issues not mentioned in the official marketing posts."
+              ],
+              "best_category_hint": "product_launch and technical_proof"
+            },
+            {
+              "source_group": "creators",
+              "sender_type": "employee",
+              "platform": "twitter",
+              "supported_claims": [
+                "Fireworks AI has matched Deepseek AI API pricing on their self-serve platform.",
+                "Fireworks AI has significantly optimized performance over the past two months, improving efficiency.",
+                "Two new Deepseek R1 tiers have been launched: a base tier matching original Deepseek API pricing and an ultra fast tier optimized for maximum speed (enterprise only).",
+                "Fireworks AI is continuously adding features to support development on their developer cloud, especially for logical reasoning models.",
+                "Fireworks AI is open to user feedback for building new features."
+              ],
+              "what_not_to_claim": [
+                "No direct user pain points or feature requests are mentioned.",
+                "No explicit customer success stories or competitive comparisons beyond pricing are provided.",
+                "No negative feedback or churn indicators are present."
+              ],
+              "best_category_hint": "technical_proof and marketing_narrative"
+            }
+          ]
+        }
+      },
+      "scores": {
+        "baseline": {
+          "evidence_fidelity": 90,
+          "category_correctness": 100,
+          "specificity": 85,
+          "actionability": 70,
+          "source_role_awareness": 90,
+          "overall": 85,
+          "major_issue": "The insight suggests a need for a sharper cost-performance comparison, which is not explicitly requested in the evidence but is a reasonable synthesis; however, the recommended action is null, reducing actionability."
+        },
+        "flat_llm": {
+          "evidence_fidelity": 95,
+          "category_correctness": 100,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 95,
+          "major_issue": "none"
+        },
+        "audit_rewrite": {
+          "evidence_fidelity": 95,
+          "category_correctness": 100,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 100,
+          "overall": 95,
+          "major_issue": "none"
+        },
+        "source_aware_recursive": {
+          "evidence_fidelity": 95,
+          "category_correctness": 90,
+          "specificity": 90,
+          "actionability": 90,
+          "source_role_awareness": 95,
+          "overall": 92,
+          "major_issue": "Minor overreach in claiming 'supporting Fireworks AI's narrative' which is interpretative but well grounded"
+        }
+      },
+      "winner": "flat_llm"
+    }
+  ]
+}

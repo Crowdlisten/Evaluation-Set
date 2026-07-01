@@ -1,0 +1,66 @@
+{
+  "counts": {
+    "cases_total": 4550,
+    "deterministic_source_gold_seed": 67,
+    "review_queue": 160,
+    "training_blocklist": 3266
+  },
+  "created_at": "2026-07-01T06:43:19.056240+00:00",
+  "gold_seed_role_counts": {
+    "community_member": 5,
+    "competitor_official": 2,
+    "employee": 30,
+    "official_brand": 30
+  },
+  "issue_counts": {
+    "existing_failure:mixed_cluster": 16,
+    "existing_failure:official_marketing_as_feedback": 57,
+    "existing_failure:source_role_blindness": 14,
+    "existing_failure:wrong_category": 57,
+    "low_signal_text": 37,
+    "market_insight_from_owned_only": 96,
+    "mixed_content_types": 16,
+    "opinion_from_owned_or_competitor_source": 3069,
+    "opinion_too_short": 18,
+    "positive_marketing_claim_as_opinion": 2025,
+    "unknown_source_role": 66
+  },
+  "notes": [
+    "Only deterministic source provenance fields are marked reviewed.",
+    "Opinion, insight, and cross-entity cases remain review-required before training.",
+    "Cases flagged for owned marketing as feedback or unsupported buyer inference should not enter training until corrected."
+  ],
+  "task_counts": {
+    "cross_entity_competitive_synthesis": 10,
+    "insight_synthesis": 188,
+    "opinion_unit_quality": 3560,
+    "source_classification": 792
+  },
+  "task_risk": {
+    "cross_entity_competitive_synthesis": {
+      "avg_severity": 0.0,
+      "cases": 10,
+      "flagged": 0,
+      "max_severity": 0
+    },
+    "insight_synthesis": {
+      "avg_severity": 4.059,
+      "cases": 188,
+      "flagged": 129,
+      "max_severity": 13
+    },
+    "opinion_unit_quality": {
+      "avg_severity": 1.454,
+      "cases": 3560,
+      "flagged": 3116,
+      "max_severity": 3
+    },
+    "source_classification": {
+      "avg_severity": 0.027,
+      "cases": 792,
+      "flagged": 21,
+      "max_severity": 1
+    }
+  },
+  "version": "fireworks_ground_truth_audit_v1"
+}

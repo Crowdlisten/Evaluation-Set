@@ -1,0 +1,80 @@
+{
+  "target": {
+    "entity_id": "86e21e31-35d9-46a9-9999-527e6c227dfa",
+    "entity_name": "Fireworks AI",
+    "role": "target"
+  },
+  "competitors": [
+    {
+      "entity_id": "11005556-c5b1-40de-ba28-29ada67a9c9c",
+      "entity_name": "Baseten",
+      "role": "competitor",
+      "handles": ["@baseten"],
+      "domains": ["baseten.co", "docs.baseten.co"]
+    },
+    {
+      "entity_id": "d979009d-7a1f-4bb9-bfc7-8b8318038228",
+      "entity_name": "Modal",
+      "role": "competitor",
+      "handles": ["@modal_labs"],
+      "domains": ["modal.com"]
+    }
+  ],
+  "comparison_axes": {
+    "serving_deployment_workflow": [
+      "serving",
+      "deployment",
+      "deploy",
+      "production",
+      "endpoint",
+      "serverless",
+      "dedicated",
+      "routing",
+      "workflow"
+    ],
+    "latency_performance_reliability": [
+      "latency",
+      "throughput",
+      "benchmark",
+      "performance",
+      "reliability",
+      "uptime",
+      "tokens/sec",
+      "cold start",
+      "scale"
+    ],
+    "pricing_procurement_cost": [
+      "price",
+      "pricing",
+      "cost",
+      "credits",
+      "budget",
+      "procurement",
+      "contract",
+      "gpu cost"
+    ],
+    "developer_experience_docs_onboarding": [
+      "docs",
+      "documentation",
+      "setup",
+      "quickstart",
+      "tutorial",
+      "claude code",
+      "cursor",
+      "api key",
+      "onboarding"
+    ],
+    "fine_tuning_post_training": [
+      "fine-tuning",
+      "fine tuning",
+      "post-training",
+      "post training",
+      "sft",
+      "dpo",
+      "rft",
+      "rl",
+      "lora",
+      "adapter"
+    ]
+  }
+}

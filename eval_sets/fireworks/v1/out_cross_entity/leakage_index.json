@@ -1,0 +1,1310 @@
+{
+  "cases": [
+    {
+      "case_id": "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "source_set_hash": "sha256:6a30c27f83b34c9c32ac2975f1287487866f3e6e8d9a210dac2ac06dbeec36cd",
+      "input_hash": "sha256:fa9176e6eaa1506860ed3e5ea2be1048a5c4f12a8a9d8857d3220e6a5c56f72b"
+    },
+    {
+      "case_id": "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "source_set_hash": "sha256:9a98014d56bb8a80c1e32471a838742b9dc32b481f02addd29bc8d9bb9cbfca7",
+      "input_hash": "sha256:6bcae5db0141f2be307263accded9f00708bd06df91958f187553f67b9140fe2"
+    },
+    {
+      "case_id": "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "source_set_hash": "sha256:b2cc7f51a85578f3b380606fde6439f5b786e5f63abca96b0d34af7e38826b6c",
+      "input_hash": "sha256:0b7be73c72ab6026a6775c7aa43d734c6eb4b5f7cccc312c9648d08f3a9c6d48"
+    },
+    {
+      "case_id": "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "source_set_hash": "sha256:bbc6b4099359d05ced592209fc2a5ac6722238d16ce3064f71645af3a36124ad",
+      "input_hash": "sha256:5c22a7a2071a73a3e86f441a78f1b9cf6ae3bfb3f7f217cd00f2cb3a47ab0b7f"
+    },
+    {
+      "case_id": "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "source_set_hash": "sha256:9bf570d4e91b9a533dd2bb58804e63997e3698525e5842553f4bc33c04f67946",
+      "input_hash": "sha256:2596725fdad4b99b2e0b2d46b7a5feea71f33f3f79b15e3ca2699371e3935956"
+    },
+    {
+      "case_id": "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "source_set_hash": "sha256:0e488a0ba5b2d342eb50e6501c34f00196af7da1250371679f2577bec6c8e3c7",
+      "input_hash": "sha256:04b9391cc1bf0e3ed9bc0132f26899ce2458b7e2b859f7636ad9c5de05f7d674"
+    },
+    {
+      "case_id": "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "source_set_hash": "sha256:65f8d214dd18472853cf718fa4095309a33f94916a9e91c9c758c0e7ca1bc40e",
+      "input_hash": "sha256:84be81b53e18f0ad74c7cda6208a42132117d738f9f744e3c503bee16f6574ca"
+    },
+    {
+      "case_id": "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "source_set_hash": "sha256:a5b8853d8921f78f01e8b6ed96802238be8a8174715f501e6149b54f3523448f",
+      "input_hash": "sha256:8195b93b87a4ae953fcdca0a154e4ec18878b65a348696f8c5fe7d1f3b85dbd9"
+    },
+    {
+      "case_id": "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b",
+      "source_set_hash": "sha256:62f767f94efb749d58cd3acb0932d205d6f018771bccbee397308d0e0478e94e",
+      "input_hash": "sha256:1f070cb85ec1aaca42e0aed5b3f96a421eb2a4b8eb981b0c98eecfdcd7ba4d10"
+    },
+    {
+      "case_id": "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f",
+      "source_set_hash": "sha256:3765b7d6016cc957af4570cadf2aa8c759f032748280aeb4e52e986a1093bac4",
+      "input_hash": "sha256:3351b2a5e5e5e21bb68139f828ec19e7a2a6db0b0b9c824e31def86090ab6d48"
+    }
+  ],
+  "source_id_to_cases": {
+    "18aeddfa-d874-452f-818f-960b187090bb": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "3606a36c-cb90-4be7-acdf-d27961304e15": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "d0879e03-142c-4995-b403-b90971393028": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "b0d4e785-7c96-4e29-9212-70cb24f75697": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "242318d7-505f-40b7-8268-a49f2aa57fdf": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "e429a32c-c570-4c30-a2dd-6339a119d5c4": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "0bd6ce9e-e2fd-4ab0-8047-cb06beee9ac1": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "35d088ef-9487-413e-ab7f-adf78ad8fc65": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "49287260-8b20-4871-81c0-8e5a0d8a2347": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7"
+    ],
+    "bcf4fb78-2aff-4d30-b4ba-04955379fd60": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "c20bf988-4405-440d-abb3-f2b0e5b6dc02": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "8ad64808-064b-40fa-a7d7-785be43d7175": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "3138e594-7eb3-46e8-94a5-ac7d499861ef": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+    ],
+    "4cd1d815-9749-4bf4-83c7-51623198afa6": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+    ],
+    "e17ba40c-c44c-4422-9277-f4da5eaa2859": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+    ],
+    "b8485e7d-e694-47e0-b210-2831ffa6d525": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+    ],
+    "47c0d80a-afd4-488b-8f42-645092d41173": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "7c2cfcf7-7cd5-4fae-8a0d-22c284cc637c": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "2b165818-74ab-4e6d-99ad-d9f3437cdf81": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "92ff2a15-09bf-40e9-9a91-5d3ccd608570": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "505d2e63-ae6b-4333-9a7e-1573bc78dcf2": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "29df26e4-1b56-4506-b89d-3f2220b56495": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "c0c3b739-3278-4f74-82e3-2e55433b5bce": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "1ee6c306-ce3f-4e51-8be8-bcc53da8304e": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "6073d352-60c5-45db-95db-02d41f75cff6": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "812c3590-6607-4e4a-a2c6-4364dc1acb1f": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "40afc31d-0921-4443-9a95-3a4ee0c0218c": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "4c377443-0d6f-4bab-9ef6-ac3b38518909": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "282556ad-ca00-4428-a5ad-87bb29adb7dc": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "cb610dbb-d4d9-4b82-8a57-9145af450d3d": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "143b2513-13f7-441a-9b37-143e02f1433a": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "7c9c4499-a403-4d2e-ae44-6a2bf8425704": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "1dd21ea4-ec73-4b0e-8045-d6b62f93a661": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "e4f2dd86-def2-408c-8eff-72bec7d4854f": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "d1bf9640-f5c7-47d9-90f3-eab7aeda4f5f": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "e15a2170-30fe-477d-bd24-2457b0c00563": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "35cbb8ac-e0fe-449a-877b-d322cb8d6c3f": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "0c8c177c-3823-440a-aa40-e7a80f73c7e4": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "d017eda3-5780-4769-8656-0fc1e84f47ae": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7"
+    ],
+    "40e21b77-250d-40b4-b57b-eba2860f8ddf": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "263ee244-d779-43af-9a32-994dcd27bc1e": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "d27b0286-87ab-4539-8ada-e339e3c55ca6": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "2dfaa6ea-c063-4a22-b7ed-96afa21a02d8": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "8edb6a30-2d40-4394-a6ec-6ed4626e75ec": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "9406c2b9-5ec6-4546-b063-780f32f9b06e": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "0fa67d8f-4ff9-4c1e-a8d6-938a9bed8b11": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "6abc441e-b807-48f3-80ad-8efbf9a71ce0": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "a1f7056c-7457-4e4a-9092-fffd4ef7a7a0": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "191fc41d-ed18-4d3b-88cc-0b1fbab0eb45": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "3d3d455b-913d-4f75-b600-bd0121ce93eb": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "9936b410-54b1-4234-b85b-99d46ef61d99": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "5cb1e789-6d4f-439a-a2b3-0451c2032183": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "70efad5f-a04c-40c2-9f28-7f41ec3333ba": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "84c9254a-1aac-4190-aeb1-cb794d3c3a47": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "58c8b2e1-7afe-495c-9db1-cc9189cd77ba": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "500e6863-750f-4e6d-859e-d2315dab81e6": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "144287b6-cc37-445c-a713-f906739451bb": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7"
+    ],
+    "2ba52bb0-f68e-4904-a6ba-f5249eaa6660": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7"
+    ],
+    "96ace285-2fc5-435c-8fba-3ac82c908bc7": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "e359f384-9640-46a5-899b-6a936f389c71": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "29f31f6f-30cd-4e90-8d8d-2aed32580612": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "29953a25-cb88-43b6-ac88-7fdc301e2236": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "bf35fed2-c99d-49cb-a2f1-54146eb598b3": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "1704bd42-bde5-4676-bb01-904a39c7b319": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "24a67462-677a-40b1-ac1a-be3e04c3cd52": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "918526de-42b8-4845-a302-70285626c1db": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "fdba1980-918c-413a-b855-d629f5399890": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "0073a6f5-bf9b-427d-847b-acad37afac10": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "13512f19-e578-4569-a894-55fbd3198309": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "107a7953-9784-486a-9c81-94270f297547": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "c4cb33d3-6d82-409e-8f9c-93533e220aa8": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "4cb3f7e3-a733-4ae0-93a8-db7049ee9f47": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "6d3a01ba-191e-43fa-b192-bd7b175798a0": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "bfab7288-5200-4549-8bb0-009160592918": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "a320beef-8e3f-4971-88e1-a01fe8d8ac6d": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "340f2ce1-0874-4df2-806c-04e71c62ef1b": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "2149b5f2-e2b4-42ea-a260-0bba651eb764": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "f8a71656-c695-4ce6-9b31-e6c56bd8ec26": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "c31236bb-23ea-464f-8804-922c632b0969": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "b537f5cb-e484-48ca-a1ab-d28790a1c116": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "100af98f-36c1-4db2-9769-f05ae9f12b94": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "49fa62f8-2cd1-4b8a-94d2-d005803bd698": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "69373cc7-76a5-40a6-9c9c-c40dd1e7871f": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "0ff6a6de-c4fe-4aa0-8c4f-25c19ab5ebc5": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "81164124-8ec3-4cfc-8476-a9ddaa1fc682": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "6a262124-000c-4521-a13b-4ff00e316a88": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "4850942e-a7ce-4ca5-beef-4fb61bc3e874": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "8ef86b2f-6de4-400d-ba21-855e21de612a": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "318efe0d-17ed-47f5-905c-9676b99f32d3": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "cc737f88-9b16-4d47-b607-9832a0344e09": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "fdad3cd3-2618-4a0e-8286-bd91d238b5a9": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "9552ea84-33fc-482a-a4dd-174b5e86866e": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "8d0c656c-baf3-4a91-841d-59e789e5adcb": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "457ff5d0-0b9c-48ef-8c9c-9f1fc85fc8f8": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "e2b0649b-679f-466e-89ef-e1ca0ffd5843": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "ee1e75a3-d231-4690-ac24-15ea43f79b51": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "14da1a15-6e8f-453d-a917-841b4f345c0b": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "87a80b52-e59b-49db-9e56-e955083d9a78": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "c0ac8155-2ad9-440a-9829-3e56699df0f0": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "e26d7c50-af5c-4ef8-b990-8ce59e0074fd": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "ed9e59e5-a3f7-4c39-9eba-d5d8cd0477ab": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "50cbb19f-de0c-492a-901a-8279a2938177": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "8af22169-9ac6-48df-bbcd-6750e19c0abc": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "20753cc2-bb59-43c3-a88d-b13305c3bf87": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "dd590b4b-df44-4ea5-9f54-e56535d73f88": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "a2db2e7c-4d9b-492c-99eb-4f12a295a678": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "58835cf1-7bc4-4abf-8c64-fcd01d538de5": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "511b856f-7bac-4b33-b74f-026ca1ba38a5": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "56043e57-65a2-4b79-8a64-1d49f949e434": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ]
+  },
+  "url_to_cases": {
+    "https://fireworks.ai/blog/best-llm-api-providers": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://fireworks.ai/": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "https://fireworks.ai/models/fireworks/deepseek-r1": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://docs.fireworks.ai/serverless/overview": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://fireworks.ai/blog/why-gpus-on-demand": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://fireworks.ai/blog/custom-models-h100s-on-demand-deployments": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://x.com/FireworksAI_HQ/status/1933232922271809905": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "https://x.com/FireworksAI_HQ/status/1960010007291769258": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "https://docs.baseten.co/concepts/howbasetenworks": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7"
+    ],
+    "https://baseten.co/": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "https://www.baseten.co/": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "https://docs.baseten.co/training/overview": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "https://x.com/baseten/status/2049141952692752472": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+    ],
+    "https://x.com/baseten/status/2052787673316905067": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+    ],
+    "https://x.com/baseten/status/2059651376565936510": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+    ],
+    "https://x.com/baseten/status/2024564357062152546": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+    ],
+    "https://findaichat.com/compare/baseten-vs-fireworks-ai": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "https://alatirok.com/ai-inference-providers-2026-modal-replicate-fireworks-groq-together/": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "https://markaicode.com/best/best-fireworks-ai-production-practices/": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://www.respan.ai/market-map/compare/fireworks-ai-vs-modal": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://x.com/FireworksAI_HQ/status/1927806800860172381": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://x.com/FireworksAI_HQ/status/1885409402779558172": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://x.com/FireworksAI_HQ/status/1910031141031264325": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://x.com/FireworksAI_HQ/status/2011529229733937269": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://x.com/baseten/status/1981757270053494806": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "https://x.com/baseten/status/2009721846795546952": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "https://x.com/baseten/status/1978883986924634551": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "https://x.com/baseten/status/2021268765141545080": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "https://x.com/baseten/status/2065566063224672425": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "https://x.com/baseten/status/2020936990334779815": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "https://infrabase.ai/blog/ai-inference-api-providers-compared": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://eastwind.substack.com/p/a-deep-dive-on-ai-inference-startups": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://www.langchain.com/blog/open-models-have-crossed-a-threshold": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://fireworks.ai/pricing": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://docs.fireworks.ai/serverless/pricing": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://fireworksai.mintlify.app/firepass": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://fireworksai.mintlify.app/serverless/pricing": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://x.com/baseten/status/2062219741536940348": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "https://www.baseten.co/blog/how-to-run-glm-52-in-any-harness/": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7"
+    ],
+    "https://x.com/baseten/status/2067340732461904324": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "https://x.com/baseten/status/2054976770789769513": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "https://x.com/baseten/status/1995558630226362693": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "https://x.com/baseten/status/2065100012934095171": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "https://x.com/baseten/status/2022456010049495213": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "https://x.com/baseten/status/1976732163619070461": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "https://www.digitalocean.com/community/tutorials/ai-workflow-focused-clouds": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://rywalker.com/research/ai-inference-platforms": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://www.digitalocean.com/community/conceptual-articles/ai-workflow-focused-clouds": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://docs.fireworks.ai/fine-tuning/quickstart-math": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://fireworksai-docs.mintlify.app/fine-tuning/cli-reference": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://docs.fireworks.ai/ecosystem/integrations/claude-code": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://docs.fireworks.ai/fine-tuning/reinforcement-fine-tuning-models": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://docs.fireworks.ai/ecosystem/fireconnect/claude-code": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://docs.fireworks.ai/fine-tuning/finetuning-intro": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://x.com/FireworksAI_HQ/status/1960840358985916931": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://docs.baseten.co/training/getting-started": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "https://x.com/baseten/status/2069229283122512108": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7"
+    ],
+    "https://docs.baseten.co/development/model/custom-model-code": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7"
+    ],
+    "https://www.baseten.co/blog/fine-tuning-small-open-source-llms-to-outperform-large-closed-source-models-by-60/": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "https://x.com/baseten/status/2069097489794527537": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "https://github.com/TonyGeez/claude-code-fireworks-router": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://github.com/r-keenan/openclaude": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://libraries.io/npm/claude-code-fireworks-router": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://x.com/Prof_OZ/status/2069553568378659128": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://docs.fireworks.ai/fine-tuning/managed-finetuning-intro": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://fireworksai.mintlify.app/fine-tuning/managed-finetuning-intro": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://fireworksai-docs.mintlify.app/fine-tuning/training-api/cookbook/dpo": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://x.com/FireworksAI_HQ/status/1922073209807282423": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://docs.fireworks.ai/fine-tuning/rft-parameters-reference": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://x.com/baseten/status/1998853665441173920": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "https://x.com/baseten/status/2067673473116168263": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "https://x.com/baseten/status/2061878701823066431": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "https://x.com/baseten/status/2036459754919526543": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "https://fireworks.gitbook.io/fireworks": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://modal.com/docs/guide/high-performance-llm-inference": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://x.com/modal/status/1932499588826452470": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://x.com/modal/status/1950263898390864068": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "https://x.com/modal/status/1995919407886073876": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://x.com/modal/status/1904894652240572911": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "https://modal.com/": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://x.com/modal/status/2041820302737600591": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "https://x.com/modal/status/1905327269008343137": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "https://x.com/modal/status/1957865381613224050": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://x.com/modal/status/2008669591032205579": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://x.com/modal/status/1984313414102237562": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://x.com/modal/status/2021645801714557192": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://x.com/modal/status/2057176713667256529": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "https://x.com/modal/status/2026341386241671307": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://x.com/modal/status/2062528720104227149": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://x.com/modal/status/2019807847018815986": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://x.com/modal/status/1907126466430558641": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://x.com/modal/status/1971676907671638183": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://x.com/modal/status/1930702996460937411": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://x.com/modal/status/1902408376799424867": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "https://x.com/modal/status/1957439592791244899": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://x.com/modal/status/1956354950407278928": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://x.com/modal/status/2049572570647732417": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://x.com/modal/status/1958910039500234883": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://x.com/modal/status/1984313455441248688": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://x.com/modal/status/1932499592689693088": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://x.com/modal/status/1919414136099762626": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://x.com/modal/status/1912191145528242315": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "https://x.com/modal/status/2032174537345814715": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://x.com/modal/status/2061498035855671677": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://x.com/modal/status/2069483141325365746": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://x.com/modal/status/2037171536717549638": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://x.com/modal/status/2021645783733616800": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://x.com/modal/status/2041820290716729379": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "https://x.com/modal/status/2066558831099093401": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ]
+  },
+  "text_hash_to_cases": {
+    "sha256:da38331d99ae4280f3aff453016b89e32639fcee711092d067f3fc2fd04d3c0b": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:928668f9809dad42cd020d44f42d9a01bac941577be653618904a52c01006b5a": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "sha256:3307e24b82d179a0ab90332def2e8cd9cb9bd9f9449be991c9c38bd7bb2cd834": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:7eb7dca3d66c6de651dc3d6aa59c5605627c2d489d9a60e1b5e47f5d08a112ca": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:b8fb036023c2e2142d612b7d175f1d2df52103db7806dae697f79e307c65f0b3": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:593194c496ef8e2a762081416a6a58f1512cede45dd3219ab6dbf10aeac17d4a": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:b98e0444f6bc9f6e06c719ea1be3cc35f6e5360518e9933eccaf2a2dba7ebb08": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "sha256:5c64a787726c7c74b25801e9a7c34f51645677fa30fd1dff93edaffc074fd75a": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "sha256:9b9ec51bb70c4f03ab453db43c23ecd81a30dbfb478627ed8822bc00c8cf09a5": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7"
+    ],
+    "sha256:fa1d325edc0649ff3bf0809232574c72bf9aefda8830ab5fe0d559bc9a1e56fd": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "sha256:d2aa25774836e4af26653aa9e600e9ed314c0534a5600b385e55d90587fbe2ce": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "sha256:c2e3978f3ca1b905657594d98ff06c53c54e15f7c76fd225f7066f4ca339c5a0": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "sha256:e06978db0ce2194a5f8b8d94974b5d1873f52c66816209cb198eca9b91687251": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+    ],
+    "sha256:02f9916194f936e76e1384a7a5f91e2416a15086980f960d396142858a186554": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+    ],
+    "sha256:4a79123acf145905120fa5c6854f98dec2fee674d0016d79c84fd2a171b4069e": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+    ],
+    "sha256:dc80209ec2e9ad7b24ea0185940f7adc63f56ae601e7a0a85869d3d82c630cf7": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+    ],
+    "sha256:5882f330f31cc9ab79e2bd862941951f2f86af8d1da8bef6d7501ac60989242d": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "sha256:7497b1cfc1e43556e55051b4835c65aa396dc8ae02d351d13e0c28667430ae6a": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "sha256:97ad37032d2b73f48b51b9a1180799d3665281888ccf0d1c39fd0feeb27720d4": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:7aa46be68e9ba17a5f543ac085ae7771659318bc7f8417258c2e64fd6e477a9c": [
+      "fw_v1_cross_entity_competitive_synthesis_e77f748a8586",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:3cd6e692acc9c1fc90a5b52f5870e8248438e63adf539a820cfb1d980ec9a0e9": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:f6e4d14899a6c0af4c137d3c78241000fed7c9e9ec017fa9e46549635fd173e9": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:0162edcc1e274a7bffa6ec3758478faf14ce8df43374a1c4362307447403f21a": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:e38a7d5cadb3bb21277f467441a5fe91ca22507685ba92b5bbe04efca858234a": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:5af9b5435daf630b3a44eef94c37497ff436a54e65ea00dfadbb1b8e6c072946": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "sha256:ecd4e5d6bf484bbe148ec2397fcc7305f75c2f0cc4f27d43f654979965e821bd": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "sha256:bc0ea53373ad4ba08348df87bbe1a6a0b85db7e5e739fa327f5f65883da3ca88": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "sha256:2a892e189367a48128848cbe6ddc5b4bb67befc562f8600fc19b914f68dac8a4": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "sha256:d2b9db2ec31ad0c57536a5d20ff310fd5c4753c9fd0271aafaed21b57953f61d": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "sha256:8bf85865f1f631b3bdc72ce2e0c47588fa4ba96bcfdaf2b6456aaea1d5e9a53a": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59"
+    ],
+    "sha256:8347015505cdc39e8800623158e0151e27677ff3ced0b5b121253ec9e09d47a7": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:7bf7689cbed4e3e94458cd057ee953432e91ab1082ae1cc5ee7fc4bc4c039dd9": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:0e3ca9b56bbe5eba9d9d11af64dac9e9b4ed1b1a76ef36bd48b88900c34c9572": [
+      "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:55f38d74c7019e21472f43f5a09c2953697348a7c030260f1775af0a217500ba": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:ab2997a0defddc3d7c57cc76e84a8e27ec867bb79b3f011e8a123c196ac00984": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:53610cc15202147d0a9899546fda0f5bc00732c1981d57074e7023140278c4a2": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:668813be01a30eda68ee14e2b542dfe0190cd4199b3fe95ff192a06f502aea7c": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:ce02f45c109e475c5c1a031867b689a593ad9ae806078358c0fcc81dc3623453": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "sha256:012743d521cc2246f59c910bb292c5d69bcbdd8dbdefe3b8d294f3e1951d3f87": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7"
+    ],
+    "sha256:1a3ff7a860899f4b0c0952dc485b31a2ffa4a7cad1d131fa6e419a0d90e4e456": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "sha256:fcd13e4da9f14d4269c88d07384f263dea624cdd131587ded1c140cb35093034": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "sha256:f21760e4d7bae9d3bc147d3e7946d31f5fd348b4e1e1c4a19ea14689bbb52354": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "sha256:0a378404ddc5ee494583373125b76b58b1651193104f3dac7f4450978114e837": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "sha256:26544f0f03368dccb2c60777de5bccb73787e2800f0554d4cec4caf07c09a829": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "sha256:1836b12a9192bf7e78027b94e4f526145424fd25dc9bfc57537d916f6df65043": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871"
+    ],
+    "sha256:15900676c267fffcb9dd909c64b2a849db1165fa942fab018ee921e2ffe43c7c": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:21ddf194df7c664008aab57e7683a1a36eb5a8dc8d985448c7fc474ef8ae8bfb": [
+      "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:981be6a0512e886c8907879addf0f516c01a3f0c0524f232f65c67810f63850a": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:036bc40e57d5b410fc6947e3093afb89ff039b1303a7a8eaa123647b66344a51": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:e20e99f2cc6c2af9f0e0f6b52e5418042f4877b9972e82455e0dccfee77ab6b7": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:4166b69f344d806030dc4cf15b235e0d193d6dd0d3096db526ac43e3117b9041": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:8cd58931e218398fe12ea7eacd49da6312c3b3aec3befdc8d71913b32b2ad1c0": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:35ecb2725389edbceba8600787444fcd0e03721a41dc84013c83b32c6329f020": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:a0e1ce0237771f0e3b5a2da218f093c6880547eeda736cf8e940792e3450333b": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:817d50547ab005c96030424be6afced0b9c02b27fcd26be3e9051c1fe7373d61": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "sha256:a6bc0d25eb5a1a98b95fa4676cc4f036e9d18c2108f87fd5044d1fada6de5c56": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7"
+    ],
+    "sha256:d75f5282b6e1c19af1d130eeafad6e5c4fd6894047bbb23695b0964a9bf9ef1e": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7"
+    ],
+    "sha256:1d32f4031d5a63f7633b40cee634c4ce42af6adfd43000986d26023c4fd3279c": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "sha256:f96147f0d519c7d09ac0e1ee483d5a05c56378d09c3ec287ffbae80c274e3e2a": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "sha256:e1fd2534fd5b73cb076eeb5a8a4f39a96cdd0c1281c993c1ded50ca3b78940c6": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:188f198e4fa9a33fa73b8eaecd3392ea37ebdd40c25d0aaee5b14e6621e0f2b3": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:811ce50ddcf870311d2cb32041c44dca219f69dd72b857d44f811f4405545f89": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:40b44262f5bd99101c16f2c13095fb9d7e6191ab9a42206f0104fa6bb8d87e77": [
+      "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:d062bc4425e0081f115d5eb34a8d944a3b25cd348f03b10a27def100d042ad97": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:a71b1a060a0f9fe91989b017613e95ce86f7dcbfac0c3b0d6af9f37dce351a7d": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:197a355386941b24da303437a9cb79d9e7d12fea8e16191a5d6c322572fee751": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:e14e047d0dbb1fd7350d6205a0dc9f03a37fd0888a1cd8de14427ad88e61d9aa": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:13efa3d9ea0aae57e1743dcd3a1625a371257624c6fc88c1bc2ee8c38f321dbf": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "sha256:005cb8c3adedadd36b1ab55f5672ca7bd574670cb4ac9de6abd6c6e9eb3329c1": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "sha256:a08782c572a9557a079f83cd64fe7bdddaad95e77bcb0f78abcfc774b4e1be41": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "sha256:54fe067a953b2e07eeda18a2cee7e1e9919d719b8c253136b118f94fa5f61e20": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c"
+    ],
+    "sha256:4b6aa86fb8e213a788cd06f1035fda9203a2811011d7c1732543bdf4bd17e403": [
+      "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:629bf7945a0f8dd29926087a1a7890ee01e9b1aea1d0539413a7eaede665ddd9": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:6c84f89d6c3f5675b8eb3bca97b9a5a915da2e4536f783c923238c400058211a": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:db4c337c2d69f30b683df09d26100a0c4ced334b49fe72c3e6a560ea89b38739": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "sha256:b83b113be574aca5707dd9cf5bde33c5e3ec9a8fb0772a76d1bdaf39fcb316d9": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:42da427f6b942b4129a195ad9bb9483991d90757b7b830330f194b4efb434ada": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "sha256:2e0574fdbc039761dcaaefa0da39aa446f47fe9419255c27fb6023760afc2069": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8",
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:2061b59a5038b65b82ae8b4845e2eb0465935257b4e6a70953652434df7019be": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "sha256:53d52753c4cc00b55252351d87ff1271a92cb6ffe6c849c37030a4ccbdc21fdb": [
+      "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074"
+    ],
+    "sha256:2c6d8fe2a5b81988a7071655549e1a5c8905b21623f6755e0dfcd361902c3bea": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:bd009ae287c0328358004f04cacca4d6afae57b9cec9ffdd2c85cb1a72985bff": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:78da5bd3b7f389e3000c26f7340e92815ece12124aaeaf90e3c5d706f08d5309": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:96b311ad936a78e9b23ba761149a1aebe1998ab9aa3a9ec5c9b5cdf78b5bd965": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:1e6e48399ef9f52757a586ff8728c8f2122f79fab09a23a5a81e95c2bb8a5cf6": [
+      "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+    ],
+    "sha256:68f9be586525bf3309f11e59fbcd2e7fab0efc72e349d346444bef8e47c27b99": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:ce6ae7e891c30a1b5de78a16557d081f4ad15dbfa742feffb2009958b3152f60": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:406f7c30f7ceb50ed1cc361259b881ec4367668e13fd05b44e0e89cc5b1b3c5c": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:ac5ebfabe75e5aeb43790e39d60efaf1f475ea55483826bddda19c09578d0029": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:68bcd9626f992edd06e47a7553b544e6480d48c1e80e25c8f5b7d327864e64de": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:895d40937fbf2c519b4ee361aa6f0e06999dac517b130d41004755c5b00db794": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:48dccbc025f2caff4e25fa06c2a6bfb2da7df49ade5ad5e473c82e5969d76a07": [
+      "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+    ],
+    "sha256:885a6d65284e8c1048fa8b848434358aa3f340ecc8c47451670ff415e0dffced": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:0dae8a3173332df10be8fb3ba30ed5ab9f9d322f6001f656070bb4352d5e5f71": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:c45db076f4b8405bb15593450d54f3fb03ba406723231c246ed052228ac66bf4": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:ebd49afead28620a7ddf9091572f351c787117cde8d4c95b4648cdbca1ef35de": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:d5dd7a60ec92c58f4df301f4bcf9de0d3ceee24bd5a085a69efc20b1ca68fd81": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:bd19ff9ebc825ead666a10134733540426873ccc28537d440eb833408f6f9c5a": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:ae75ddc181306a9dc47be026c107eb08147078916dd85f43529db8d8d9ac0d7c": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:7d07effbaf5c2804a15ba32141a658ee5bc2931b61c0a236eebe2b6d1675a843": [
+      "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b"
+    ],
+    "sha256:bee5814024c98cc6dfe800fa09dec058fe72e2fce185450a9090375372377f7a": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:ae95f7d32240618f50eaf35d5203804f500541961bfd2a42c4066acbb5ce5263": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:9408c702f763ae223922ba2501b2e63502ae0cb28e01b6c7a4504dc2f1c7667c": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:06127dd0975e54ea39f8a4f33cf4bef028794772dfaa1fbc3066fe29ceb6b847": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:5c23795ffb0609556b9d167e1b98657804460a25b8a5fa00a5bdbb88fb1f7d8c": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:afea7c06e1ca539337692268776111408ec72fb10ef99e756757a01e293f9564": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ],
+    "sha256:65bc5d54459f5505aafb72be602206b4b628107b186ba0522c689eef2de4b0a1": [
+      "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f"
+    ]
+  }
+}

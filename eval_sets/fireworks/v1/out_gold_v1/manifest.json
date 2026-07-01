@@ -1,0 +1,33 @@
+{
+  "counts": {
+    "missing_cases": 0,
+    "needs_human_review": 20,
+    "promoted": 44,
+    "rejected": 3
+  },
+  "created_at": "2026-07-01T07:10:34.475852+00:00",
+  "min_confidence": 0.85,
+  "promoted_by_task": {
+    "source_classification": 44
+  },
+  "promoted_content_type_counts": {
+    "event_community": 1,
+    "pricing_procurement": 1,
+    "product_launch": 18,
+    "support_question": 1,
+    "technical_proof": 15,
+    "thought_leadership": 6,
+    "tutorial_how_to": 2
+  },
+  "promoted_source_role_counts": {
+    "employee": 21,
+    "official_brand": 23
+  },
+  "quality_notes": [
+    "This pack is LLM-provisional gold, not human_gold.",
+    "Use for eval regression and reviewer bootstrapping.",
+    "Do not use for final training until human or multi-judge consensus promotion."
+  ],
+  "source_judgments_dir": "eval_sets/fireworks/v1/out_llm_judge_source_seed_full",
+  "version": "fireworks_gold_v1_provisional"
+}

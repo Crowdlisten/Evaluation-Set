@@ -1,0 +1,70 @@
+{
+  "version": "fireworks_cross_entity_eval_set_v1",
+  "created_at": "2026-07-01T06:42:19.337396+00:00",
+  "read_only_supabase": true,
+  "target_entity_id": "86e21e31-35d9-46a9-9999-527e6c227dfa",
+  "target_entity_name": "Fireworks AI",
+  "comparison_entity_ids": [
+    "11005556-c5b1-40de-ba28-29ada67a9c9c",
+    "d979009d-7a1f-4bb9-bfc7-8b8318038228"
+  ],
+  "comparison_entity_names": [
+    "Baseten",
+    "Modal"
+  ],
+  "counts": {
+    "cross_entity_competitive_cases": 10,
+    "cases_total": 10,
+    "competitors": 2,
+    "comparison_axes": 5
+  },
+  "selection_summary": {
+    "Fireworks AI": {
+      "entity_id": "86e21e31-35d9-46a9-9999-527e6c227dfa",
+      "content_store_rows": 803,
+      "platform_counts": {
+        "web": 82,
+        "twitter": 707,
+        "hackernews": 4,
+        "linkedin": 8,
+        "hackernews_comment": 2
+      }
+    },
+    "Baseten": {
+      "entity_id": "11005556-c5b1-40de-ba28-29ada67a9c9c",
+      "content_store_rows": 503,
+      "platform_counts": {
+        "twitter": 487,
+        "linkedin": 1,
+        "web": 15
+      }
+    },
+    "Modal": {
+      "entity_id": "d979009d-7a1f-4bb9-bfc7-8b8318038228",
+      "content_store_rows": 499,
+      "platform_counts": {
+        "twitter": 470,
+        "hackernews_comment": 5,
+        "web_comment": 18,
+        "web": 6
+      }
+    }
+  },
+  "axis_counts": {
+    "serving_deployment_workflow": 2,
+    "latency_performance_reliability": 2,
+    "pricing_procurement_cost": 2,
+    "developer_experience_docs_onboarding": 2,
+    "fine_tuning_post_training": 2
+  },
+  "competitor_counts": {
+    "Baseten": 5,
+    "Modal": 5
+  },
+  "case_hash": "sha256:8e0b0060460d041cdd7f52a20d47dc440ec3a1c7fdc121017f0a876dd2a0f935",
+  "notes": [
+    "Draft cases intentionally pair target, competitor, and independent-market evidence.",
+    "Human review should reject winner claims unless independent evidence supports them.",
+    "Use this set to evaluate source-role awareness, entity attribution, and competitive synthesis quality."
+  ]
+}

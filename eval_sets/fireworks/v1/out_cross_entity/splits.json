@@ -1,0 +1,21 @@
+{
+  "version": "fireworks_v1",
+  "strategy": "grouped_by_case_id_source_set_hash_entity_id",
+  "frozen_test": true,
+  "train": [
+    "fw_v1_cross_entity_competitive_synthesis_d615319d56e7",
+    "fw_v1_cross_entity_competitive_synthesis_5a0e387b548f",
+    "fw_v1_cross_entity_competitive_synthesis_47bf7a36a074",
+    "fw_v1_cross_entity_competitive_synthesis_e22f4a545871",
+    "fw_v1_cross_entity_competitive_synthesis_9f5439544f59",
+    "fw_v1_cross_entity_competitive_synthesis_ae24f6ddf59b",
+    "fw_v1_cross_entity_competitive_synthesis_e77f748a8586"
+  ],
+  "dev": [
+    "fw_v1_cross_entity_competitive_synthesis_943c3c06d7b8"
+  ],
+  "test": [
+    "fw_v1_cross_entity_competitive_synthesis_09a7f3ed524c",
+    "fw_v1_cross_entity_competitive_synthesis_38072b74054a"
+  ]
+}

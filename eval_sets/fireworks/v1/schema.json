@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crowdlisten.com/schemas/fireworks-eval-case-v1.json",
+  "title": "Fireworks CrowdListen Eval Case v1",
+  "type": "object",
+  "required": [
+    "case_id",
+    "entity_id",
+    "entity_name",
+    "task_type",
+    "input_version",
+    "created_at",
+    "source_ids",
+    "evidence",
+    "input_hash",
+    "source_set_hash",
+    "labels"
+  ],
+  "properties": {
+    "case_id": { "type": "string" },
+    "entity_id": { "type": "string" },
+    "entity_name": { "type": "string" },
+    "task_type": {
+      "type": "string",
+      "enum": [
+        "source_classification",
+        "opinion_unit_quality",
+        "cluster_membership",
+        "insight_synthesis",
+        "cross_entity_competitive_synthesis",
+        "preference_pair",
+        "reward_label"
+      ]
+    },
+    "input_version": { "type": "string" },
+    "created_at": { "type": "string" },
+    "source_ids": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "target_entity_id": { "type": ["string", "null"] },
+    "target_entity_name": { "type": ["string", "null"] },
+    "comparison_entity_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "comparison_entity_names": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "comparison_scope": { "type": ["string", "null"] },
+    "evidence": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/evidence_item" }
+    },
+    "current_output": {
+      "type": ["object", "null"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": ["string", "null"] },
+        "description": { "type": ["string", "null"] },
+        "category": { "type": ["string", "null"] },
+        "urgency": { "type": ["string", "null"] },
+        "impact_score": { "type": ["number", "null"] },
+        "confidence": { "type": ["number", "null"] },
+        "signal_count": { "type": ["number", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "labels": {
+      "type": "object",
+      "required": ["review_status"],
+      "properties": {
+        "review_status": {
+          "type": "string",
+          "enum": ["draft", "predicted", "reviewed", "approved", "rejected"]
+        },
+        "source_role_gold": { "$ref": "#/$defs/nullable_string" },
+        "source_group_gold": { "$ref": "#/$defs/nullable_string" },
+        "content_type_gold": { "$ref": "#/$defs/nullable_string" },
+        "feedback_type_gold": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "insight_category_gold": { "$ref": "#/$defs/nullable_string" },
+        "quality_gold": {
+          "type": ["string", "null"],
+          "enum": ["good", "bad", "mixed", "stress_source_role", null]
+        },
+        "cluster_action_gold": {
+          "type": ["string", "null"],
+          "enum": ["keep", "rename", "split", "merge", "discard", null]
+        },
+        "cluster_purity_gold": {
+          "type": ["string", "null"],
+          "enum": ["pure", "mostly_pure", "mixed", "bad", null]
+        },
+        "failure_modes": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "supports_cluster": { "type": ["boolean", "null"] },
+        "gold_groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["group_id", "title", "category", "evidence_ids"],
+            "properties": {
+              "group_id": { "type": "string" },
+              "title": { "type": "string" },
+              "category": { "type": "string" },
+              "evidence_ids": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "rationale": { "$ref": "#/$defs/nullable_string" },
+        "human_notes": { "$ref": "#/$defs/nullable_string" }
+      },
+      "additionalProperties": true
+    },
+    "training_views": {
+      "type": "object",
+      "properties": {
+        "sft_ready": { "type": "boolean" },
+        "dpo_ready": { "type": "boolean" },
+        "reward_ready": { "type": "boolean" },
+        "eval_only": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+    "hashes": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "input_hash": { "type": "string" },
+    "source_set_hash": { "type": "string" },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "$defs": {
+    "nullable_string": {
+      "type": ["string", "null"]
+    },
+    "evidence_item": {
+      "type": "object",
+      "required": ["source_id", "platform", "url", "text"],
+      "properties": {
+        "source_id": { "type": "string" },
+        "evidence_entity_id": { "type": ["string", "null"] },
+        "evidence_entity_name": { "type": ["string", "null"] },
+        "evidence_entity_role": {
+          "type": ["string", "null"],
+          "enum": ["target", "competitor", "market", null]
+        },
+        "relationship_to_target": { "type": ["string", "null"] },
+        "opinion_unit_id": { "type": ["string", "null"] },
+        "platform": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"] },
+        "title": { "type": ["string", "null"] },
+        "author": { "type": ["string", "null"] },
+        "sender_type_current": { "type": ["string", "null"] },
+        "source_group_current": { "type": ["string", "null"] },
+        "source_class_current": { "type": ["string", "null"] },
+        "source_role_predicted": { "type": ["string", "null"] },
+        "source_group_predicted": { "type": ["string", "null"] },
+        "content_type_predicted": { "type": ["string", "null"] },
+        "feedback_type_predicted": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "text": { "type": "string" },
+        "rewritten_text": { "type": ["string", "null"] },
+        "snippet": { "type": ["string", "null"] },
+        "engagement": { "type": ["number", "null"] },
+        "metrics": {
+          "type": "object",
+          "additionalProperties": true
+        },
+        "created_at": { "type": ["string", "null"] },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

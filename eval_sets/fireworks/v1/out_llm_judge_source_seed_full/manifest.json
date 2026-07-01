@@ -1,0 +1,22 @@
+{
+  "candidate_cases_available": 4550,
+  "counts_by_decision": {
+    "needs_human_review": 20,
+    "provisional_gold": 44,
+    "reject": 3
+  },
+  "counts_by_task": {
+    "source_classification": 67
+  },
+  "created_at": "2026-07-01T07:09:38.183545+00:00",
+  "dry_run": false,
+  "failed_cases": 0,
+  "model": "gpt-5.4-mini",
+  "promotion_policy": {
+    "human_or_multi_judge_required_for_final_training_gold": true,
+    "provisional_gold_confidence_threshold": 0.85
+  },
+  "reviewed_cases": 67,
+  "selected_cases": 67,
+  "version": "fireworks_llm_judge_gold_v1"
+}

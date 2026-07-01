@@ -1,0 +1,56 @@
+{
+  "version": "fireworks_eval_set_v1",
+  "created_at": "2026-07-01T06:32:44.067771+00:00",
+  "entity_id": "86e21e31-35d9-46a9-9999-527e6c227dfa",
+  "entity_name": "Fireworks AI",
+  "read_only_supabase": true,
+  "counts": {
+    "content_store_rows": 803,
+    "opinion_units": 3560,
+    "entity_insights": 188,
+    "insight_evidence": 739,
+    "source_classification_cases": 792,
+    "opinion_unit_quality_cases": 3560,
+    "insight_packet_cases": 188,
+    "cases_total": 4540,
+    "sft_records": 12,
+    "preference_records": 9,
+    "reward_records": 48
+  },
+  "platform_counts": {
+    "web": 82,
+    "twitter": 707,
+    "hackernews": 4,
+    "linkedin": 8,
+    "hackernews_comment": 2
+  },
+  "source_group_predicted_counts": {
+    "creator_analyst": 15,
+    "owned_official": 550,
+    "affiliated_insider": 195,
+    "organic_market": 34,
+    "unknown": 7,
+    "competitor_ecosystem": 2
+  },
+  "content_type_predicted_counts": {
+    "product_launch": 222,
+    "thought_leadership": 229,
+    "technical_proof": 188,
+    "user_review_experience": 3,
+    "support_question": 32,
+    "partner_integration": 15,
+    "tutorial_how_to": 38,
+    "customer_success": 18,
+    "pricing_procurement": 13,
+    "event_community": 26,
+    "bug_report": 7,
+    "competitive_claim": 11,
+    "feature_request_post": 1
+  },
+  "case_hash": "sha256:a13c61d1e4017b8da1312b9d48df7ccbbf02c45eaa8fdf8b9c286cdd6dee791b",
+  "notes": [
+    "Generated labels are draft/predicted unless derived from the audited synthesis eval.",
+    "Human review is required before using generated source/opinion/cluster labels for training.",
+    "Splits are case-level to avoid leakage across SFT, DPO, reward, and eval views."
+  ]
+}

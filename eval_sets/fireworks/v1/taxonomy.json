@@ -1,0 +1,130 @@
+{
+  "version": "fireworks_eval_taxonomy_v1",
+  "entity_id": "86e21e31-35d9-46a9-9999-527e6c227dfa",
+  "entity_name": "Fireworks AI",
+  "principles": [
+    "Separate provenance from interpretation: who posted it, where it came from, what kind of content it is, and what business insight it supports are different labels.",
+    "Do not label official, employee, or partner marketing as user pain or a feature request unless the source directly quotes or summarizes user feedback.",
+    "Cluster labels should be evidence-grounded. Absence of detail in a launch post is not by itself a user request.",
+    "Gold eval cases should preserve raw evidence, source IDs, URLs, sender role, source group, and current production labels so regressions are traceable."
+  ],
+  "source_role": {
+    "description": "Who is speaking or publishing.",
+    "type": "single_label",
+    "labels": {
+      "official_brand": "Company-owned account, website, docs, blog, YouTube, LinkedIn page, or official launch channel.",
+      "founder_exec": "Founder, CEO, executive, or senior public company representative.",
+      "employee": "Employee or team member speaking from a personal account.",
+      "affiliate_creator": "Creator, educator, partner, ambassador, or friendly third party with clear affiliation or amplification relationship.",
+      "customer_user": "Named customer, user, practitioner, or buyer speaking from direct usage.",
+      "prospect_buyer": "Potential buyer evaluating the product/category.",
+      "independent_practitioner": "Independent technical practitioner, analyst, blogger, or community member without clear affiliation.",
+      "analyst_media": "Media, analyst, newsletter, review site, or third-party publication.",
+      "competitor_official": "Official competitor company channel.",
+      "competitor_employee": "Competitor employee or founder account.",
+      "community_member": "Forum/social participant without known company affiliation.",
+      "unknown": "Insufficient metadata to identify the speaker."
+    }
+  },
+  "source_group": {
+    "description": "Normalized UI and eval bucket.",
+    "type": "single_label",
+    "labels": {
+      "owned_official": "Official company-controlled marketing, docs, product, or content surfaces.",
+      "affiliated_insider": "Employees, founders, executives, or close affiliates.",
+      "competitor_ecosystem": "Competitor official, employee, partner, benchmark, or comparison content.",
+      "organic_market": "Unaffiliated users, buyers, practitioners, HN/Reddit discussions, and general market conversations.",
+      "creator_analyst": "Creators, educators, analysts, newsletters, or media that can influence demand.",
+      "customer_proof": "Customer stories, case studies, testimonials, or direct success evidence.",
+      "unknown": "Insufficient metadata."
+    }
+  },
+  "content_type": {
+    "description": "Primary communicative form of the source.",
+    "type": "single_label",
+    "labels": {
+      "product_launch": "Announcement of availability, beta, SDK, model support, integration, pricing, or product capability.",
+      "technical_proof": "Benchmark, performance claim, architecture detail, reliability proof, latency/throughput result, or eval result.",
+      "customer_success": "Customer win, case study, testimonial, usage result, deployment outcome, or proof point.",
+      "tutorial_how_to": "Setup guide, walkthrough, coding-agent instructions, docs, or practical implementation path.",
+      "competitive_claim": "Comparison against another provider/model/platform or explicit competitive positioning.",
+      "thought_leadership": "Category framing, vision, market point of view, or executive narrative.",
+      "event_community": "Conference, livestream, webinar, hackathon, community activation, award, or brand event.",
+      "partner_integration": "Partner, ecosystem integration, marketplace, or co-marketing announcement.",
+      "user_review_experience": "User or buyer report of actual experience, usage, adoption, confusion, praise, or objection.",
+      "support_question": "Question asking how to use, fix, evaluate, or connect something.",
+      "bug_report": "Report of a failure, incorrect behavior, outage, broken flow, or implementation problem.",
+      "feature_request_post": "Direct ask for a missing capability, integration, UX improvement, or roadmap item.",
+      "pricing_procurement": "Cost, budget, procurement, contract, usage pricing, or credits discussion.",
+      "hiring_corporate": "Hiring, funding, company building, financial, or corporate update.",
+      "generic_reaction": "Low-detail reaction, praise, repost, or short comment with little standalone signal.",
+      "off_topic": "Not substantively about Fireworks or the target market."
+    }
+  },
+  "feedback_type": {
+    "description": "Multi-label only when the source contains real market/user feedback.",
+    "type": "multi_label",
+    "labels": {
+      "pain_point": "User/customer expresses friction, failure, cost burden, confusion, risk, or workflow breakage.",
+      "feature_request": "User/customer asks for a capability, integration, documentation, workflow, or product change.",
+      "buying_objection": "Evaluation concern that can block purchase/adoption.",
+      "comparison_or_switching": "Comparison, shortlist, migration, or switching discussion.",
+      "pricing_objection": "Cost or budget concern.",
+      "workflow_gap": "Glue work, manual steps, setup burden, or process breakdown.",
+      "performance_reliability": "Latency, throughput, reliability, uptime, scaling, or correctness concern.",
+      "docs_guidance_request": "Need for clearer docs, examples, setup instructions, or guidance.",
+      "positive_testimonial": "Positive direct usage signal or endorsement.",
+      "success_metric": "Specific outcome, metric, or improvement from usage.",
+      "question_request": "Open question without clear complaint or feature ask.",
+      "none": "No user/market feedback present."
+    }
+  },
+  "insight_category": {
+    "description": "Business interpretation assigned to a cluster or synthesized insight.",
+    "type": "single_label",
+    "labels": {
+      "pain_point": "A recurring problem or friction users are experiencing.",
+      "feature_request": "Repeated or important asks for missing product capability or workflow support.",
+      "opportunity": "Evidence-grounded market gap, buyer pull, or topic Fireworks should act on.",
+      "competitive": "Competitor comparison, competitive positioning, or benchmark fight.",
+      "visibility": "Awareness/discoverability gap or place Fireworks should show up.",
+      "churn": "Switching/cancellation risk.",
+      "marketing_narrative": "Owned or affiliated messaging, category framing, community momentum, or brand positioning.",
+      "product_launch": "Launch or availability story that should not be mistaken for feedback.",
+      "technical_proof": "Performance, reliability, architecture, or benchmark evidence.",
+      "customer_success": "Customer proof, case study, testimonial, or outcome evidence.",
+      "off_topic": "Not useful for the Fireworks marketing/eval task."
+    }
+  },
+  "cluster_action": {
+    "description": "Gold action for the cluster.",
+    "type": "single_label",
+    "labels": {
+      "keep": "Cluster is coherent and category/title are acceptable.",
+      "rename": "Evidence is coherent but title/category/framing is wrong or too vague.",
+      "split": "Evidence mixes distinct themes, source roles, or claims that should be separate clusters.",
+      "merge": "Cluster duplicates another cluster and should be merged.",
+      "discard": "Cluster is off-topic, too low-signal, or unsupported."
+    }
+  },
+  "failure_mode": {
+    "description": "Known failures this eval should catch.",
+    "type": "multi_label",
+    "labels": {
+      "wrong_category": "Category does not match evidence.",
+      "official_marketing_as_feedback": "Official/employee marketing was mislabeled as user pain or feature request.",
+      "unsupported_inference": "Insight infers a claim not supported by evidence.",
+      "absence_as_evidence": "Missing detail in evidence was treated as proof of demand.",
+      "mixed_cluster": "Cluster combines distinct topics or source roles.",
+      "vague_title": "Title is generic, copied, truncated, or not actionable.",
+      "source_role_blindness": "Insight fails to distinguish who said what.",
+      "entity_attribution_error": "A claim is attributed to the wrong company or speaker.",
+      "mixed_entity_cluster": "Cluster combines target and competitor claims without separating entities.",
+      "competitor_marketing_as_market_feedback": "Competitor-owned marketing is treated as independent user or market evidence.",
+      "unsupported_comparative_claim": "Insight claims one company wins or loses without direct comparative evidence.",
+      "winner_claim_without_independent_evidence": "Insight declares a winner using only vendor-owned claims.",
+      "low_signal": "Evidence lacks enough substance for an insight.",
+      "duplicate_theme": "Same theme appears in multiple clusters."
+    }
+  }
+}

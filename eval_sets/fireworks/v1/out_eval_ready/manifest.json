@@ -1,0 +1,29 @@
+{
+  "blocked_candidate_cases": 3266,
+  "counts": {
+    "cross_entity_structural_eval": 10,
+    "insight_synthesis_audited_sft": 12,
+    "multi_turn_workflow_eval": 8,
+    "preference_pairs_audited_dpo": 9,
+    "reward_labels_audited_rft": 48,
+    "source_provenance_partial_gold": 67
+  },
+  "created_at": "2026-07-01T06:48:21.927615+00:00",
+  "quality_notes": [
+    "This pack is for eval/testing, not blanket training.",
+    "Source provenance records are partial gold only.",
+    "SFT/DPO/RFT records come from audited synthesis outputs and rubric scores.",
+    "Cross-entity records are structural challenge evals, not final synthesis gold.",
+    "Multi-turn records are derived from audited single-turn synthesis cases."
+  ],
+  "task_families": {
+    "cross_entity_competitive_structure": 10,
+    "dpo_preference_pair": 9,
+    "grounded_insight_synthesis_sft": 12,
+    "multi_turn_grounded_insight_workflow": 8,
+    "reward_model_scoring": 48,
+    "source_provenance_classification": 67
+  },
+  "total_records": 154,
+  "version": "fireworks_eval_ready_v1"
+}
