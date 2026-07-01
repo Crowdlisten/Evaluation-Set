@@ -475,7 +475,7 @@ CrowdListen should treat an eval release as ready only if:
 
 ## Immediate Gap Against Frontier Benchmarks
 
-The current Fireworks eval set is directionally right, but frontier-level quality requires:
+The current Fireworks case-study package is directionally right, but frontier-level quality requires:
 
 - more human gold labels
 - more adversarial hard negatives
@@ -483,4 +483,3 @@ The current Fireworks eval set is directionally right, but frontier-level qualit
 - verified X/LinkedIn source completeness or a clear coverage caveat
 - executable agent workflow evals through the CrowdListen API/harness
 - a benchmark card and score report for every run
-

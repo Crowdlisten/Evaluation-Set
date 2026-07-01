@@ -1,6 +1,8 @@
-# Fireworks Eval Set v1
+# Fireworks Case Study Package v1
 
-This package defines a versioned evaluation and training corpus for the Fireworks CrowdListen entity.
+This package defines the first versioned CrowdListen case-study corpus. It uses
+the Fireworks entity and the surrounding open-model inference market as a sample
+for evaluating the broader CrowdListen benchmark suite.
 
 The immediate goal is to test and improve:
 
@@ -253,14 +255,19 @@ python3 eval_sets/fireworks/v1/package_eval_ready.py \
   --out-dir eval_sets/fireworks/v1/out_eval_ready
 ```
 
-As of the 2026-07-01 package, `out_eval_ready/` contains 154 records:
+As of the 2026-07-01 blocklist-filtered package, `out_eval_ready/` contains 100
+records and zero case IDs from `out_gold_review/training_blocklist.jsonl`:
 
-- 67 partial-gold source provenance checks
-- 12 audited SFT-style grounded insight synthesis checks
-- 9 audited DPO-style preference pairs
-- 48 audited RFT/reward-style labels
+- 64 partial-gold source provenance checks
+- 4 audited SFT-style grounded insight synthesis checks
+- 2 audited DPO-style preference pairs
+- 16 audited RFT/reward-style labels
 - 10 cross-entity structural competitor checks
-- 8 derived multi-turn workflow checks
+- 4 derived multi-turn workflow checks
+
+50 records from the earlier eval-ready candidate pack were excluded because
+their `case_id` appears in the training blocklist. Those exclusions are written
+to `out_eval_ready/excluded_blocklisted.jsonl` for inspection.
 
 ## Latest Ingestion Run
 

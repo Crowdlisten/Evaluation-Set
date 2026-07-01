@@ -43,12 +43,35 @@ def write_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
             f.write(json.dumps(row, ensure_ascii=False, sort_keys=True, default=str) + "\n")
 
 
-def load_blocklist(base_dir: Path) -> set[str]:
+def load_blocklist(base_dir: Path) -> dict[str, dict[str, Any]]:
     return {
-        row["case_id"]
+        row["case_id"]: row
         for row in read_jsonl(base_dir / "out_gold_review" / "training_blocklist.jsonl")
         if row.get("case_id")
     }
+
+
+def filter_blocklisted(
+    rows: list[dict[str, Any]],
+    blocklist: dict[str, dict[str, Any]],
+    family: str,
+    excluded: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    kept = []
+    for row in rows:
+        case_id = row.get("case_id")
+        if case_id in blocklist:
+            excluded.append(
+                {
+                    "case_id": case_id,
+                    "task_family": family,
+                    "eval_id": row.get("eval_id"),
+                    "blocklist": blocklist[case_id],
+                }
+            )
+            continue
+        kept.append(row)
+    return kept
 
 
 def package_source_provenance(base_dir: Path) -> list[dict[str, Any]]:
@@ -260,12 +283,38 @@ def main() -> int:
     base_dir = Path(args.base_dir)
     out_dir = Path(args.out_dir)
     blocklist = load_blocklist(base_dir)
+    excluded_blocklisted: list[dict[str, Any]] = []
 
-    source = package_source_provenance(base_dir)
-    sft = package_sft(base_dir)
-    pref = package_preferences(base_dir)
-    reward = package_reward(base_dir)
-    cross = package_cross_entity(base_dir)
+    source = filter_blocklisted(
+        package_source_provenance(base_dir),
+        blocklist,
+        "source_provenance_classification",
+        excluded_blocklisted,
+    )
+    sft = filter_blocklisted(
+        package_sft(base_dir),
+        blocklist,
+        "grounded_insight_synthesis_sft",
+        excluded_blocklisted,
+    )
+    pref = filter_blocklisted(
+        package_preferences(base_dir),
+        blocklist,
+        "dpo_preference_pair",
+        excluded_blocklisted,
+    )
+    reward = filter_blocklisted(
+        package_reward(base_dir),
+        blocklist,
+        "reward_model_scoring",
+        excluded_blocklisted,
+    )
+    cross = filter_blocklisted(
+        package_cross_entity(base_dir),
+        blocklist,
+        "cross_entity_competitive_structure",
+        excluded_blocklisted,
+    )
     multi = package_multi_turn(sft)
 
     write_jsonl(out_dir / "source_provenance.partial_gold.jsonl", source)
@@ -274,6 +323,7 @@ def main() -> int:
     write_jsonl(out_dir / "reward_labels.audited_rft.jsonl", reward)
     write_jsonl(out_dir / "cross_entity.structural_eval.jsonl", cross)
     write_jsonl(out_dir / "multi_turn.workflow_eval.jsonl", multi)
+    write_jsonl(out_dir / "excluded_blocklisted.jsonl", excluded_blocklisted)
 
     counts = {
         "source_provenance_partial_gold": len(source),
@@ -289,6 +339,7 @@ def main() -> int:
         "counts": counts,
         "total_records": sum(counts.values()),
         "blocked_candidate_cases": len(blocklist),
+        "excluded_blocklisted_records": len(excluded_blocklisted),
         "task_families": dict(Counter(
             row["task_family"]
             for rows in [source, sft, pref, reward, cross, multi]
@@ -300,6 +351,7 @@ def main() -> int:
             "SFT/DPO/RFT records come from audited synthesis outputs and rubric scores.",
             "Cross-entity records are structural challenge evals, not final synthesis gold.",
             "Multi-turn records are derived from audited single-turn synthesis cases.",
+            "Records whose case_id appears in the training blocklist are excluded from eval-ready positive packs and written to excluded_blocklisted.jsonl.",
         ],
     }
     write_json(out_dir / "manifest.json", manifest)

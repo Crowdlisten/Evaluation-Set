@@ -1,0 +1,1737 @@
+{
+  "counts": {
+    "cases_checked": 4594,
+    "cases_flagged": 3294,
+    "critical_issues": 96,
+    "review_issues": 3238
+  },
+  "created_at": "2026-07-01T07:30:53.502707+00:00",
+  "examples": [
+    {
+      "case_id": "fw_v1_insight_synthesis_f4af9fa4c3c3",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "code": "low_signal_or_url_only_source",
+          "severity": "review",
+          "source_id": "e478d3b7-5a9f-496b-a9e1-3159d07af383",
+          "source_role": "official_brand"
+        },
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Agentic workflow buyers want stable multi-tool orchestration and benchmarking"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_e4c374adb34f",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        },
+        {
+          "code": "mixed_content_types",
+          "severity": "review"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Mistral Small 3 launch needs a use-case guide for low-latency deployments"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_94e4b4f9be3e",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        },
+        {
+          "code": "mixed_content_types",
+          "severity": "review"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Virtual Cloud needs a migration playbook for multi-region GPU scaling"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_b1caeb8665ed",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        },
+        {
+          "code": "mixed_content_types",
+          "severity": "review"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "The author says Fireworks beats Groq, citing benchmark credits from Artificial Analysis."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_0da1d1348d8a",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        },
+        {
+          "code": "mixed_content_types",
+          "severity": "review"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Managed RFT preview needs a clear production rollout path for custom agents"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_93a55dc87c29",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "MiniMax M2.5 day-0 launch needs a clear customer-facing adoption path"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_39e9a1bdc5ae",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Kimi K2.5 Turbo speed claims need production proof for coding teams"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_53d003705917",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "GLM 5.1 agent and coding claims need a concrete enterprise proof path"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_7e644cffa516",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "SFT limits in long-horizon agents suggest a need for clearer training guidance"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_f5e503ab7b47",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Kimi K2.5 launch needs production guidance for real-world coding agent performance"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_76197230ca3c",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Cross-region model update workflow still needs a customer-facing rollout spec"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_93229efda203",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Fireworks AI says Firefunction-v2 excels at complex function-calling tasks such as parallel function calling and instruc"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_aecd73313c1d",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Latency stayed stable even as tasks extended across multiple steps."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_f50722b70e64",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "The models support long context, multi-step tool use, and adjustable reasoning levels."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_fcafca42281a",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Reinforcement Fine-Tuning Beta is an easy, scalable way to train and own expert open models."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_47c964eef1f5",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Long-context agent workloads need clearer guidance on noisy log dataset sizing"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_f0f175181c81",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "It creates a safer way to iterate on prompts, models, and features without regressions."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_c8bd6869f80b",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "The reported real-world results include better quality, more tool calls, lower cost, higher coding accuracy, and much fa"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_ad21c12bd11a",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "The platform supports SFT, DPO, and RL with smart defaults or a custom loss function, plus a 256K context window."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_f092feaa520f",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "FireConnect launch needs a clearer workflow for coding-assistant users"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_d27faa9a013e",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Beta Python SDK and early preview need clearer launch communication"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_1bd49636112a",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Interactive eval slicing needs a productized analytics workflow for model comparisons"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_3c10fe03934f",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Reinforcement Fine-Tuning Beta needs clearer productionization path for expert open models"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_73dabd8faf52",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Hybrid reasoning controls need clearer guidance for agent and tool workflows"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_c962689267e0",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Firefunction-v2 needs a customer-ready spec for complex function-calling workloads"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_ace5b1f2863d",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Three-line fine-tune-and-deploy flow needs a reusable implementation spec"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_48fba422ec9a",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Structured output modes need proof beyond 100% schema-accuracy claims"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_71ea45c4521d",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Responses API MCP workflow reduces agent boilerplate and server-side loop overhead"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_4871c3e30714",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Token-volume cost estimates suggest users need clearer spend forecasting"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_0c0cd86e2e93",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Fine-tuning support spans LoRA, SFT, DPO, and RL but needs clearer packaging"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_3960a7bff070",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Deployment customers need more proof of cross-region update speed at scale"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_9ac15760db6e",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "256K context and RL training claims need clearer enterprise readiness documentation"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_07d9a7247284",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Structured JSON and grammar output available across all models"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_23182ee0cf6f",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "JSON mode and grammar mode are available in all of the language models and are said to provide 100% accuracy in adhering"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_ff6c4346e2d4",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "This integration lets enterprises rapidly deploy advanced AI models, accelerating innovation and driving competitive adv"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_25a809d6cdbd",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Fireworks AI says its Training Platform is expanding and that Nemotron 3 Ultra is now ready for post-training with SFT a"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_b543663a8194",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "DeepSeek R1 shows tremendous potential for research-specific use cases."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_5e6af2b0dd24",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Token-volume economics on Fireworks need clearer guidance for BYOK and direct serving"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_78fa82ccca13",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Multi-LoRA and one-line private GPU deployment need clearer enterprise packaging"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_5f84ac5836a6",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Integration and iteration speed are the real pain points"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_fd03099d7b78",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Streaming transcription needs clearer noisy-environment accuracy and diarization limits"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_5bd300fef1ad",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Business tier messaging needs a concrete migration path from prototype to production inference"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_383032bc3175",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Whisper V3 Turbo needs benchmark context for the claimed 20x transcription speed"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_d810b0efcadf",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "On-Demand lets you deploy the models with one line of code on private, scalable GPUs."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_a6cd42f99a70",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "They say the Fast DeepSeek R1 provides balanced performance at 90 tokens per second for interactive applications on Fire"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_75d641a96b06",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Artificial Analysis benchmarks rank Fireworks as the fastest GPU-based provider across top open models."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_e98411e4f1e7",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "FireAttention v3 enables broader hardware optionality, especially with Bring Your Own Cloud deployment."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_12b48998c88f",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Step 3.7 Flash is designed for inference from the start."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_2b94657ff5bd",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Fireworks provides the fastest performance across the K2 series."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_a55f8aee6570",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "2026 is being framed as the year you can train your own model over a weekend."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_5b959ca0474a",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "The platform lets users stop waiting for GPUs and fine-tune and deploy thousands of models on a single GPU deployment us"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_acf71bd3e31e",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "DeepSeek V3 is now available on Fireworks Serverless and Enterprise, and the author highlights it as a state-of-the-art "
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_79be65be818f",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Fireworks preserves reasoning history across turns and supports per-request thinking and non-thinking modes."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_289976de39bc",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "The program provides direct access to applied AI experts, an exclusive community of builders and founders, and a full li"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_b28032ecf672",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "SFT, DPO, and RL support needs a clearer roadmap for custom-loss users"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_571933bb3858",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "RFT preview needs a concrete agent-trajectory training spec for production teams"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_d16f6414a04c",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Document Inlining turns any LLM into a vision model to better process digital assets."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_44d5c91a0221",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "They say most research agents are slow or break when they hit a PDF, and this workflow solves that by pulling everything"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_9e416bff2feb",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "The speaker is thrilled that Fireworks adds to the deep research experience provided by Perplexity."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_d842bf4629e2",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "The workflow combines real-time web search with open-source models on Fireworks to create a fully functional research as"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_840480dfe6cc",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "The author says Fireworks offers the fastest inference for Mixtral and the fastest time to market, even 2 days before it"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_1fb86e6fc098",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "pain_point",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "The team is impressed by the results and excited to deepen the partnership with MiniMax."
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_d193c666f8dd",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Dedicated deployment after fine-tuning needs clearer implementation guidance"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_41f773b2487f",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "feature_request",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Document Inlining lacks explicit OCR and layout limits for complex PDFs and charts"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_9180119d41c7",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Hugging Face inference partnership needs a clearer model-page conversion flow"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_082c416815eb",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Day-0 Kimi launches need a repeatable launch playbook for agentic model adoption"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_c36b17d9475d",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Hugging Face inference partnership needs a clearer co-marketing and adoption play"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_a4274966f977",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Kimi K2 Thinking speed gains and day-0 support reinforce launch-partner value"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_f316071f4052",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Firefunction-v2 pricing and speed claims create a low-cost function-calling wedge"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_1ced98ba3faf",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Kimi K2.7 day-zero launch coverage shows demand for rapid model availability"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_93d487833bdc",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "1M+ token training and Blackwell kernels signal demand for frontier-scale infrastructure"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_ca4a28cfeb5f",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "1M-token coding models need clearer enterprise positioning for long-context workloads"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_65aa4b989e06",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "MiniMax partnership momentum driven by benchmark-leading speed and quality claims"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_ba33ee59b0d5",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Qwen3 agentic tool use creates a strong open-weights agent-building hook"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_df8f2401ad36",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Ground-up GenAI UX design gap for founders building creative products"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_feb1e25a3418",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Full-parameter RL messaging needs a concrete product path for model ownership buyers"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_af37dba40ef8",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Exclusive Qwen availability needs clearer migration and deployment positioning"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_2f53581bc096",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Infrastructure abstraction messaging targets founders worried about lock-in"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_696ef81dd980",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "FireAttention v3 needs a clearer enterprise migration story for AMD and BYOC buyers"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_bd87a3b7dcaa",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Firefunction-v2 and Mixtral speed claims need a proof page for latency-sensitive buyers"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_acab35a13a01",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Pivot View eval exploration needs a publishable workflow for non-technical teams"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_98d68e504cf3",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Day-zero DeepSeek launches show demand for immediate access to frontier open models"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_9acd4c0f4b87",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Enterprise deployment and customization claims need a clearer buyer conversion path"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_8dc1abd4e61a",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "DeepSeek API price matching needs a clear enterprise ROI calculator"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_97dee2213f58",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider",
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "DeepSeek model library listings need stronger enterprise conversion paths"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_5eddf3b57702",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Whisper V3 Turbo speed claims highlight transcription performance demand"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_9bd679f16ae2",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Firefunction-v2 ports to consumer hardware broaden deployment reach"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_39985737a8ab",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Firefunction-v2 on consumer hardware expands edge and local deployment reach"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_a6980bd2d8a7",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "QwQ-32B-Preview benchmark comparisons reinforce demand for reasoning models"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_f542202b3582",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "FireAttention and inference engine claims need a concrete quality-speed-cost roadmap"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_d393665a658e",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "GLM model speed and cost claims position Fireworks as a fast inference host"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_2883886fad6d",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "R1 and V3 price cuts create a clear pricing-response opportunity"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_dacbcce55d00",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Firefunction-v2 launch needs official integration examples before community ports fragment"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_ede7f586bf56",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Compound AI Systems narrative signals demand for multi-model orchestration messaging"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_c8527bf543ac",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "affiliated_insider"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Firefunction-v2 ecosystem is spreading quickly through integrations and ports"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_d68102f9d138",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "category": "opportunity",
+          "code": "market_insight_from_owned_only",
+          "groups": [
+            "owned_official"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Lower R1 and V3 token pricing with flexible input-output rates"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_c88a4e457a7a",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "code": "linkedin_unknown_role_parseable_from_text",
+          "severity": "review",
+          "source_id": "8e200936-d172-4e00-9aac-0d2dd8d9fa82",
+          "title": "Harrison Chase’s Post"
+        },
+        {
+          "code": "linkedin_unknown_role_parseable_from_text",
+          "severity": "review",
+          "source_id": "777fffee-d81a-4314-855a-7541083791c5",
+          "title": "Amos Bar-Joseph’s Post"
+        },
+        {
+          "code": "linkedin_unknown_role_parseable_from_text",
+          "severity": "review",
+          "source_id": "44b2af11-455d-4edf-8ef6-5e14b9edc2ff",
+          "title": "Forbes AI 50 and Fast Company AI 20 Honoree, AI Ownership Key to Future Productivity"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Open-plus-closed model routing is resonating as a cost win"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_733b78c81395",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "code": "linkedin_unknown_role_parseable_from_text",
+          "severity": "review",
+          "source_id": "1914544c-f26f-4db3-9b0a-c5d1ad9f1914",
+          "title": "Frontier-lab infrastructure, now as a service"
+        },
+        {
+          "code": "linkedin_unknown_role_parseable_from_text",
+          "severity": "review",
+          "source_id": "a90875de-d1dc-4772-8aac-1d317fcd4219",
+          "title": "Microsoft Build 2026: Building Trustworthy AI on a Single Platform"
+        },
+        {
+          "code": "linkedin_unknown_role_parseable_from_text",
+          "severity": "review",
+          "source_id": "865740a8-8561-412f-a5bc-199c3868abb9",
+          "title": "Skip to main content"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Managed infrastructure lowers the barrier for teams starting with AI"
+    },
+    {
+      "case_id": "fw_v1_insight_synthesis_5eb01b84b7b2",
+      "file": "out_full/insight_packets.jsonl",
+      "issues": [
+        {
+          "code": "linkedin_unknown_role_parseable_from_text",
+          "severity": "review",
+          "source_id": "40056326-87fb-440a-a823-80a8a3d6a8f9",
+          "title": "Factory’s Post"
+        },
+        {
+          "code": "creator_or_analyst_feedback_needs_explicit_user_evidence",
+          "feedback_type_predicted": [
+            "comparison_or_switching",
+            "docs_guidance_request"
+          ],
+          "severity": "review",
+          "source_id": "1704bd42-bde5-4676-bb01-904a39c7b319",
+          "source_role": "affiliate_creator"
+        },
+        {
+          "code": "linkedin_unknown_role_parseable_from_text",
+          "severity": "review",
+          "source_id": "8e200936-d172-4e00-9aac-0d2dd8d9fa82",
+          "title": "Harrison Chase’s Post"
+        }
+      ],
+      "task_type": "insight_synthesis",
+      "title": "Developer workflow integration is a major adoption lever"
+    },
+    {
+      "case_id": "fw_v1_opinion_unit_quality_b7d37427e169",
+      "file": "out_full/opinion_unit_quality.jsonl",
+      "issues": [
+        {
+          "code": "low_signal_or_url_only_source",
+          "severity": "review",
+          "source_id": "e478d3b7-5a9f-496b-a9e1-3159d07af383",
+          "source_role": "official_brand"
+        },
+        {
+          "code": "opinion_from_owned_or_competitor_source",
+          "opinion": "Fireworks AI is inviting people to show what they can build.",
+          "roles": [
+            "official_brand"
+          ],
+          "severity": "review"
+        }
+      ],
+      "task_type": "opinion_unit_quality",
+      "title": "Fireworks AI is inviting people to show what they can build."
+    }
+  ],
+  "issue_counts": {
+    "creator_or_analyst_feedback_needs_explicit_user_evidence": 35,
+    "linkedin_unknown_role_parseable_from_text": 76,
+    "low_signal_or_url_only_source": 42,
+    "market_insight_from_owned_only": 96,
+    "mixed_content_types": 16,
+    "opinion_from_owned_or_competitor_source": 3069
+  },
+  "notes": [
+    "This is static validation, not final gold review.",
+    "Critical issues should be fixed or blocklisted before promotion.",
+    "Review issues may be acceptable for generated candidate pools but not for final training gold."
+  ],
+  "task_counts": {
+    "cross_entity_competitive_synthesis": {
+      "cases": 10,
+      "flagged": 2
+    },
+    "insight_synthesis": {
+      "cases": 188,
+      "flagged": 124
+    },
+    "opinion_unit_quality": {
+      "cases": 3560,
+      "flagged": 3141
+    },
+    "source_classification": {
+      "cases": 836,
+      "flagged": 27
+    }
+  },
+  "version": "fireworks_label_consistency_v1"
+}

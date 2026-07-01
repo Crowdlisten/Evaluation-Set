@@ -1,17 +1,21 @@
 # CrowdListen Evaluation Set
 
-Evaluation datasets, benchmark artifacts, and adjudication scripts for
-CrowdListen.
+Evaluation datasets, benchmark artifacts, and adjudication scripts for testing
+whether CrowdListen can turn raw market evidence into grounded, source-aware
+marketing intelligence: source attribution, feedback labels, opinion units,
+clusters, insights, competitor playbooks, and agent workflow outputs.
 
-CrowdListen turns raw market evidence into structured marketing intelligence:
-source attribution, feedback labels, opinion units, clusters, insights,
-competitor playbooks, and agent workflow outputs. This repository contains the
-Fireworks v1 benchmark package used to test whether that pipeline is grounded,
-source-aware, and safe to train against.
+This repository contains the evaluation framework plus the first case-study
+package used to test whether that pipeline is grounded, source-aware, and safe
+to train against.
 
-## What This Is
+## Benchmark Scope
 
-The Fireworks v1 package evaluates whether CrowdListen can:
+The first case-study package is `fireworks/v1`, built around Fireworks AI and
+the surrounding open-model inference market. It is a sample evaluation package,
+not the name or scope of the overall CrowdListen evaluation set.
+
+Across case studies, the benchmark evaluates whether CrowdListen can:
 
 - identify who is speaking: official, employee, affiliate, competitor, organic,
   creator, customer, or unknown
@@ -26,29 +30,34 @@ The Fireworks v1 package evaluates whether CrowdListen can:
 - support multi-turn agent workflows that retrieve evidence and produce
   marketing actions
 
-The primary entity is **Fireworks AI**. Baseten and Modal are included as
-competitor entities for cross-entity benchmark cases.
+In the current sample, the primary entity is **Fireworks AI**. Baseten and Modal
+are included as competitor entities for cross-entity benchmark cases.
 
-## Current Status
+## Current Case-Study Package
 
-The candidate pool is **not gold by default**. It is a review backlog.
+The `fireworks/v1` candidate pool is **not gold by default**. It is a review
+backlog and a seed case study for building the broader benchmark.
 
 | Pack | Path | Count | Status |
 | --- | --- | ---: | --- |
-| Full candidate pool | `eval_sets/fireworks/v1/out_full/` | 4,540 cases | generated, not gold |
-| Eval-ready pack | `eval_sets/fireworks/v1/out_eval_ready/` | 154 records | safe for eval/testing, not blanket training |
-| Provisional gold | `eval_sets/fireworks/v1/out_gold_v1/` | 44 records | LLM-provisional source-classification gold |
-| Human review backlog | `eval_sets/fireworks/v1/out_gold_review/` | 160 priority cases | review queue |
-| Training blocklist | `eval_sets/fireworks/v1/out_gold_review/training_blocklist.jsonl` | 3,266 cases | do not train |
+| Fireworks full candidate pool | `eval_sets/fireworks/v1/out_full/` | 4,540 cases | generated, not gold |
+| Fireworks eval-ready pack | `eval_sets/fireworks/v1/out_eval_ready/` | 100 records | blocklist-filtered eval/testing pack, not blanket training |
+| Fireworks provisional gold | `eval_sets/fireworks/v1/out_gold_v1/` | 44 records | LLM-provisional source-classification gold |
+| Fireworks human review backlog | `eval_sets/fireworks/v1/out_gold_review/` | 160 priority cases | review queue |
+| Fireworks training blocklist | `eval_sets/fireworks/v1/out_gold_review/training_blocklist.jsonl` | 3,266 cases | do not train |
 
 Generated labels should not be used as training labels unless they are promoted
 to human-approved gold or multi-judge consensus gold.
+
+`out_eval_ready/` excludes records whose `case_id` appears in the training
+blocklist. Excluded rows are written to
+`eval_sets/fireworks/v1/out_eval_ready/excluded_blocklisted.jsonl`.
 
 ## Repository Layout
 
 ```text
 eval_sets/fireworks/v1/
-  README.md                         # detailed package notes
+  README.md                         # detailed case-study package notes
   taxonomy.json                     # label taxonomy and decision rules
   schema.json                       # canonical eval case schema
   generate_eval_packets.py          # read-only exporter from CrowdListen data
@@ -57,6 +66,7 @@ eval_sets/fireworks/v1/
   llm_judge_gold.py                 # LLM-as-judge adjudication runner
   package_eval_ready.py             # curated eval-ready pack builder
   package_gold_from_judgments.py    # packages provisional gold records
+  validate_label_consistency.py     # static label/provenance consistency audit
   ground_truth_protocol.md          # promotion criteria
   gold_adjudication_protocol.md     # LLM/human/consensus gold policy
   training_plan.md                  # SFT, DPO, and RFT plan
@@ -69,7 +79,7 @@ eval_sets/fireworks/v1/
 
 Additional design notes live in `docs/`.
 
-## Task Families
+## Benchmark Task Families
 
 ### Source Classification
 
@@ -144,7 +154,11 @@ From the repository root:
 
 ```bash
 python3 eval_sets/fireworks/v1/audit_ground_truth.py
+python3 eval_sets/fireworks/v1/validate_label_consistency.py
 ```
+
+`validate_label_consistency.py` writes `out_quality_review/` and exits non-zero
+when critical consistency issues are present.
 
 Run an LLM-judge dry run:
 
@@ -192,23 +206,48 @@ This repository uses explicit gold status levels:
 Use `llm_provisional_gold` for regression testing and reviewer bootstrapping.
 Use only `human_gold` or `consensus_gold` for training.
 
-## Known Limitations
+## Quality And Limitations
 
-- The full candidate pool includes noisy generated labels.
-- Source coverage is strongest for existing Fireworks corpus rows and weaker for
-  exhaustive X/LinkedIn history.
-- Many opinion-unit candidates come from owned or employee marketing and should
-  not be treated as independent user feedback.
-- Cross-entity competitor cases are structural challenge evals, not final
-  competitive-synthesis gold.
-- LLM judge outputs are provisional and require human review or multi-judge
-  consensus before final training use.
+The checked-in artifacts intentionally preserve the raw candidate pool, the
+review backlog, blocklisted cases, and provisional gold. Some limitations are
+addressable by automated review; others require new data collection or human
+adjudication.
 
-## Design References
+### Addressable Now
 
-This README follows common benchmark-package conventions used by established
-eval repositories: clear task scope, dataset layout, quickstart commands, split
-and gold-status notes, intended use, and limitations.
+- Noisy generated labels can be reduced with `audit_ground_truth.py`,
+  `validate_label_consistency.py`, and LLM-judge passes before promotion.
+- Owned/employee marketing can be separated from independent feedback through
+  source-role rules and blocklisting.
+- Eval-ready packaging can exclude known blocklisted cases; the current
+  `out_eval_ready/` pack has zero blocklisted case IDs.
+- Cross-entity packets can be structurally checked for target, competitor, and
+  market evidence separation before they become synthesis gold.
+- LLM-judge outputs can be upgraded from provisional to consensus by running
+  additional independent judge passes and comparing disagreements.
+
+### Requires More Ingestion
+
+- Exhaustive X/LinkedIn history requires stronger collection coverage than the
+  current Fireworks corpus snapshot.
+- More organic-market and customer-user examples are needed to balance the
+  official/employee-heavy source mix.
+- Competitor playbook cases need fuller Baseten, Modal, and independent market
+  evidence before final competitive-synthesis gold.
+
+### Requires Human Or Consensus Review
+
+- Opinion-unit quality needs span-level review to decide whether each extracted
+  unit is atomic, faithful, and worth keeping.
+- Cluster and insight cases need evidence-level membership review.
+- Final training data should use only `human_gold` or `consensus_gold`, not raw
+  generated labels or single-judge provisional records.
+
+## Benchmark README Conventions
+
+The intended benchmark shape is: task contracts, dataset layout, split and
+leakage notes, label provenance, intended use, limitations, and reproducible
+commands.
 
 Useful reference projects:
 
@@ -216,4 +255,3 @@ Useful reference projects:
 - [OpenAI Evals](https://github.com/openai/evals)
 - [Anthropic HH-RLHF](https://github.com/anthropics/hh-rlhf)
 - [HELM](https://github.com/stanford-crfm/helm)
-
