@@ -155,10 +155,13 @@ From the repository root:
 ```bash
 python3 eval_sets/fireworks/v1/audit_ground_truth.py
 python3 eval_sets/fireworks/v1/validate_label_consistency.py
+python3 eval_sets/fireworks/v1/test_rlm_variants.py
 ```
 
 `validate_label_consistency.py` writes `out_quality_review/` and exits non-zero
 when critical consistency issues are present.
+`test_rlm_variants.py` writes `out_rlm_eval/` and compares baseline insight
+synthesis against the current RLM-style post-embedding refinement variants.
 
 Run an LLM-judge dry run:
 
@@ -242,16 +245,3 @@ adjudication.
 - Cluster and insight cases need evidence-level membership review.
 - Final training data should use only `human_gold` or `consensus_gold`, not raw
   generated labels or single-judge provisional records.
-
-## Benchmark README Conventions
-
-The intended benchmark shape is: task contracts, dataset layout, split and
-leakage notes, label provenance, intended use, limitations, and reproducible
-commands.
-
-Useful reference projects:
-
-- [SWE-bench](https://github.com/SWE-bench/SWE-bench)
-- [OpenAI Evals](https://github.com/openai/evals)
-- [Anthropic HH-RLHF](https://github.com/anthropics/hh-rlhf)
-- [HELM](https://github.com/stanford-crfm/helm)

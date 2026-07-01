@@ -1,0 +1,763 @@
+{
+  "created_at": "2026-07-01T07:38:32.499678+00:00",
+  "full_packet_proxy_eval": {
+    "audited_sft_overlap": 4,
+    "blocklisted_insight_packets": 129,
+    "packets_evaluated": 188,
+    "variants": {
+      "audit_rewrite_proxy": {
+        "action_counts": {
+          "keep": 172,
+          "split": 16
+        },
+        "category_changes": {
+          "feature_request->marketing_narrative": 3,
+          "feature_request->product_launch": 14,
+          "feature_request->technical_proof": 6,
+          "opportunity->marketing_narrative": 8,
+          "opportunity->product_launch": 17,
+          "opportunity->technical_proof": 15,
+          "pain_point->marketing_narrative": 9,
+          "pain_point->product_launch": 18,
+          "pain_point->technical_proof": 10
+        },
+        "examples": [
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_f4af9fa4c3c3",
+            "content_types": {
+              "technical_proof": 1,
+              "thought_leadership": 5
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "marketing_narrative",
+            "source_groups": {
+              "affiliated_insider": 1,
+              "owned_official": 5
+            },
+            "title": "Agentic workflow buyers want stable multi-tool orchestration and benchmarking"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_93a55dc87c29",
+            "content_types": {
+              "product_launch": 6
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "product_launch",
+            "source_groups": {
+              "owned_official": 6
+            },
+            "title": "MiniMax M2.5 day-0 launch needs a clear customer-facing adoption path"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_c88a4e457a7a",
+            "content_types": {
+              "product_launch": 2,
+              "technical_proof": 2,
+              "tutorial_how_to": 1
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "creator_analyst": 1,
+              "owned_official": 1,
+              "unknown": 3
+            },
+            "title": "Open-plus-closed model routing is resonating as a cost win"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_39e9a1bdc5ae",
+            "content_types": {
+              "product_launch": 1,
+              "technical_proof": 3,
+              "thought_leadership": 1
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "technical_proof",
+            "source_groups": {
+              "owned_official": 5
+            },
+            "title": "Kimi K2.5 Turbo speed claims need production proof for coding teams"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_53d003705917",
+            "content_types": {
+              "technical_proof": 2,
+              "thought_leadership": 3
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "marketing_narrative",
+            "source_groups": {
+              "owned_official": 5
+            },
+            "title": "GLM 5.1 agent and coding claims need a concrete enterprise proof path"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_7e644cffa516",
+            "content_types": {
+              "customer_success": 1,
+              "product_launch": 2,
+              "technical_proof": 2
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "product_launch",
+            "source_groups": {
+              "affiliated_insider": 2,
+              "owned_official": 3
+            },
+            "title": "SFT limits in long-horizon agents suggest a need for clearer training guidance"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_6e0f29562678",
+            "content_types": {
+              "product_launch": 1,
+              "technical_proof": 2,
+              "tutorial_how_to": 1
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "creator_analyst": 1,
+              "owned_official": 1,
+              "unknown": 2
+            },
+            "title": "Open + closed model routing is a strong cost story"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_0398870e6f59",
+            "content_types": {
+              "technical_proof": 2,
+              "tutorial_how_to": 2
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "creator_analyst": 1,
+              "organic_market": 1,
+              "owned_official": 2
+            },
+            "title": "FireConnect is a strong distribution hook for developer tools"
+          }
+        ],
+        "gold_category_accuracy": 0.75,
+        "gold_category_matches": 3,
+        "gold_overlap": 4,
+        "issue_counts": {
+          "blocklisted_case_retained": 113
+        },
+        "issue_rate": 0.6011,
+        "packets_evaluated": 188,
+        "packets_with_any_issue": 113
+      },
+      "baseline": {
+        "action_counts": {
+          "keep": 188
+        },
+        "category_changes": {},
+        "examples": [
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_f4af9fa4c3c3",
+            "content_types": {
+              "technical_proof": 1,
+              "thought_leadership": 5
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "market_insight_from_owned_only",
+              "demand_without_independent_market_evidence",
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "affiliated_insider": 1,
+              "owned_official": 5
+            },
+            "title": "Agentic workflow buyers want stable multi-tool orchestration and benchmarking"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_e4c374adb34f",
+            "content_types": {
+              "pricing_procurement": 1,
+              "product_launch": 1,
+              "technical_proof": 1,
+              "thought_leadership": 3
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "market_insight_from_owned_only",
+              "demand_without_independent_market_evidence",
+              "mixed_content_kept",
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "affiliated_insider": 1,
+              "owned_official": 5
+            },
+            "title": "Mistral Small 3 launch needs a use-case guide for low-latency deployments"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_93a55dc87c29",
+            "content_types": {
+              "product_launch": 6
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "market_insight_from_owned_only",
+              "demand_without_independent_market_evidence",
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "owned_official": 6
+            },
+            "title": "MiniMax M2.5 day-0 launch needs a clear customer-facing adoption path"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_c88a4e457a7a",
+            "content_types": {
+              "product_launch": 2,
+              "technical_proof": 2,
+              "tutorial_how_to": 1
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "creator_analyst": 1,
+              "owned_official": 1,
+              "unknown": 3
+            },
+            "title": "Open-plus-closed model routing is resonating as a cost win"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_39e9a1bdc5ae",
+            "content_types": {
+              "product_launch": 1,
+              "technical_proof": 3,
+              "thought_leadership": 1
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "market_insight_from_owned_only",
+              "demand_without_independent_market_evidence",
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "owned_official": 5
+            },
+            "title": "Kimi K2.5 Turbo speed claims need production proof for coding teams"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_53d003705917",
+            "content_types": {
+              "technical_proof": 2,
+              "thought_leadership": 3
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "market_insight_from_owned_only",
+              "demand_without_independent_market_evidence",
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "owned_official": 5
+            },
+            "title": "GLM 5.1 agent and coding claims need a concrete enterprise proof path"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_7e644cffa516",
+            "content_types": {
+              "customer_success": 1,
+              "product_launch": 2,
+              "technical_proof": 2
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "market_insight_from_owned_only",
+              "demand_without_independent_market_evidence",
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "affiliated_insider": 2,
+              "owned_official": 3
+            },
+            "title": "SFT limits in long-horizon agents suggest a need for clearer training guidance"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_18bdabd2492d",
+            "content_types": {
+              "partner_integration": 1,
+              "product_launch": 2,
+              "support_question": 1,
+              "technical_proof": 1
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "mixed_content_kept",
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "organic_market": 1,
+              "owned_official": 4
+            },
+            "title": "Cursor Composer2 and enterprise partnership praise signal need for customer-story content"
+          }
+        ],
+        "gold_category_accuracy": 0.75,
+        "gold_category_matches": 3,
+        "gold_overlap": 4,
+        "issue_counts": {
+          "blocklisted_case_retained": 129,
+          "demand_without_independent_market_evidence": 100,
+          "market_insight_from_owned_only": 96,
+          "mixed_content_kept": 16
+        },
+        "issue_rate": 1.8138,
+        "packets_evaluated": 188,
+        "packets_with_any_issue": 129
+      },
+      "flat_llm_proxy": {
+        "action_counts": {
+          "keep": 188
+        },
+        "category_changes": {
+          "feature_request->marketing_narrative": 3,
+          "feature_request->product_launch": 14,
+          "feature_request->technical_proof": 6,
+          "opportunity->marketing_narrative": 8,
+          "opportunity->product_launch": 17,
+          "opportunity->technical_proof": 15,
+          "pain_point->marketing_narrative": 9,
+          "pain_point->product_launch": 18,
+          "pain_point->technical_proof": 10
+        },
+        "examples": [
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_f4af9fa4c3c3",
+            "content_types": {
+              "technical_proof": 1,
+              "thought_leadership": 5
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "marketing_narrative",
+            "source_groups": {
+              "affiliated_insider": 1,
+              "owned_official": 5
+            },
+            "title": "Agentic workflow buyers want stable multi-tool orchestration and benchmarking"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_e4c374adb34f",
+            "content_types": {
+              "pricing_procurement": 1,
+              "product_launch": 1,
+              "technical_proof": 1,
+              "thought_leadership": 3
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "mixed_content_kept",
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "marketing_narrative",
+            "source_groups": {
+              "affiliated_insider": 1,
+              "owned_official": 5
+            },
+            "title": "Mistral Small 3 launch needs a use-case guide for low-latency deployments"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_93a55dc87c29",
+            "content_types": {
+              "product_launch": 6
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "product_launch",
+            "source_groups": {
+              "owned_official": 6
+            },
+            "title": "MiniMax M2.5 day-0 launch needs a clear customer-facing adoption path"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_c88a4e457a7a",
+            "content_types": {
+              "product_launch": 2,
+              "technical_proof": 2,
+              "tutorial_how_to": 1
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "creator_analyst": 1,
+              "owned_official": 1,
+              "unknown": 3
+            },
+            "title": "Open-plus-closed model routing is resonating as a cost win"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_39e9a1bdc5ae",
+            "content_types": {
+              "product_launch": 1,
+              "technical_proof": 3,
+              "thought_leadership": 1
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "technical_proof",
+            "source_groups": {
+              "owned_official": 5
+            },
+            "title": "Kimi K2.5 Turbo speed claims need production proof for coding teams"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_53d003705917",
+            "content_types": {
+              "technical_proof": 2,
+              "thought_leadership": 3
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "marketing_narrative",
+            "source_groups": {
+              "owned_official": 5
+            },
+            "title": "GLM 5.1 agent and coding claims need a concrete enterprise proof path"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_7e644cffa516",
+            "content_types": {
+              "customer_success": 1,
+              "product_launch": 2,
+              "technical_proof": 2
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "product_launch",
+            "source_groups": {
+              "affiliated_insider": 2,
+              "owned_official": 3
+            },
+            "title": "SFT limits in long-horizon agents suggest a need for clearer training guidance"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_18bdabd2492d",
+            "content_types": {
+              "partner_integration": 1,
+              "product_launch": 2,
+              "support_question": 1,
+              "technical_proof": 1
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "mixed_content_kept",
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "opportunity",
+            "source_groups": {
+              "organic_market": 1,
+              "owned_official": 4
+            },
+            "title": "Cursor Composer2 and enterprise partnership praise signal need for customer-story content"
+          }
+        ],
+        "gold_category_accuracy": 0.75,
+        "gold_category_matches": 3,
+        "gold_overlap": 4,
+        "issue_counts": {
+          "blocklisted_case_retained": 129,
+          "mixed_content_kept": 16
+        },
+        "issue_rate": 0.7713,
+        "packets_evaluated": 188,
+        "packets_with_any_issue": 129
+      },
+      "source_aware_recursive_proxy": {
+        "action_counts": {
+          "keep": 159,
+          "split": 29
+        },
+        "category_changes": {
+          "feature_request->marketing_narrative": 6,
+          "feature_request->product_launch": 14,
+          "feature_request->technical_proof": 7,
+          "marketing_narrative->product_launch": 11,
+          "marketing_narrative->technical_proof": 18,
+          "opportunity->marketing_narrative": 8,
+          "opportunity->product_launch": 20,
+          "opportunity->technical_proof": 19,
+          "pain_point->marketing_narrative": 9,
+          "pain_point->product_launch": 18,
+          "pain_point->technical_proof": 11,
+          "visibility->marketing_narrative": 4,
+          "visibility->product_launch": 7,
+          "visibility->technical_proof": 7
+        },
+        "examples": [
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_f4af9fa4c3c3",
+            "content_types": {
+              "technical_proof": 1,
+              "thought_leadership": 5
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "marketing_narrative",
+            "source_groups": {
+              "affiliated_insider": 1,
+              "owned_official": 5
+            },
+            "title": "Agentic workflow buyers want stable multi-tool orchestration and benchmarking"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_93a55dc87c29",
+            "content_types": {
+              "product_launch": 6
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "product_launch",
+            "source_groups": {
+              "owned_official": 6
+            },
+            "title": "MiniMax M2.5 day-0 launch needs a clear customer-facing adoption path"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_39e9a1bdc5ae",
+            "content_types": {
+              "product_launch": 1,
+              "technical_proof": 3,
+              "thought_leadership": 1
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "technical_proof",
+            "source_groups": {
+              "owned_official": 5
+            },
+            "title": "Kimi K2.5 Turbo speed claims need production proof for coding teams"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_53d003705917",
+            "content_types": {
+              "technical_proof": 2,
+              "thought_leadership": 3
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "marketing_narrative",
+            "source_groups": {
+              "owned_official": 5
+            },
+            "title": "GLM 5.1 agent and coding claims need a concrete enterprise proof path"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_7e644cffa516",
+            "content_types": {
+              "customer_success": 1,
+              "product_launch": 2,
+              "technical_proof": 2
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "product_launch",
+            "source_groups": {
+              "affiliated_insider": 2,
+              "owned_official": 3
+            },
+            "title": "SFT limits in long-horizon agents suggest a need for clearer training guidance"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_733b78c81395",
+            "content_types": {
+              "product_launch": 3,
+              "tutorial_how_to": 1
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "product_launch",
+            "source_groups": {
+              "creator_analyst": 1,
+              "unknown": 3
+            },
+            "title": "Managed infrastructure lowers the barrier for teams starting with AI"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_f5e503ab7b47",
+            "content_types": {
+              "product_launch": 1,
+              "technical_proof": 3
+            },
+            "current_category": "opportunity",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "technical_proof",
+            "source_groups": {
+              "owned_official": 4
+            },
+            "title": "Kimi K2.5 launch needs production guidance for real-world coding agent performance"
+          },
+          {
+            "action": "keep",
+            "case_id": "fw_v1_insight_synthesis_76197230ca3c",
+            "content_types": {
+              "product_launch": 3,
+              "technical_proof": 3,
+              "tutorial_how_to": 1
+            },
+            "current_category": "pain_point",
+            "issues": [
+              "blocklisted_case_retained"
+            ],
+            "predicted_category": "technical_proof",
+            "source_groups": {
+              "affiliated_insider": 3,
+              "owned_official": 4
+            },
+            "title": "Cross-region model update workflow still needs a customer-facing rollout spec"
+          }
+        ],
+        "gold_category_accuracy": 0.5,
+        "gold_category_matches": 2,
+        "gold_overlap": 4,
+        "issue_counts": {
+          "blocklisted_case_retained": 100
+        },
+        "issue_rate": 0.5319,
+        "packets_evaluated": 188,
+        "packets_with_any_issue": 100
+      }
+    }
+  },
+  "judged_slice": {
+    "available": true,
+    "average_scores": {
+      "audit_rewrite": {
+        "actionability": 89.58,
+        "category_correctness": 95.42,
+        "evidence_fidelity": 94.58,
+        "overall": 92.5,
+        "source_role_awareness": 97.92,
+        "specificity": 89.17
+      },
+      "baseline": {
+        "actionability": 43.33,
+        "category_correctness": 70.42,
+        "evidence_fidelity": 78.33,
+        "overall": 64.42,
+        "source_role_awareness": 89.17,
+        "specificity": 67.5
+      },
+      "flat_llm": {
+        "actionability": 86.25,
+        "category_correctness": 94.17,
+        "evidence_fidelity": 88.33,
+        "overall": 88.75,
+        "source_role_awareness": 95.0,
+        "specificity": 83.33
+      },
+      "source_aware_recursive": {
+        "actionability": 86.67,
+        "category_correctness": 93.33,
+        "evidence_fidelity": 91.67,
+        "overall": 91.0,
+        "source_role_awareness": 97.08,
+        "specificity": 89.58
+      }
+    },
+    "evaluated_clusters": 12,
+    "winner_counts": {
+      "audit_rewrite": 3,
+      "flat_llm": 5,
+      "source_aware_recursive": 4
+    }
+  }
+}
